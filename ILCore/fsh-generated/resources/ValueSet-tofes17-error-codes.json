@@ -1,0 +1,50 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Tofes17ErrorCodes",
+  "id": "tofes17-error-codes",
+  "title": "Tofes17 Error Codes",
+  "description": "קודי שגיאה לתהליכים הקשורים לטופס 17",
+  "url": "http://fhir.health.gov.il/ValueSet/tofes17-error-codes",
+  "version": "0.13.0",
+  "experimental": false,
+  "publisher": "Israeli Ministry of Health, Digital Health Unit",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "ron.hermon@MOH.GOV.IL"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.health.gov.il/cs/il-core-error-code"
+      },
+      {
+        "system": "http://fhir.health.gov.il/cs/moh-tofes17-issue-code",
+        "concept": [
+          {
+            "code": "miss-apnt-data",
+            "display": "חסרים פרטי התור החוזר"
+          },
+          {
+            "code": "apnt-too-far",
+            "display": "מועד התור החוזר רחוק מדי"
+          },
+          {
+            "code": "miss-doc",
+            "display": "חסר מסמך סיכום עם ההמלצה לביקור חוזר"
+          },
+          {
+            "code": "miss-orig-req",
+            "display": "בבקשה לעדכון או ביטול - חסר קישור לבקשה המקורית"
+          }
+        ]
+      }
+    ]
+  }
+}

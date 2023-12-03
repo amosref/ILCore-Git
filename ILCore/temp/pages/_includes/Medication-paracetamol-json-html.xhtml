@@ -1,0 +1,70 @@
+{% raw %}<pre class="json" style="white-space: pre; overflow: hidden"><code class="language-json">
+{
+  "<a href="http://hl7.org/fhir/R4/medication.html#Medication">resourceType</a>" : "Medication",
+  "<a href="http://hl7.org/fhir/R4/medication.html#Medication.id">id</a>" : "paracetamol",
+  "<a href="http://hl7.org/fhir/R4/medication.html#Medication.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
+      <a href="StructureDefinition-il-core-medication.html" style="color: Maroon">&#x1F517;</a> "http://fhir.health.gov.il/StructureDefinition/il-core-medication"
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/medication.html#Medication.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;500mg paracetamol, manufactured by TEVA pharma.&lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R4/medication.html#Medication.code">code</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://israeldrugs.health.gov.il",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "020162053400",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "אקמול"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://www.whocc.no/atc",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "N02BE01",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "paracetamol"
+      }
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/medication.html#Medication.manufacturer">manufacturer</a>" : {
+    <a href="Organization-organization-ministry-of-health.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Organization/organization-ministry-of-health",
+    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.type">type</a>" : "Organization",
+    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.display">display</a>" : "TEVA PHARMACEUTICAL INDUSTRIES LTD, ISRAEL"
+  },
+  "<a href="http://hl7.org/fhir/R4/medication.html#Medication.form">form</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "421026006",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Oral tablet"
+      }
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/medication.html#Medication.ingredient">ingredient</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/medication.html#Medication.ingredient.item[x]">itemCodeableConcept</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://www.whocc.no/atc",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "N02BE01",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "paracetamol"
+          }
+        ]
+      },
+      "<a href="http://hl7.org/fhir/R4/medication.html#Medication.ingredient.isActive">isActive</a>" : true,
+      "<a href="http://hl7.org/fhir/R4/medication.html#Medication.ingredient.strength">strength</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.numerator">numerator</a>" : {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">value</a>" : 500,
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">unit</a>" : "מיליגרם",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">system</a>" : "http://unitsofmeasure.org",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">code</a>" : "mg"
+        },
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.denominator">denominator</a>" : {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">value</a>" : 1,
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">system</a>" : "http://snomed.info/sct",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">code</a>" : "428673006"
+        }
+      }
+    }
+  ]
+}</code></pre>
+{% endraw %}

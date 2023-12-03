@@ -1,0 +1,21 @@
+---
+---
+<!-- layouts\layout-changehistory.html -->
+<!-- get modelType -->
+
+
+{% include fragment-pagebegin.html %}
+
+<div style="counter-reset: section 10" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-base-navtabs.html type='ValueSet' id='icd9il-procedures' active='history' %}
+
+  <a name="root"> </a>
+  <h2 id="root">{{type}}: ICD9ILProcedures - Change History</h2>
+  <p>History of changes for icd9il-procedures {{type | downcase}}.</p>
+
+  {%include ValueSet-icd9il-procedures-history.xhtml%}
+
+</div>
+{% assign includetabscripts = 'true' %}
+{% include fragment-pageend.html %}

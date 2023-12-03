@@ -1,0 +1,8 @@
+{% raw %}<table class="grid">
+<tr><td><b>Level</b></td><td><b>Type</b></td><td><b>Location</b></td><td><b>Message</b></td></tr>
+<tr><td>warning</td><td>unknown</td><td>Medication/paracetamol: Medication.code</td><td>Code System URI 'http://israeldrugs.health.gov.il' could not be found so the code cannot be validated</td><td></td></tr>
+<tr><td>information</td><td>informational</td><td>Medication/paracetamol: Medication</td><td>Validate resource against profile http://fhir.health.gov.il/StructureDefinition/il-core-medication|0.13.1</td><td></td></tr>
+<tr><td>information</td><td>unknown</td><td>Medication/paracetamol: Medication.code.coding[0]</td><td>The definition for the Code System with URI 'http://israeldrugs.health.gov.il' doesnt provide any codes so the code cannot be validated</td><td></td></tr>
+<tr><td>information</td><td>informational</td><td>Medication/paracetamol: Medication.ingredient[0].item.ofType(CodeableConcept)</td><td>This element does not match any known slice defined in the profile http://fhir.health.gov.il/StructureDefinition/il-core-medication|0.13.1 (this may not be a problem, but you should check that it's not intended to match a slice)</td><td></td></tr>
+</table>
+{% endraw %}

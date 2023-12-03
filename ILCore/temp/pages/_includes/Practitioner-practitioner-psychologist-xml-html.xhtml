@@ -1,0 +1,91 @@
+{% raw %}<pre class="xml" style="white-space: pre; overflow: hidden"><code class="language-xml">
+
+&lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner">Practitioner</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;practitioner-psychologist&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://fhir.health.gov.il/StructureDefinition/il-core-practitioner&quot;/&gt;
+  &lt;/meta&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;psychologist with an instructor certificate&lt;/div&gt;<a name="end-xhtml"></a>
+  &lt;/text&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.identifier">identifier</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://practitioners.health.gov.il/Practitioners&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;27-1234&quot;/&gt;
+  &lt;/identifier&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.active">active</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.name">name</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/language&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;he&quot;/&gt;
+    &lt;/extension&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.text">text</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;גב' שרי לוין&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">family</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;לוין&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;שרי&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.prefix">prefix</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;גב'&quot;/&gt;
+  &lt;/name&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.telecom">telecom</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;phone&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;04-44442254&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;work&quot;/&gt;
+  &lt;/telecom&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.telecom">telecom</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;email&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;DG@example.com&quot;/&gt;
+  &lt;/telecom&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.gender">gender</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;female&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.birthDate">birthDate</a> <a href="http://hl7.org/fhir/R4/datatypes.html#date">value</a>=&quot;1980-06-22&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.qualification">qualification</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.qualification.extension">extension</a>
+               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://fhir.health.gov.il/StructureDefinition/ext-qualification-practice&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+                  <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://fhir.health.gov.il/cs/practitioner-profession-moh&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;27&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;פסיכולוג&quot;/&gt;
+        &lt;/coding&gt;
+      &lt;/valueCodeableConcept&gt;
+    &lt;/extension&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.qualification.identifier">identifier</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://practitioners.health.gov.il/practitioner-certificate&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;27-1234&quot;/&gt;
+    &lt;/identifier&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.qualification.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://fhir.health.gov.il/cs/practitioner-certificate-type-moh&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;2&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;רשיון קבוע&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/code&gt;
+  &lt;/qualification&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.qualification">qualification</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.qualification.extension">extension</a>
+               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://fhir.health.gov.il/StructureDefinition/ext-qualification-practice&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+                  <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://fhir.health.gov.il/cs/practitioner-expertise-moh&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;21&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;הרדמה&quot;/&gt;
+        &lt;/coding&gt;
+      &lt;/valueCodeableConcept&gt;
+    &lt;/extension&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.qualification.identifier">identifier</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://fhir.health.gov.il/identifier/practitioner-expertise&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;123445&quot;/&gt;
+    &lt;/identifier&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.qualification.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://fhir.health.gov.il/cs/practitioner-certificate-type-moh&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;5&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;תעודת מומחה&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/code&gt;
+  &lt;/qualification&gt;
+&lt;/Practitioner&gt;</code></pre>
+{% endraw %}

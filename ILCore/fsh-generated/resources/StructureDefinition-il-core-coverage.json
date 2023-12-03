@@ -1,0 +1,167 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "il-core-coverage",
+  "url": "http://fhir.health.gov.il/StructureDefinition/il-core-coverage",
+  "version": "0.13.0",
+  "name": "ILCoreCoverage",
+  "title": "ILCore Coverage Profile",
+  "status": "draft",
+  "date": "2023-08-31",
+  "publisher": "Israel Core Team",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "ido.levin@moh.gov.il"
+        }
+      ]
+    }
+  ],
+  "description": "Israel Core proposed constraints and extensions on the Coverage Resource",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "cdanetv4",
+      "uri": "http://www.cda-adc.ca/en/services/cdanet/",
+      "name": "Canadian Dental Association eclaims standard"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "cpha3pharm",
+      "uri": "http://www.pharmacists.ca/",
+      "name": "Canadian Pharmacy Associaiton eclaims standard"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Coverage",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Coverage",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Coverage",
+        "path": "Coverage",
+        "short": "ILCore Coverage Profile",
+        "definition": "Definitions for the profile-Coverage resource profile."
+      },
+      {
+        "id": "Coverage.policyHolder",
+        "path": "Coverage.policyHolder",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-patient",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-related-person",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-organization"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Coverage.subscriber",
+        "path": "Coverage.subscriber",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-patient",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-related-person"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Coverage.beneficiary",
+        "path": "Coverage.beneficiary",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-patient"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Coverage.payor",
+        "path": "Coverage.payor",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-patient",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-related-person",
+              "http://fhir.health.gov.il/StructureDefinition/il-core-organization"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Coverage.class",
+        "path": "Coverage.class",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "type"
+            }
+          ],
+          "rules": "open",
+          "ordered": false,
+          "description": "הסדרת סלייס לטובת ביטוי של פוליסת ביטוח ספציפית, לדוגמה \"כללית פלטינום\" או \"הפניקס חברה לביטוח - קו ראשון\""
+        }
+      },
+      {
+        "id": "Coverage.class:plan",
+        "path": "Coverage.class",
+        "sliceName": "plan",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Coverage.class:plan.type.coding.system",
+        "path": "Coverage.class.type.coding.system",
+        "min": 1,
+        "patternUri": "http://terminology.hl7.org/CodeSystem/coverage-class"
+      },
+      {
+        "id": "Coverage.class:plan.type.coding.code",
+        "path": "Coverage.class.type.coding.code",
+        "min": 1,
+        "patternCode": "plan"
+      },
+      {
+        "id": "Coverage.class:plan.value",
+        "path": "Coverage.class.value",
+        "definition": "מזהה עבור הפוליסה. אלמנט זה יוסב בגרסה 5 ל identifier"
+      },
+      {
+        "id": "Coverage.class:plan.name",
+        "path": "Coverage.class.name",
+        "definition": "שם הפוליסה"
+      }
+    ]
+  }
+}

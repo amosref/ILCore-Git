@@ -1,0 +1,5041 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://fhir.health.gov.il/ValueSet/department-type-moh", "version": "0.13.1"}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "url" : "http://fhir.health.gov.il/ValueSet/department-type-moh",
+  "version" : "0.13.1",
+  "name" : "DepartmentTypeMoH",
+  "title" : "Department Type MoH",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2023-12-03T19:02:07+02:00",
+  "expansion" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
+      "valueBoolean" : true
+    }],
+    "identifier" : "urn:uuid:3a16254e-b356-4217-9614-8758cdcca90d",
+    "timestamp" : "2023-12-03T17:12:55.906Z",
+    "total" : 1000,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://fhir.health.gov.il/cs/department-type-moh|0.13.1"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://fhir.health.gov.il/cs/department-type-moh|0.13.1"
+    }],
+    "contains" : [{
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10000",
+      "display" : "אשפוז - פנימית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10010",
+      "display" : "אשפוז - פנימית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10011",
+      "display" : "אשפוז - פנימית א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10012",
+      "display" : "אשפוז - פנימית ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10013",
+      "display" : "אשפוז - פנימית ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10014",
+      "display" : "אשפוז - פנימית ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10015",
+      "display" : "אשפוז - פנימית ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10016",
+      "display" : "אשפוז - פנימית ו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10017",
+      "display" : "אשפוז - פנימית ז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10018",
+      "display" : "אשפוז - פנימית ח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10019",
+      "display" : "אשפוז - פנימית ט"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "1001A",
+      "display" : "אשפוז - פנימית י"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "1001B",
+      "display" : "אשפוז - פנימית יא"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "1001C",
+      "display" : "אשפוז - פנימית יב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10020",
+      "display" : "אשפוז - ראומטולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10028",
+      "display" : "אשפוז - ט.נ. פנימי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10030",
+      "display" : "אשפוז - פנימית מוגבר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10031",
+      "display" : "אשפוז - פנימית מוגבר א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10032",
+      "display" : "אשפוז - פנימית מוגבר ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10033",
+      "display" : "אשפוז - פנימית מוגבר ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10034",
+      "display" : "אשפוז - פנימית מוגבר ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10035",
+      "display" : "אשפוז - פנימית מוגבר ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10036",
+      "display" : "אשפוז - פנימית מוגבר ו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10037",
+      "display" : "אשפוז - פנימית מוגבר ז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10038",
+      "display" : "אשפוז - פנימית מוגבר ח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10039",
+      "display" : "אשפוז - פנימית מוגבר ט"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "1003A",
+      "display" : "אשפוז - פנימית מוגבר י"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10040",
+      "display" : "אשפוז - קרדיולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10046",
+      "display" : "אשפוז - קוצב לב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10048",
+      "display" : "אשפוז - קרדיולוגיה פולשנית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10050",
+      "display" : "אשפוז - מטבולית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10060",
+      "display" : "אשפוז - אנדוקרינולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10070",
+      "display" : "אשפוז - נפרולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10080",
+      "display" : "אשפוז - המטולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10085",
+      "display" : "אשפוז - לימפופרזיס"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10090",
+      "display" : "אשפוז - המטואונקולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10100",
+      "display" : "אשפוז - ריאות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10101",
+      "display" : "אשפוז - ריאות א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10102",
+      "display" : "אשפוז - ריאות ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10109",
+      "display" : "אשפוז - פולמונולוגיה פולשני"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10200",
+      "display" : "אשפוז - גריאטריה חריפה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10201",
+      "display" : "אשפוז - גריאטריה חריפה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10202",
+      "display" : "אשפוז - גריאטריה חריפה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10203",
+      "display" : "אשפוז - גריאטריה חריפה ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10210",
+      "display" : "אשפוז - גריאטריה חריפה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10211",
+      "display" : "אשפוז - גריאטריה חריפה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10212",
+      "display" : "אשפוז - גריאטריה חריפה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10213",
+      "display" : "אשפוז - גריאטריה חריפה ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10220",
+      "display" : "אשפוז - גריאטר. חריפה השהיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10230",
+      "display" : "אשפוז - פנימית גריאטרית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10231",
+      "display" : "אשפוז - פנימית גריאטרית א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10232",
+      "display" : "אשפוז - פנימית גריאטרית ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10233",
+      "display" : "אשפוז - פנימית גריאטרית ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10300",
+      "display" : "אשפוז - נוירולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10301",
+      "display" : "אשפוז - כאב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10303",
+      "display" : "אשפוז - נוירואימונולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10304",
+      "display" : "אשפוז - נוירואונקולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10308",
+      "display" : "אשפוז - נוירולוגיה פולשנית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "1030D",
+      "display" : "אשפוז - ט.נ. נוירולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10310",
+      "display" : "אשפוז - שבץ מוחי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10312",
+      "display" : "אשפוז - ט.נ. שבץ מוחי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10315",
+      "display" : "אשפוז - נוירומוסקולרית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10316",
+      "display" : "אשפוז - נוירופיזיולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10335",
+      "display" : "אשפוז - וידאו EEG"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10340",
+      "display" : "אשפוז - צנתורי מוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10350",
+      "display" : "אשפוז - רדיוכיר. במע. עצבים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10400",
+      "display" : "אשפוז - אונקולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10401",
+      "display" : "אשפוז - אונקולוגיה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10402",
+      "display" : "אשפוז - אונקולוגיה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10406",
+      "display" : "אשפוז - אונקולוגיה ריאה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10407",
+      "display" : "אשפוז - אונקולוגיה שד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10408",
+      "display" : "אשפוז - אונקולוגיה מע.עיכול"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10410",
+      "display" : "אשפוז - כימותרפיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10420",
+      "display" : "אשפוז - רדיותרפיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10430",
+      "display" : "אשפוז - ט.נ. אונקולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10435",
+      "display" : "אשפוז - אונקולוגיה ראש צואר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10436",
+      "display" : "אשפוז - אונקולוגיה לבלב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10500",
+      "display" : "אשפוז - עור ומין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10506",
+      "display" : "אשפוז - דרמטואונקולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10600",
+      "display" : "אשפוז - השתלת מח עצם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10610",
+      "display" : "אשפוז - ט.נ. מח עצם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10620",
+      "display" : "אשפוז - השתלת מח עצם ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10700",
+      "display" : "אשפוז - ט.נ. כללי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10701",
+      "display" : "אשפוז - ט.נ. כללי א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10702",
+      "display" : "אשפוז - ט.נ. כללי ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10703",
+      "display" : "אשפוז - ט.נ. כללי ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10710",
+      "display" : "אשפוז - ט.נ. כללי ביניים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10800",
+      "display" : "אשפוז - ט.נ. לב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10810",
+      "display" : "אשפוז - ט.נ. לב ביניים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "10900",
+      "display" : "אשפוז - ט.נ. נשימתי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11200",
+      "display" : "אשפוז - גסטרואנטרולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11206",
+      "display" : "אשפוז - גסטרואנטרו.גריאטרית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11207",
+      "display" : "אשפוז - גסטרואנטרו.פולשנית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11300",
+      "display" : "אשפוז - מחלות זיהומיות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11301",
+      "display" : "אשפוז - קורונה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11330",
+      "display" : "אשפוז - ט.נ. קורונה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11331",
+      "display" : "אשפוז - קורונה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11332",
+      "display" : "אשפוז - קורונה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11333",
+      "display" : "אשפוז - קורונה ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11334",
+      "display" : "אשפוז - קורונה ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11335",
+      "display" : "אשפוז - קורונה ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11336",
+      "display" : "אשפוז - קורונה ו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11337",
+      "display" : "אשפוז - קורונה ז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11338",
+      "display" : "אשפוז - קורונה ח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11339",
+      "display" : "אשפוז - קורונה ט"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11340",
+      "display" : "אשפוז - קורונה י"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11341",
+      "display" : "אשפוז - קורונה יא"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11342",
+      "display" : "אשפוז - קורונה יב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11343",
+      "display" : "אשפוז - קורונה יג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11344",
+      "display" : "אשפוז - קורונה יד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11345",
+      "display" : "אשפוז - קורונה טו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11346",
+      "display" : "אשפוז - קורונה טז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11347",
+      "display" : "אשפוז - קורונה יז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11348",
+      "display" : "אשפוז - קורונה יח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11349",
+      "display" : "אשפוז - קורונה יט"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11350",
+      "display" : "אשפוז - קורונה כ"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11351",
+      "display" : "אשפוז - קורונה כא"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11352",
+      "display" : "אשפוז - קורונה כב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11353",
+      "display" : "אשפוז - קורונה כג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11354",
+      "display" : "אשפוז - קורונה כד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11355",
+      "display" : "אשפוז - קורונה כה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11356",
+      "display" : "אשפוז - קורונה כו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11357",
+      "display" : "אשפוז - קורונה כז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11358",
+      "display" : "אשפוז - קורונה כח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11359",
+      "display" : "אשפוז - קורונה כט"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11360",
+      "display" : "אשפוז - קורונה ל"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11361",
+      "display" : "אשפוז - קורונה לא"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11362",
+      "display" : "אשפוז - קורונה לב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11363",
+      "display" : "אשפוז - קורונה לג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11364",
+      "display" : "אשפוז - קורונה לד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11365",
+      "display" : "אשפוז - קורונה לה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11366",
+      "display" : "אשפוז - קורונה לו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11367",
+      "display" : "אשפוז - קורונה לז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11368",
+      "display" : "אשפוז - קורונה לח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11369",
+      "display" : "אשפוז - קורונה לט"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11441",
+      "display" : "אשפוז - ט.נ. קורונה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11442",
+      "display" : "אשפוז - ט.נ. קורונה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11443",
+      "display" : "אשפוז - ט.נ. קורונה ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11444",
+      "display" : "אשפוז - ט.נ. קורונה ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11445",
+      "display" : "אשפוז - ט.נ. קורונה ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11446",
+      "display" : "אשפוז - ט.נ. קורונה ו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11447",
+      "display" : "אשפוז - ט.נ. קורונה ז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11448",
+      "display" : "אשפוז - ט.נ. קורונה ח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11449",
+      "display" : "אשפוז - ט.נ. קורונה ט"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11450",
+      "display" : "אשפוז - ט.נ. קורונה י"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11451",
+      "display" : "אשפוז - ט.נ. קורונה יא"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11452",
+      "display" : "אשפוז - ט.נ. קורונה יב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11453",
+      "display" : "אשפוז - ט.נ. קורונה יג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11454",
+      "display" : "אשפוז - ט.נ. קורונה יד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11455",
+      "display" : "אשפוז - ט.נ. קורונה טו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11456",
+      "display" : "אשפוז - ט.נ. קורונה טז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11457",
+      "display" : "אשפוז - ט.נ. קורונה יז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11458",
+      "display" : "אשפוז - ט.נ. קורונה יח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "11459",
+      "display" : "אשפוז - ט.נ. קורונה יט"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12000",
+      "display" : "אשפוז - ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12001",
+      "display" : "אשפוז - ילדים א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12002",
+      "display" : "אשפוז - ילדים ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12003",
+      "display" : "אשפוז - ילדים ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12004",
+      "display" : "אשפוז - ילדים ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12005",
+      "display" : "אשפוז - ילדים ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12006",
+      "display" : "אשפוז - ילדים ו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12009",
+      "display" : "אשפוז - מתבגרים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12010",
+      "display" : "אשפוז - אונקולוגיה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12020",
+      "display" : "אשפוז - אנדוקרינולוגיה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12021",
+      "display" : "אשפוז - סוכרת נעורים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12030",
+      "display" : "אשפוז - המטולוגיה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12040",
+      "display" : "אשפוז - קרדיולוגיה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12050",
+      "display" : "אשפוז - מטבולית ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12060",
+      "display" : "אשפוז - ריאות ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12070",
+      "display" : "אשפוז - נפרולוגיה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12080",
+      "display" : "אשפוז - גסטרואנטרולוג ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12090",
+      "display" : "אשפוז - המטואונקולוגיה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12091",
+      "display" : "אשפוז - המטואונקולוג ילדי א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "120A0",
+      "display" : "אשפוז - ילדים במשבר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12100",
+      "display" : "אשפוז - נוירולוגיה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12109",
+      "display" : "אשפוז - נוירו ואפילפס ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12140",
+      "display" : "אשפוז - מחלות זיהומיות ילדי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12150",
+      "display" : "אשפוז - קורונה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12151",
+      "display" : "אשפוז - קורונה ילדים א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12152",
+      "display" : "אשפוז - קורונה ילדים ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12153",
+      "display" : "אשפוז - קורונה ילדים ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12154",
+      "display" : "אשפוז - קורונה ילדים ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12300",
+      "display" : "אשפוז - ט.נ. ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12309",
+      "display" : "אשפוז - ט.נ. קורונה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12310",
+      "display" : "אשפוז - ט.נ. חזה ולב ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12400",
+      "display" : "אשפוז - טיפול מיוחד בילוד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12401",
+      "display" : "אשפוז - טיפול מיוחד בילוד א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12402",
+      "display" : "אשפוז - טיפול בילוד ביניים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12409",
+      "display" : "אשפוז - ט.מיוחד בילוד קורונ"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12410",
+      "display" : "אשפוז - ט.נ. ילודים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12500",
+      "display" : "אשפוז - כירורגיה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12501",
+      "display" : "אשפוז - כירורגיה ילדים א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12502",
+      "display" : "אשפוז - כירורגיה ילדים ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12510",
+      "display" : "אשפוז - אורתופדיה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12511",
+      "display" : "אשפוז - אורתופדיה ילדים א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12520",
+      "display" : "אשפוז - כיר. פלסטית ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12524",
+      "display" : "אשפוז - ט.נ. כוויות ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12525",
+      "display" : "אשפוז - כיר. קרניופציאלית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12530",
+      "display" : "אשפוז - אורולוגיה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12540",
+      "display" : "אשפוז - נוירוכירורגיה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12550",
+      "display" : "אשפוז - כיר. ילדים מוגבר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12560",
+      "display" : "אשפוז - כיר. חזה ולב ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12570",
+      "display" : "אשפוז - כיר. לפרוסקופית ילד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12580",
+      "display" : "אשפוז - כירורגיה נאונטלית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12600",
+      "display" : "אשפוז - עיניים ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12700",
+      "display" : "אשפוז - התפתחות הילד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12800",
+      "display" : "אשפוז - א.א.ג ראש צואר ילדי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12801",
+      "display" : "אשפוז - א.א.ג ראש צואר יל א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12802",
+      "display" : "אשפוז - א.א.ג ראש צואר יל ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12803",
+      "display" : "אשפוז - א.א.ג ראש צואר יל ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12840",
+      "display" : "אשפוז - פה ולסתות ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "12860",
+      "display" : "אשפוז - נתוחי ד. העיכול ילד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13000",
+      "display" : "אשפוז - כירורגיה כללית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13001",
+      "display" : "אשפוז - כירורגיה כללית א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13002",
+      "display" : "אשפוז - כירורגיה כללית ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13003",
+      "display" : "אשפוז - כירורגיה כללית ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13004",
+      "display" : "אשפוז - כירורגיה כללית ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13005",
+      "display" : "אשפוז - כירורגיה כללית ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13008",
+      "display" : "אשפוז - טראומה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13010",
+      "display" : "אשפוז - השתלת איברים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13015",
+      "display" : "אשפוז - קציר איברים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13020",
+      "display" : "אשפוז - ט.נ. השתלות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13025",
+      "display" : "אשפוז - כירורגיה זעיר פולשנ"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13026",
+      "display" : "אשפוז - כירורגיה רובוטית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13030",
+      "display" : "אשפוז - כירורגיה פרוקטולוגית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13031",
+      "display" : "אשפוז - כירורגיה אנדוקרינית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13032",
+      "display" : "אשפוז - כירורגיה בריאטרית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13033",
+      "display" : "אשפוז - כיר. בהנחיית איזוטו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13034",
+      "display" : "אשפוז - נתוחי דרכי העיכול"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13035",
+      "display" : "אשפוז - נתוחי ושט"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13036",
+      "display" : "אשפוז - כירורגיה קולורקטלית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13037",
+      "display" : "אשפוז - נתוחי כבד ודרכי מר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13038",
+      "display" : "אשפוז - כירורגיה לפרוסקופית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "1303A",
+      "display" : "אשפוז - נתוחי דרכי עיכול ע"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13040",
+      "display" : "אשפוז - ט.נ. כירורגיה כללית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13050",
+      "display" : "אשפוז - כירורגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13051",
+      "display" : "אשפוז - כירורגיה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13052",
+      "display" : "אשפוז - כירורגיה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13053",
+      "display" : "אשפוז - כירורגיה ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13059",
+      "display" : "אשפוז - כירורגיה קורונה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13060",
+      "display" : "אשפוז - כירורגיה אונקולוגית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13070",
+      "display" : "אשפוז - כיר. כללית מוגבר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13080",
+      "display" : "אשפוז - כירורגיה שד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13100",
+      "display" : "אשפוז - אורתופדיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13101",
+      "display" : "אשפוז - אורתופדיה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13102",
+      "display" : "אשפוז - אורתופדיה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13103",
+      "display" : "אשפוז - אורתופדיה ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13105",
+      "display" : "אשפוז - מיקרוכירורגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13106",
+      "display" : "אשפוז - אורתופדיה גב ועמוד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13108",
+      "display" : "אשפוז - טראומה אורתופדית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13110",
+      "display" : "אשפוז - כירורגיה כף יד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13111",
+      "display" : "אשפוז - כירורגיה כתף"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13119",
+      "display" : "אשפוז - אורתופדיה קורונה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13120",
+      "display" : "אשפוז - כירורגיה עמוד שדרה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13121",
+      "display" : "אשפוז - עקמת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13140",
+      "display" : "אשפוז - אורתואונקולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13150",
+      "display" : "אשפוז - אורתוכירורגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13152",
+      "display" : "אשפוז - כירורגיה ברך"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13153",
+      "display" : "אשפוז - כף רגל סוכרתית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13154",
+      "display" : "אשפוז - כירורגיה כף רגל וקר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13155",
+      "display" : "אשפוז - כירורגיה מפרקים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13156",
+      "display" : "אשפוז - כירורגיה מפרק ירך"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13170",
+      "display" : "אשפוז - ארתרוסקופיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13180",
+      "display" : "אשפוז - אורתופדיה המשך טיפו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13181",
+      "display" : "אשפוז - אורתופ.המשך טיפול א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13182",
+      "display" : "אשפוז - אורתופ.המשך טיפול ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13200",
+      "display" : "אשפוז - אורולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13201",
+      "display" : "אשפוז - אורולוגיה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13202",
+      "display" : "אשפוז - אורולוגיה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13205",
+      "display" : "אשפוז - אורואונקולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13206",
+      "display" : "אשפוז - אורולוגיה אנדוסקופי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13210",
+      "display" : "אשפוז - השתלת כליה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13235",
+      "display" : "אשפוז - אורולוגיה לפרסקופית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13239",
+      "display" : "אשפוז - אורולוגיה קורונה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13250",
+      "display" : "אשפוז - נוירואורולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13300",
+      "display" : "אשפוז - נוירוכירורגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13301",
+      "display" : "אשפוז - נוירוכירורגיה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13302",
+      "display" : "אשפוז - נוירוכירורגיה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13306",
+      "display" : "אשפוז - נוירוכ. זעיר פולשני"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13307",
+      "display" : "אשפוז - נוירוכ. בסיס גולגול"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13308",
+      "display" : "אשפוז - נוירוכ. עמוד שדרה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13309",
+      "display" : "אשפוז - שחזור עצבים היקפיים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13310",
+      "display" : "אשפוז - נוירוכירורגיה אנדוס"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13319",
+      "display" : "אשפוז - נוירוכירורגיה קורונ"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13340",
+      "display" : "אשפוז - ט.נ. נוירוכירורגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13350",
+      "display" : "אשפוז - נוירוכירורגיה תפקוד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13400",
+      "display" : "אשפוז - כירורגיה חזה ולב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13401",
+      "display" : "אשפוז - כירורגיה חזה ולב א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13402",
+      "display" : "אשפוז - כירורגיה חזה ולב ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13409",
+      "display" : "אשפוז - נתוחי חזה ולב קורו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13410",
+      "display" : "אשפוז - כירורגיה חזה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13415",
+      "display" : "אשפוז - השתלת ריאה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13420",
+      "display" : "אשפוז - כירורגיה לב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13425",
+      "display" : "אשפוז - אקמו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13430",
+      "display" : "אשפוז - השתלת לב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13435",
+      "display" : "אשפוז - השתלת לב וריאות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13440",
+      "display" : "אשפוז - ט.נ. כיר. חזה ולב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13450",
+      "display" : "אשפוז - ט.נ. כירורגיה לב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13500",
+      "display" : "אשפוז - כירורגיה כלי דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13505",
+      "display" : "אשפוז - כירורגיה כלי דם קטנ"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13540",
+      "display" : "אשפוז - ט.נ. כלי דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13600",
+      "display" : "אשפוז - כירורגיה פלסטית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13601",
+      "display" : "אשפוז - כירורגיה פלסטית א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13602",
+      "display" : "אשפוז - כירורגיה פלסטית ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13605",
+      "display" : "אשפוז - שחזור שד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13606",
+      "display" : "אשפוז - כיר. פלסטית בית חזה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13607",
+      "display" : "אשפוז - כיר. פלסטית פצעי לח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13610",
+      "display" : "אשפוז - כוויות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13611",
+      "display" : "אשפוז - כוויות א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13612",
+      "display" : "אשפוז - כוויות ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13613",
+      "display" : "אשפוז - כוויות ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13640",
+      "display" : "אשפוז - ט.נ. כוויות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13659",
+      "display" : "אשפוז - כיר. פלסטית קורונה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13700",
+      "display" : "אשפוז - עיניים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13701",
+      "display" : "אשפוז - עיניים א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13702",
+      "display" : "אשפוז - עיניים ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13703",
+      "display" : "אשפוז - עיניים ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13713",
+      "display" : "אשפוז - אוקולופלסטיקה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13717",
+      "display" : "אשפוז - קטרקט"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13719",
+      "display" : "אשפוז - מח. וסקולריות רשתית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13724",
+      "display" : "אשפוז - נתוחי קרנית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13729",
+      "display" : "אשפוז - עיניים קורונה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13800",
+      "display" : "אשפוז - א.א.ג ראש וצואר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13801",
+      "display" : "אשפוז - א.א.ג ראש וצואר א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13802",
+      "display" : "אשפוז - א.א.ג ראש וצואר ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13805",
+      "display" : "אשפוז - אף וסינוסים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13807",
+      "display" : "אשפוז - אף, סינוסים ובסיס ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13808",
+      "display" : "אשפוז - נתוחי אוזניים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13809",
+      "display" : "אשפוז - כירורגיה ראש וצואר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13819",
+      "display" : "אשפוז - א.א.ג ראש צו קורונה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13900",
+      "display" : "אשפוז - פה ולסתות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13901",
+      "display" : "אשפוז - פה ולסתות א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13921",
+      "display" : "אשפוז - ט.שיניים חולה בסיכו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "13960",
+      "display" : "אשפוז - רפואת הפה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "15000",
+      "display" : "אשפוז - נשים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "15001",
+      "display" : "אשפוז - נשים א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "15002",
+      "display" : "אשפוז - נשים ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "15003",
+      "display" : "אשפוז - נשים ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "15005",
+      "display" : "אשפוז - גינקולוגיה אנדוסקופ"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "15006",
+      "display" : "אשפוז - גינקולוגיה מיקרוכיר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "15016",
+      "display" : "אשפוז - גינקואורולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "15017",
+      "display" : "אשפוז - גינקולוגיה לפרוסקופ"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "15019",
+      "display" : "אשפוז - נשים קורונה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "15020",
+      "display" : "אשפוז - הריון בר סיכון"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "15030",
+      "display" : "אשפוז - גינקואונקולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "15063",
+      "display" : "אשפוז - רפואת העובר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "15064",
+      "display" : "אשפוז - נפגעי תקיפה מינית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "15100",
+      "display" : "אשפוז - יולדות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "15101",
+      "display" : "אשפוז - יולדות א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "15102",
+      "display" : "אשפוז - יולדות ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "15103",
+      "display" : "אשפוז - יולדות ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "15104",
+      "display" : "אשפוז - יולדות ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "15105",
+      "display" : "אשפוז - יולדות ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "15106",
+      "display" : "אשפוז - יולדות ו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "15107",
+      "display" : "אשפוז - יולדות ז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "15109",
+      "display" : "אשפוז - יולדות קורונה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "16000",
+      "display" : "אשפוז - השהיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "16001",
+      "display" : "אשפוז - השהיה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "16002",
+      "display" : "אשפוז - השהיה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "16010",
+      "display" : "אשפוז - השהיה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "16020",
+      "display" : "אשפוז - השהיה נשים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "16030",
+      "display" : "אשפוז - השהיה יולדות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "16200",
+      "display" : "אשפוז - כללית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "16800",
+      "display" : "אשפוז - שלוחה לשעת חירום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "16810",
+      "display" : "אשפוז - פנימית שעת חירום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "16811",
+      "display" : "אשפוז - פנימית שעת חירום א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "16812",
+      "display" : "אשפוז - פנימית שעת חירום ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "16813",
+      "display" : "אשפוז - פנימית שעת חירום ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "16814",
+      "display" : "אשפוז - פנימית שעת חירום ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "16815",
+      "display" : "אשפוז - פנימית שעת חירום ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "16820",
+      "display" : "אשפוז - ילדים שעת חירום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "16830",
+      "display" : "אשפוז - כירורגיה שעת חירום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "16840",
+      "display" : "אשפוז - אורתופדיה שעת חירום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "16850",
+      "display" : "אשפוז - כוויות שעת חירום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17000",
+      "display" : "אשפוז - פסיכיאטריה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17001",
+      "display" : "אשפוז - פסיכיאטריה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17002",
+      "display" : "אשפוז - פסיכיאטריה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17003",
+      "display" : "אשפוז - פסיכיאטריה ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17010",
+      "display" : "אשפוז - פסיכיאטריה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17011",
+      "display" : "אשפוז - פסיכיאטריה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17012",
+      "display" : "אשפוז - פסיכיאטריה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17015",
+      "display" : "אשפוז - פסיכיאטריה ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17070",
+      "display" : "אשפוז - גמילה מסמים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17080",
+      "display" : "אשפוז - הפרעות אכילה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17083",
+      "display" : "אשפוז - ט.סגור הפרעות אכילה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17100",
+      "display" : "אשפוז - פסיכיאטריה פעילה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17101",
+      "display" : "אשפוז - פסיכיאטריה פעילה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17102",
+      "display" : "אשפוז - פסיכיאטריה פעילה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17103",
+      "display" : "אשפוז - פסיכיאטריה פעילה ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17104",
+      "display" : "אשפוז - פסיכיאטריה פעילה ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17105",
+      "display" : "אשפוז - פסיכיאטריה פעילה ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17106",
+      "display" : "אשפוז - פסיכיאטריה פעילה ו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17107",
+      "display" : "אשפוז - פסיכיאטריה פעילה ז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17108",
+      "display" : "אשפוז - פסיכיאטריה פעילה ח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17109",
+      "display" : "אשפוז - פסיכיאטריה פעילה ט"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "1710A",
+      "display" : "אשפוז - פסיכיאטריה פעילה י"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "1710B",
+      "display" : "אשפוז - פסיכיאטריה פעילה יא"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17110",
+      "display" : "אשפוז - פסיכ.פעילה פתוחה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17111",
+      "display" : "אשפוז - פסיכ.פעילה פתוחה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17112",
+      "display" : "אשפוז - פסיכ.פעילה פתוחה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17113",
+      "display" : "אשפוז - פסיכ.פעילה פתוחה ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17114",
+      "display" : "אשפוז - פסיכ.פעילה פתוחה ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17115",
+      "display" : "אשפוז - פסיכ.פעילה פתוחה ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17116",
+      "display" : "אשפוז - פסיכ.פעילה פתוחה ו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17117",
+      "display" : "אשפוז - פסיכ.פעילה פתוחה ז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17118",
+      "display" : "אשפוז - פסיכ.פעילה פתוחה ח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17120",
+      "display" : "אשפוז - פסיכ.פעילה סגורה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17121",
+      "display" : "אשפוז - פסיכ.פעילה סגורה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17122",
+      "display" : "אשפוז - פסיכ.פעילה סגורה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17123",
+      "display" : "אשפוז - פסיכ.פעילה סגורה ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17124",
+      "display" : "אשפוז - פסיכ.פעילה סגורה ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17125",
+      "display" : "אשפוז - פסיכ.פעילה סגורה ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17126",
+      "display" : "אשפוז - פסיכ.פעילה סגורה ו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17130",
+      "display" : "אשפוז - פסיכ.פעילה פתוחה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17140",
+      "display" : "אשפוז - פסיכ.פעילה סגורה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17150",
+      "display" : "אשפוז - פסיכ.טיפול מאזן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17200",
+      "display" : "אשפוז - פסיכיאטריה שיקום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17201",
+      "display" : "אשפוז - פסיכיאטריה שיקום א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17202",
+      "display" : "אשפוז - פסיכיאטריה שיקום ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17203",
+      "display" : "אשפוז - פסיכיאטריה שיקום ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17204",
+      "display" : "אשפוז - פסיכיאטריה שיקום ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17300",
+      "display" : "אשפוז - פסיכ.פעילה ממושכת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17301",
+      "display" : "אשפוז - פסיכ.פעילה ממושכת א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17302",
+      "display" : "אשפוז - פסיכ.פעילה ממושכת ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17303",
+      "display" : "אשפוז - פסיכ.פעילה ממושכת ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17304",
+      "display" : "אשפוז - פסיכ.פעילה ממושכת ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17305",
+      "display" : "אשפוז - פסיכ.פעילה ממושכת ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17306",
+      "display" : "אשפוז - פסיכ.פעילה ממושכת ו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17310",
+      "display" : "אשפוז - פסיכ.ממושכת פתוחה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17311",
+      "display" : "אשפוז - פסיכ.ממושכת פתוחה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17312",
+      "display" : "אשפוז - פסיכ.ממושכת פתוחה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17313",
+      "display" : "אשפוז - פסיכ.ממושכת פתוחה ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17314",
+      "display" : "אשפוז - פסיכ.ממושכת פתוחה ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17320",
+      "display" : "אשפוז - פסיכ.ממושכת סגורה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17321",
+      "display" : "אשפוז - פסיכ.ממושכת סגורה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17322",
+      "display" : "אשפוז - פסיכ.ממושכת סגורה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17323",
+      "display" : "אשפוז - פסיכ.ממושכת סגורה ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17324",
+      "display" : "אשפוז - פסיכ.ממושכת סגורה ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17325",
+      "display" : "אשפוז - פסיכ.ממושכת סגורה ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17400",
+      "display" : "אשפוז - פסיכ.פעילה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17401",
+      "display" : "אשפוז - פסיכ.פעילה ילדים א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17402",
+      "display" : "אשפוז - פסיכ.פעילה ילדים ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17410",
+      "display" : "אשפוז - פסיכ.פעילה נוער"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17411",
+      "display" : "אשפוז - פסיכ.פעילה נוער א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17412",
+      "display" : "אשפוז - פסיכ.פעילה נוער ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17413",
+      "display" : "אשפוז - פסיכ.פעילה נוער ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17414",
+      "display" : "אשפוז - פסיכ.פעילה נוער ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17430",
+      "display" : "אשפוז - פסיכ.פעיל.ילד.ונוער"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17440",
+      "display" : "אשפוז - פסיכ.פעיל.ממושכ.ילד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17450",
+      "display" : "אשפוז - פסיכ.פעיל.ממושכ.נוע"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17460",
+      "display" : "אשפוז - פסיכ.ושמוש.חומר ילד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17480",
+      "display" : "אשפוז - הפרע. אכילה ילד נוע"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17500",
+      "display" : "אשפוז - אוטיסטים ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17510",
+      "display" : "אשפוז - אוטיסטים נוער"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17530",
+      "display" : "אשפוז - אוטיסטים ילדים ונוע"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17600",
+      "display" : "אשפוז - פסיכוגריאטריה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17601",
+      "display" : "אשפוז - פסיכוגריאטריה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17602",
+      "display" : "אשפוז - פסיכוגריאטריה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17603",
+      "display" : "אשפוז - פסיכוגריאטריה ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17610",
+      "display" : "אשפוז - פסיכוגריאטריה פתוחה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17611",
+      "display" : "אשפוז - פסיכוגריאט. פתוחה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17612",
+      "display" : "אשפוז - פסיכוגריאט. פתוחה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17613",
+      "display" : "אשפוז - פסיכוגריאט. פתוחה ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17614",
+      "display" : "אשפוז - פסיכוגריאט. פתוחה ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17615",
+      "display" : "אשפוז - פסיכוגריאט. פתוחה ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17616",
+      "display" : "אשפוז - פסיכוגריאט. פתוחה ו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17617",
+      "display" : "אשפוז - פסיכוגריאט. פתוחה ז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17618",
+      "display" : "אשפוז - פסיכוגריאט. פתוחה ח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17620",
+      "display" : "אשפוז - פסיכוגריאטריה סגורה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17621",
+      "display" : "אשפוז - פסיכוגריאט. סגורה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17622",
+      "display" : "אשפוז - פסיכוגריאט. סגורה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17623",
+      "display" : "אשפוז - פסיכוגריאט. סגורה ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17624",
+      "display" : "אשפוז - פסיכוגריאט. סגורה ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17625",
+      "display" : "אשפוז - פסיכוגריאט. סגורה ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17626",
+      "display" : "אשפוז - פסיכוגריאט. סגורה ו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17700",
+      "display" : "אשפוז - פסיכ.מיון וטיפול נמ"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17710",
+      "display" : "אשפוז - פסיכ.מיון וקבלה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17720",
+      "display" : "אשפוז - טראומה נפשית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17725",
+      "display" : "אשפוז - טראומה נפשית פ.מיני"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17780",
+      "display" : "אשפוז - פסיכיאטריה משפטית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17784",
+      "display" : "אשפוז - פסיכ.בטחון פעילה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17785",
+      "display" : "אשפוז - פסיכ.בטחון פעילה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17786",
+      "display" : "אשפוז - פסיכ.בטחון פעילה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17787",
+      "display" : "אשפוז - פסיכ.בטחון פעילה ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17788",
+      "display" : "אשפוז - פסיכ.בטחון פעילה ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17789",
+      "display" : "אשפוז - פסיכ.בטחון פעילה ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17790",
+      "display" : "אשפוז - פסיכ.בטח.פעיל.ממושכ"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17791",
+      "display" : "אשפוז - פסיכ.בט.פעי.ממושכ.א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17792",
+      "display" : "אשפוז - פסיכ.בט.פעי.ממושכ.ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17793",
+      "display" : "אשפוז - פסיכ.בט.פעי.ממושכ.ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17794",
+      "display" : "אשפוז - פסיכ.בט.פעי.ממושכ.ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17795",
+      "display" : "אשפוז - פסיכ.בט.פעי.ממושכ.ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17796",
+      "display" : "אשפוז - פסיכ.בט.פעי.ממושכ.ו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17797",
+      "display" : "אשפוז - פסיכ.בט.פעי.ממושכ.ז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17800",
+      "display" : "אשפוז - פנימית בביח נפש"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17900",
+      "display" : "אשפוז - הוסטל כוללני"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17901",
+      "display" : "אשפוז - הוסטל כוללני א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17902",
+      "display" : "אשפוז - הוסטל כוללני ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17903",
+      "display" : "אשפוז - הוסטל כוללני ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17910",
+      "display" : "אשפוז - מגורים טיפוליים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "17920",
+      "display" : "אשפוז - מגורים טיפול. אינטנ"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18000",
+      "display" : "אשפוז - שחפת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18100",
+      "display" : "אשפוז - הנסן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18200",
+      "display" : "אשפוז - גריאטריה שיקום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18201",
+      "display" : "אשפוז - גריאטריה שיקום א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18202",
+      "display" : "אשפוז - גריאטריה שיקום ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18203",
+      "display" : "אשפוז - גריאטריה שיקום ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18204",
+      "display" : "אשפוז - גריאטריה שיקום ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18205",
+      "display" : "אשפוז - גריאטריה שיקום ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18210",
+      "display" : "אשפוז - גריאטריה שיקום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18211",
+      "display" : "אשפוז - גריאטריה שיקום א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18212",
+      "display" : "אשפוז - גריאטריה שיקום ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18213",
+      "display" : "אשפוז - גריאטריה שיקום ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18214",
+      "display" : "אשפוז - גריאטריה שיקום ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18215",
+      "display" : "אשפוז - גריאטריה שיקום ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18216",
+      "display" : "אשפוז - גריאטריה שיקום ו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18217",
+      "display" : "אשפוז - גריאטריה שיקום ז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18218",
+      "display" : "אשפוז - גריאטריה שיקום ח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18219",
+      "display" : "אשפוז - גריאטריה שיקום ט"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18300",
+      "display" : "אשפוז - טיפול תומך/פליאטיבי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18310",
+      "display" : "אשפוז - ט.תומך/פליאט. אונקו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18320",
+      "display" : "אשפוז - ט.תומך/פליאט. איידס"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18330",
+      "display" : "אשפוז - ט.תומך/פליאט.אונ.יל"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18400",
+      "display" : "אשפוז - גריאטריה סיעודית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18401",
+      "display" : "אשפוז - גריאטריה סיעודית א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18402",
+      "display" : "אשפוז - גריאטריה סיעודית ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18403",
+      "display" : "אשפוז - גריאטריה סיעודית ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18410",
+      "display" : "אשפוז - גריאטריה סיעודית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18411",
+      "display" : "אשפוז - גריאטריה סיעודית א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18412",
+      "display" : "אשפוז - גריאטריה סיעודית ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18413",
+      "display" : "אשפוז - גריאטריה סיעודית ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18414",
+      "display" : "אשפוז - גריאטריה סיעודית ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18415",
+      "display" : "אשפוז - גריאטריה סיעודית ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18416",
+      "display" : "אשפוז - גריאטריה סיעודית ו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18417",
+      "display" : "אשפוז - גריאטריה סיעודית ז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18418",
+      "display" : "אשפוז - גריאטריה סיעודית ח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18419",
+      "display" : "אשפוז - גריאטריה סיעודית ט"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "1841A",
+      "display" : "אשפוז - גריאטריה סיעודית י"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "1841B",
+      "display" : "אשפוז - גריאטריה סיעודית יא"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "1841C",
+      "display" : "אשפוז - גריאטריה סיעודית יב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "1841D",
+      "display" : "אשפוז - גריאטריה סיעודית יג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "1841E",
+      "display" : "אשפוז - גריאטריה סיעודית יד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18430",
+      "display" : "אשפוז - סיעודית מורכבת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18431",
+      "display" : "אשפוז - סיעודית מורכבת א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18432",
+      "display" : "אשפוז - סיעודית מורכבת ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18433",
+      "display" : "אשפוז - סיעודית מורכבת ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18434",
+      "display" : "אשפוז - סיעודית מורכבת ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18435",
+      "display" : "אשפוז - סיעודית מורכבת ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18440",
+      "display" : "אשפוז - סיעודית מורכבת ילדי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18450",
+      "display" : "אשפוז - סיעוד מורכב תומך"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18451",
+      "display" : "אשפוז - סיעוד מורכב תומך א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18452",
+      "display" : "אשפוז - סיעוד מורכב תומך ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18453",
+      "display" : "אשפוז - סיעוד מורכב תומך ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18460",
+      "display" : "אשפוז - סיעודית צעירים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18461",
+      "display" : "אשפוז - סיעודית צעירים א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18462",
+      "display" : "אשפוז - סיעודית צעירים ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18463",
+      "display" : "אשפוז - סיעודית צעירים ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18500",
+      "display" : "אשפוז - תשושי נפש"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18501",
+      "display" : "אשפוז - תשושי נפש א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18502",
+      "display" : "אשפוז - תשושי נפש ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18503",
+      "display" : "אשפוז - תשושי נפש ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18504",
+      "display" : "אשפוז - תשושי נפש ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18600",
+      "display" : "אשפוז - גריאטריה תת חריפה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18601",
+      "display" : "אשפוז - גריאטריה תת חריפה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18602",
+      "display" : "אשפוז - גריאטריה תת חריפה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18650",
+      "display" : "אשפוז - הנשמה ממושכת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18651",
+      "display" : "אשפוז - הנשמה ממושכת א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18652",
+      "display" : "אשפוז - הנשמה ממושכת ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18653",
+      "display" : "אשפוז - הנשמה ממושכת ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18654",
+      "display" : "אשפוז - הנשמה ממושכת ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18655",
+      "display" : "אשפוז - הנשמה ממושכת ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18660",
+      "display" : "אשפוז - הנשמה ממושכת צעירים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18670",
+      "display" : "אשפוז - הנשמה ממושכת ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18700",
+      "display" : "אשפוז - שיקום כללי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18701",
+      "display" : "אשפוז - שיקום כללי א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18702",
+      "display" : "אשפוז - שיקום כללי ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18703",
+      "display" : "אשפוז - שיקום כללי ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18704",
+      "display" : "אשפוז - שיקום כללי ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18709",
+      "display" : "אשפוז - שיקום קורונה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18710",
+      "display" : "אשפוז - שיקום ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18711",
+      "display" : "אשפוז - שיקום ילדים א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18712",
+      "display" : "אשפוז - שיקום ילדים ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18713",
+      "display" : "אשפוז - שיקום ילדים ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18717",
+      "display" : "אשפוז - נוירו ילדים ושיקום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18720",
+      "display" : "אשפוז - שיקום אורתופדי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18721",
+      "display" : "אשפוז - שיקום אורתופדי א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18722",
+      "display" : "אשפוז - שיקום אורתופדי ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18723",
+      "display" : "אשפוז - שיקום אורתופדי ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18724",
+      "display" : "אשפוז - שיקום אורתופדי ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18730",
+      "display" : "אשפוז - שיקום נוירולוגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18731",
+      "display" : "אשפוז - שיקום נוירולוגי א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18732",
+      "display" : "אשפוז - שיקום נוירולוגי ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18733",
+      "display" : "אשפוז - שיקום נוירולוגי ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18734",
+      "display" : "אשפוז - שיקום נוירולוגי ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18735",
+      "display" : "אשפוז - שיקום חבלות מוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18736",
+      "display" : "אשפוז - שיקום נוירולו. נמרץ"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18737",
+      "display" : "אשפוז - שיקום חסימת עצב שרי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18750",
+      "display" : "אשפוז - שיקום אונקולוגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18760",
+      "display" : "אשפוז - ט.נ. ש. מחוסרי הכרה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18770",
+      "display" : "אשפוז - שיקום נשימתי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18771",
+      "display" : "אשפוז - ט.נ. תרדמת ממושכת א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18772",
+      "display" : "אשפוז - ט.נ. תרדמת ממושכת ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18775",
+      "display" : "אשפוז - שיקום נשימתי מוגבר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18780",
+      "display" : "אשפוז - שיקום נשימתי ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "18785",
+      "display" : "אשפוז - שיקום נשימתי קורונה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "19000",
+      "display" : "אשפוז - ילודים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "19001",
+      "display" : "אשפוז - ילודים א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "19002",
+      "display" : "אשפוז - ילודים ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "19003",
+      "display" : "אשפוז - ילודים ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "19009",
+      "display" : "אשפוז - קורונה ילודים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "19200",
+      "display" : "אשפוז - תשושים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "19201",
+      "display" : "אשפוז - תשושים א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "19202",
+      "display" : "אשפוז - תשושים ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "19203",
+      "display" : "אשפוז - תשושים ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "19204",
+      "display" : "אשפוז - תשושים ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "19205",
+      "display" : "אשפוז - תשושים ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "19206",
+      "display" : "אשפוז - תשושים ו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "19207",
+      "display" : "אשפוז - תשושים ז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "19208",
+      "display" : "אשפוז - תשושים ח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "19209",
+      "display" : "אשפוז - תשושים ט"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "1920A",
+      "display" : "אשפוז - תשושים יא"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "1920B",
+      "display" : "אשפוז - תשושים יב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "19400",
+      "display" : "אשפוז - עצמאים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "19401",
+      "display" : "אשפוז - עצמאים א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "19402",
+      "display" : "אשפוז - עצמאים ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "19403",
+      "display" : "אשפוז - עצמאים ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "19404",
+      "display" : "אשפוז - עצמאים ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "19405",
+      "display" : "אשפוז - עצמאים ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "19406",
+      "display" : "אשפוז - עצמאים ו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20000",
+      "display" : "אשפוז יום - פנימית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20010",
+      "display" : "אשפוז יום - פנימית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20011",
+      "display" : "אשפוז יום - פנימית א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20012",
+      "display" : "אשפוז יום - פנימית ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20013",
+      "display" : "אשפוז יום - פנימית ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20014",
+      "display" : "אשפוז יום - פנימית ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20015",
+      "display" : "אשפוז יום - פנימית ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20016",
+      "display" : "אשפוז יום - פנימית ו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20020",
+      "display" : "אשפוז יום - ראומטולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20030",
+      "display" : "אשפוז יום - פנימית מוגבר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20040",
+      "display" : "אשפוז יום - קרדיולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20046",
+      "display" : "אשפוז יום - קוצב לב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20048",
+      "display" : "אשפוז יום - קרדיולוגיה פולשנית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20050",
+      "display" : "אשפוז יום - מטבולית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20060",
+      "display" : "אשפוז יום - אנדוקרינולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20061",
+      "display" : "אשפוז יום - סוכרת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20070",
+      "display" : "אשפוז יום - נפרולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20080",
+      "display" : "אשפוז יום - המטולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20081",
+      "display" : "אשפוז יום - המופיליה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20085",
+      "display" : "אשפוז יום - לימפופרזיס"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20090",
+      "display" : "אשפוז יום - המטואונקולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20100",
+      "display" : "אשפוז יום - ריאות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20200",
+      "display" : "אשפוז יום - גריאטריה חריפה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20300",
+      "display" : "אשפוז יום - נוירולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20301",
+      "display" : "אשפוז יום - כאב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20302",
+      "display" : "אשפוז יום - כאב ראש"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20303",
+      "display" : "אשפוז יום - נוירואימונולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20304",
+      "display" : "אשפוז יום - נוירואונקולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20305",
+      "display" : "אשפוז יום - שיתוק מוחין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20310",
+      "display" : "אשפוז יום - שבץ מוחי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20315",
+      "display" : "אשפוז יום - נוירומוסקולרית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20316",
+      "display" : "אשפוז יום - נוירופיזיולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20340",
+      "display" : "אשפוז יום - צנתורי מוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20400",
+      "display" : "אשפוז יום - אונקולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20401",
+      "display" : "אשפוז יום - אונקולוגיה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20402",
+      "display" : "אשפוז יום - אונקולוגיה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20406",
+      "display" : "אשפוז יום - אונקולוגיה ריאה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20407",
+      "display" : "אשפוז יום - אונקולוגיה שד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20408",
+      "display" : "אשפוז יום - אונקולוגיה מע.עיכול"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20410",
+      "display" : "אשפוז יום - כימותרפיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20420",
+      "display" : "אשפוז יום - רדיותרפיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20440",
+      "display" : "אשפוז יום - ברכיתרפיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20500",
+      "display" : "אשפוז יום - עור ומין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20506",
+      "display" : "אשפוז יום - דרמטואונקולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "20600",
+      "display" : "אשפוז יום - השתלת מח עצם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "21100",
+      "display" : "אשפוז יום - אלרגיה ואימונולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "21200",
+      "display" : "אשפוז יום - גסטרואנטרולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "21203",
+      "display" : "אשפוז יום - כבד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "21206",
+      "display" : "אשפוז יום - גסטרואנטרו.גריאטרית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "21207",
+      "display" : "אשפוז יום - גסטרואנטרו.פולשנית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "21300",
+      "display" : "אשפוז יום - מחלות זיהומיות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22000",
+      "display" : "אשפוז יום - ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22001",
+      "display" : "אשפוז יום - ילדים א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22002",
+      "display" : "אשפוז יום - ילדים ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22004",
+      "display" : "אשפוז יום - ילדים ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22005",
+      "display" : "אשפוז יום - ילדים ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22006",
+      "display" : "אשפוז יום - ילדים ו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22010",
+      "display" : "אשפוז יום - אונקולוגיה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22020",
+      "display" : "אשפוז יום - אנדוקרינולוגיה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22021",
+      "display" : "אשפוז יום - סוכרת נעורים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22025",
+      "display" : "אשפוז יום - הפרעות אכילה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22030",
+      "display" : "אשפוז יום - המטולוגיה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22049",
+      "display" : "אשפוז יום - צנתורי לב ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22050",
+      "display" : "אשפוז יום - מטבולית ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22060",
+      "display" : "אשפוז יום - ריאות ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22070",
+      "display" : "אשפוז יום - נפרולוגיה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22080",
+      "display" : "אשפוז יום - גסטרואנטרולוג ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22090",
+      "display" : "אשפוז יום - המטואונקולוגיה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "220A0",
+      "display" : "אשפוז יום - ילדים במשבר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22100",
+      "display" : "אשפוז יום - נוירולוגיה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22109",
+      "display" : "אשפוז יום - נוירו ואפילפס ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22110",
+      "display" : "אשפוז יום - אלרגיה ואימונו ילדי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22120",
+      "display" : "אשפוז יום - ראומטולוגיה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22130",
+      "display" : "אשפוז יום - נוירומוסקולרית ילדי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22140",
+      "display" : "אשפוז יום - מחלות זיהומיות ילדי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22200",
+      "display" : "אשפוז יום - עור ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22500",
+      "display" : "אשפוז יום - כירורגיה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22501",
+      "display" : "אשפוז יום - כירורגיה ילדים א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22502",
+      "display" : "אשפוז יום - כירורגיה ילדים ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22510",
+      "display" : "אשפוז יום - אורתופדיה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22520",
+      "display" : "אשפוז יום - כיר. פלסטית ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22530",
+      "display" : "אשפוז יום - אורולוגיה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22560",
+      "display" : "אשפוז יום - כיר. חזה ולב ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22570",
+      "display" : "אשפוז יום - כיר. לפרוסקופית ילד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22580",
+      "display" : "אשפוז יום - כירורגיה נאונטלית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22600",
+      "display" : "אשפוז יום - עיניים ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22700",
+      "display" : "אשפוז יום - התפתחות הילד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22800",
+      "display" : "אשפוז יום - א.א.ג ראש צואר ילדי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22840",
+      "display" : "אשפוז יום - פה ולסתות ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "22850",
+      "display" : "אשפוז יום - שיניים ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23000",
+      "display" : "אשפוז יום - כירורגיה כללית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23001",
+      "display" : "אשפוז יום - כירורגיה כללית א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23002",
+      "display" : "אשפוז יום - כירורגיה כללית ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23003",
+      "display" : "אשפוז יום - כירורגיה כללית ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23010",
+      "display" : "אשפוז יום - השתלת איברים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23015",
+      "display" : "אשפוז יום - קציר איברים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23030",
+      "display" : "אשפוז יום - כירורגיה פרוקטולוגית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23031",
+      "display" : "אשפוז יום - כירורגיה אנדוקרינית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23032",
+      "display" : "אשפוז יום - כירורגיה בריאטרית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23033",
+      "display" : "אשפוז יום - כיר. בהנחיית איזוטו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23034",
+      "display" : "אשפוז יום - נתוחי דרכי העיכול"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23035",
+      "display" : "אשפוז יום - נתוחי ושט"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23036",
+      "display" : "אשפוז יום - כירורגיה קולורקטלית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23037",
+      "display" : "אשפוז יום - נתוחי כבד ודרכי מר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23038",
+      "display" : "אשפוז יום - כירורגיה לפרוסקופית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23050",
+      "display" : "אשפוז יום - כירורגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23060",
+      "display" : "אשפוז יום - כירורגיה אונקולוגית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23065",
+      "display" : "אשפוז יום - נתוח מיקרוגרפי Mohs"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23080",
+      "display" : "אשפוז יום - כירורגיה שד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23100",
+      "display" : "אשפוז יום - אורתופדיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23101",
+      "display" : "אשפוז יום - אורתופדיה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23102",
+      "display" : "אשפוז יום - אורתופדיה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23105",
+      "display" : "אשפוז יום - מיקרוכירורגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23110",
+      "display" : "אשפוז יום - כירורגיה כף יד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23111",
+      "display" : "אשפוז יום - כירורגיה כתף"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23120",
+      "display" : "אשפוז יום - כירורגיה עמוד שדרה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23150",
+      "display" : "אשפוז יום - אורתוכירורגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23152",
+      "display" : "אשפוז יום - כירורגיה ברך"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23154",
+      "display" : "אשפוז יום - כירורגיה כף רגל וקר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23155",
+      "display" : "אשפוז יום - כירורגיה מפרקים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23160",
+      "display" : "אשפוז יום - אורתואנדוסקופיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23170",
+      "display" : "אשפוז יום - ארתרוסקופיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23180",
+      "display" : "אשפוז יום - אורתופדיה המשך טיפו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23200",
+      "display" : "אשפוז יום - אורולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23201",
+      "display" : "אשפוז יום - אורולוגיה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23205",
+      "display" : "אשפוז יום - אורואונקולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23206",
+      "display" : "אשפוז יום - אורולוגיה אנדוסקופי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23235",
+      "display" : "אשפוז יום - אורולוגיה לפרסקופית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23250",
+      "display" : "אשפוז יום - נוירואורולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23300",
+      "display" : "אשפוז יום - נוירוכירורגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23309",
+      "display" : "אשפוז יום - שחזור עצבים היקפיים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23500",
+      "display" : "אשפוז יום - כירורגיה כלי דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23505",
+      "display" : "אשפוז יום - כירורגיה כלי דם קטנ"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23510",
+      "display" : "אשפוז יום - נצור עורקי-ורידי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23600",
+      "display" : "אשפוז יום - כירורגיה פלסטית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23601",
+      "display" : "אשפוז יום - כירורגיה פלסטית א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23700",
+      "display" : "אשפוז יום - עיניים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23713",
+      "display" : "אשפוז יום - אוקולופלסטיקה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23717",
+      "display" : "אשפוז יום - קטרקט"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23724",
+      "display" : "אשפוז יום - נתוחי קרנית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23800",
+      "display" : "אשפוז יום - א.א.ג ראש וצואר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23801",
+      "display" : "אשפוז יום - א.א.ג ראש וצואר א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23809",
+      "display" : "אשפוז יום - כירורגיה ראש וצואר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23900",
+      "display" : "אשפוז יום - פה ולסתות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23930",
+      "display" : "אשפוז יום - אורתודונטיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23940",
+      "display" : "אשפוז יום - אנדודונטיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23950",
+      "display" : "אשפוז יום - פריודונטיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "23960",
+      "display" : "אשפוז יום - רפואת הפה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "25000",
+      "display" : "אשפוז יום - נשים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "25005",
+      "display" : "אשפוז יום - גינקולוגיה אנדוסקופ"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "25006",
+      "display" : "אשפוז יום - גינקולוגיה מיקרוכיר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "25007",
+      "display" : "אשפוז יום - צואר הרחם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "25008",
+      "display" : "אשפוז יום - היסטרוסקופיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "25010",
+      "display" : "אשפוז יום - פריון"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "25013",
+      "display" : "אשפוז יום - הפריה חוץ גופית IVF"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "25016",
+      "display" : "אשפוז יום - גינקואורולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "25020",
+      "display" : "אשפוז יום - הריון בר סיכון"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "25030",
+      "display" : "אשפוז יום - גינקואונקולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "25035",
+      "display" : "אשפוז יום - גינקואונקולוגיה כיר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "25040",
+      "display" : "אשפוז יום - הפסקת הריון"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "25063",
+      "display" : "אשפוז יום - רפואת העובר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "25064",
+      "display" : "אשפוז יום - נפגעי תקיפה מינית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "26000",
+      "display" : "אשפוז יום - השהיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "26200",
+      "display" : "אשפוז יום - כללית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27000",
+      "display" : "אשפוז יום - פסיכיאטריה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27001",
+      "display" : "אשפוז יום - פסיכיאטריה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27010",
+      "display" : "אשפוז יום - פסיכיאטריה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27011",
+      "display" : "אשפוז יום - פסיכיאטריה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27012",
+      "display" : "אשפוז יום - פסיכיאטריה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27013",
+      "display" : "אשפוז יום - פסיכיאטריה ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27014",
+      "display" : "אשפוז יום - פסיכיאטריה ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27015",
+      "display" : "אשפוז יום - פסיכיאטריה ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27040",
+      "display" : "אשפוז יום - פסיכ.ליד המחלקה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27050",
+      "display" : "אשפוז יום - פסיכ.ליד המרפאה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27060",
+      "display" : "אשפוז יום - פסיכ.שיקום תעסוקתי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27061",
+      "display" : "אשפוז יום - פסיכ.שיקום תעסוק. א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27062",
+      "display" : "אשפוז יום - פסיכ.שיקום תעסוק. ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27063",
+      "display" : "אשפוז יום - פסיכ.שיקום תעסוק. ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27070",
+      "display" : "אשפוז יום - גמילה מסמים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27080",
+      "display" : "אשפוז יום - הפרעות אכילה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27100",
+      "display" : "אשפוז יום - פסיכיאטריה פעילה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27101",
+      "display" : "אשפוז יום - פסיכיאטריה פעילה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27102",
+      "display" : "אשפוז יום - פסיכיאטריה פעילה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27103",
+      "display" : "אשפוז יום - פסיכיאטריה פעילה ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27104",
+      "display" : "אשפוז יום - פסיכיאטריה פעילה ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27105",
+      "display" : "אשפוז יום - פסיכיאטריה פעילה ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27106",
+      "display" : "אשפוז יום - פסיכיאטריה פעילה ו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27108",
+      "display" : "אשפוז יום - פסיכיאטריה פעילה ח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27110",
+      "display" : "אשפוז יום - פסיכ.פעילה פתוחה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27200",
+      "display" : "אשפוז יום - פסיכיאטריה שיקום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27300",
+      "display" : "אשפוז יום - פסיכ.פעילה ממושכת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27400",
+      "display" : "אשפוז יום - פסיכ.פעילה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27410",
+      "display" : "אשפוז יום - פסיכ.פעילה נוער"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27430",
+      "display" : "אשפוז יום - פסיכ.פעיל.ילד.ונוער"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27480",
+      "display" : "אשפוז יום - הפרע. אכילה ילד נוע"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27500",
+      "display" : "אשפוז יום - אוטיסטים ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27510",
+      "display" : "אשפוז יום - אוטיסטים נוער"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27530",
+      "display" : "אשפוז יום - אוטיסטים ילדים ונוע"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27600",
+      "display" : "אשפוז יום - פסיכוגריאטריה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27780",
+      "display" : "אשפוז יום - פסיכיאטריה משפטית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "27900",
+      "display" : "אשפוז יום - הוסטל כוללני"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28100",
+      "display" : "אשפוז יום - הנסן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28200",
+      "display" : "אשפוז יום - גריאטריה שיקום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28210",
+      "display" : "אשפוז יום - גריאטריה שיקום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28211",
+      "display" : "אשפוז יום - גריאטריה שיקום א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28212",
+      "display" : "אשפוז יום - גריאטריה שיקום ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28300",
+      "display" : "אשפוז יום - טיפול תומך/פליאטיבי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28310",
+      "display" : "אשפוז יום - ט.תומך/פליאט. אונקו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28320",
+      "display" : "אשפוז יום - ט.תומך/פליאט. איידס"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28330",
+      "display" : "אשפוז יום - ט.תומך/פליאט.אונ.יל"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28400",
+      "display" : "אשפוז יום - גריאטריה סיעודית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28410",
+      "display" : "אשפוז יום - גריאטריה סיעודית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28500",
+      "display" : "אשפוז יום - תשושי נפש"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28501",
+      "display" : "אשפוז יום - תשושי נפש א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28502",
+      "display" : "אשפוז יום - תשושי נפש ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28700",
+      "display" : "אשפוז יום - שיקום כללי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28701",
+      "display" : "אשפוז יום - שיקום כללי א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28702",
+      "display" : "אשפוז יום - שיקום כללי ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28703",
+      "display" : "אשפוז יום - שיקום כללי ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28704",
+      "display" : "אשפוז יום - שיקום כללי ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28710",
+      "display" : "אשפוז יום - שיקום ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28717",
+      "display" : "אשפוז יום - נוירו ילדים ושיקום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28720",
+      "display" : "אשפוז יום - שיקום אורתופדי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28721",
+      "display" : "אשפוז יום - שיקום אורתופדי א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28722",
+      "display" : "אשפוז יום - שיקום אורתופדי ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28725",
+      "display" : "אשפוז יום - שיקום קטועי גפיים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28726",
+      "display" : "אשפוז יום - שיקום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28730",
+      "display" : "אשפוז יום - שיקום נוירולוגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28732",
+      "display" : "אשפוז יום - שיקום נוירולוגי ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28733",
+      "display" : "אשפוז יום - שיקום נוירולוגי ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28734",
+      "display" : "אשפוז יום - שיקום נוירולוגי ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28735",
+      "display" : "אשפוז יום - שיקום חבלות מוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "28750",
+      "display" : "אשפוז יום - שיקום אונקולוגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "29390",
+      "display" : "אשפוז יום - הרדמה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "29391",
+      "display" : "אשפוז יום - הרדמה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "29500",
+      "display" : "אשפוז יום - דיאליזה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "29501",
+      "display" : "אשפוז יום - המודיאליזה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "29502",
+      "display" : "אשפוז יום - דיאליזה פריטונאלית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "29503",
+      "display" : "אשפוז יום - דיאליזה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "29504",
+      "display" : "אשפוז יום - דיאליזה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "29505",
+      "display" : "אשפוז יום - דיאליזה ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "29509",
+      "display" : "אשפוז יום - דיאליזה בידוד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "29510",
+      "display" : "אשפוז יום - דיאליזה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "29511",
+      "display" : "אשפוז יום - המודיאליזה ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "29512",
+      "display" : "אשפוז יום - דיאליזה פריטו.ילדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30000",
+      "display" : "מרפאות - פנימית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30010",
+      "display" : "מרפאות - פנימית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30011",
+      "display" : "מרפאות - פנימית א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30012",
+      "display" : "מרפאות - פנימית ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30013",
+      "display" : "מרפאות - פנימית ג"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30014",
+      "display" : "מרפאות - פנימית ד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30015",
+      "display" : "מרפאות - פנימית ה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30016",
+      "display" : "מרפאות - פנימית ו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30017",
+      "display" : "מרפאות - פנימית ז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30018",
+      "display" : "מרפאות - פנימית ח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30019",
+      "display" : "מרפאות - פנימית ט"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "3001A",
+      "display" : "מרפאות - פנימית י"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "3001E",
+      "display" : "מרפאות - קדחת ים תיכונית משפ"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "3001F",
+      "display" : "מרפאות - יתר לחץ דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30020",
+      "display" : "מרפאות - ראומטולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30023",
+      "display" : "מרפאות - מפרקים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30024",
+      "display" : "מרפאות - מחלות מפרקים ניווני"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30040",
+      "display" : "מרפאות - קרדיולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30041",
+      "display" : "מרפאות - ארגומטריה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30043",
+      "display" : "מרפאות - אלקטרופיזיולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30044",
+      "display" : "מרפאות - שיקום לב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30045",
+      "display" : "מרפאות - אי ספיקת לב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30046",
+      "display" : "מרפאות - קוצב לב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30047",
+      "display" : "מרפאות - קרדיולוגיה לא פולשנ"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30048",
+      "display" : "מרפאות - קרדיולוגיה פולשנית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30049",
+      "display" : "מרפאות - צנתורי לב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "3004A",
+      "display" : "מרפאות - מסתמי לב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30050",
+      "display" : "מרפאות - מטבולית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30051",
+      "display" : "מרפאות - ליפידים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30052",
+      "display" : "מרפאות - מחלות עצם מטבוליות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30053",
+      "display" : "מרפאות - אוסטאופורוזיס"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30054",
+      "display" : "מרפאות - השמנת יתר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30055",
+      "display" : "מרפאות - צפיפות עצם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30060",
+      "display" : "מרפאות - אנדוקרינולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30061",
+      "display" : "מרפאות - סוכרת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30062",
+      "display" : "מרפאות - סוכרת א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30064",
+      "display" : "מרפאות - אנדוקרינולוג וסוכרת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30065",
+      "display" : "מרפאות - פנילקטונוריה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30070",
+      "display" : "מרפאות - נפרולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30073",
+      "display" : "מרפאות - מושתלי כליה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30074",
+      "display" : "מרפאות - כליה סוכרתית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30080",
+      "display" : "מרפאות - המטולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30081",
+      "display" : "מרפאות - המופיליה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30083",
+      "display" : "מרפאות - קרישת דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30084",
+      "display" : "מרפאות - המפרזיס"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30085",
+      "display" : "מרפאות - לימפופרזיס"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30088",
+      "display" : "מרפאות - אימונולוגיה טסיות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30090",
+      "display" : "מרפאות - המטואונקולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30095",
+      "display" : "מרפאות - לוקמיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30096",
+      "display" : "מרפאות - לימפומה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30097",
+      "display" : "מרפאות - מיאלומה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30098",
+      "display" : "מרפאות - לוקמיה לימפוציטית כ"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30100",
+      "display" : "מרפאות - ריאות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30106",
+      "display" : "מרפאות - פיזיולוגיה ריאות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30107",
+      "display" : "מרפאות - מחלות כלי דם ריאתיי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30108",
+      "display" : "מרפאות - שיעול"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30109",
+      "display" : "מרפאות - פולמונולוגיה פולשני"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30111",
+      "display" : "מרפאות - פולמונו.פולשנ.ושחפת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30200",
+      "display" : "מרפאות - גריאטריה חריפה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30210",
+      "display" : "מרפאות - גריאטריה חריפה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30225",
+      "display" : "מרפאות - גריאטריה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30230",
+      "display" : "מרפאות - פנימית גריאטרית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30300",
+      "display" : "מרפאות - נוירולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30301",
+      "display" : "מרפאות - כאב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30302",
+      "display" : "מרפאות - כאב ראש"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30303",
+      "display" : "מרפאות - נוירואימונולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30304",
+      "display" : "מרפאות - נוירואונקולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30305",
+      "display" : "מרפאות - שיתוק מוחין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30306",
+      "display" : "מרפאות - נוירולו.ותפקוד מיני"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30307",
+      "display" : "מרפאות - אפילפסיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30309",
+      "display" : "מרפאות - רפואת שינה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "3030A",
+      "display" : "מרפאות - הפרעות קשב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "3030C",
+      "display" : "מרפאות - AT Ataxia Telangiec"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "3030E",
+      "display" : "מרפאות - פרקינסון"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "3030F",
+      "display" : "מרפאות - נוירואימונ וטרשת נפ"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "3030G",
+      "display" : "מרפאות - קנביס רפואי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "3030H",
+      "display" : "מרפאות - כאב אונקולוגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "3030J",
+      "display" : "מרפאות - כאב סב נתוחי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30310",
+      "display" : "מרפאות - שבץ מוחי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30311",
+      "display" : "מרפאות - טרשת נפוצה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30313",
+      "display" : "מרפאות - הפרעות תנועה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30314",
+      "display" : "מרפאות - הפרעות זכרון"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30315",
+      "display" : "מרפאות - נוירומוסקולרית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30316",
+      "display" : "מרפאות - נוירופיזיולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30317",
+      "display" : "מרפאות - ניוון שרירים ALS"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30318",
+      "display" : "מרפאות - תשישות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30319",
+      "display" : "מרפאות - תסמונת דאון"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "3031B",
+      "display" : "מרפאות - TCD"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30320",
+      "display" : "מרפאות - EMG"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30330",
+      "display" : "מרפאות - EEG"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30340",
+      "display" : "מרפאות - צנתורי מוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30350",
+      "display" : "מרפאות - רדיוכיר. במע. עצבים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30400",
+      "display" : "מרפאות - אונקולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30406",
+      "display" : "מרפאות - אונקולוגיה ריאה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30407",
+      "display" : "מרפאות - אונקולוגיה שד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30408",
+      "display" : "מרפאות - אונקולוגיה מע.עיכול"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30410",
+      "display" : "מרפאות - כימותרפיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "3041A",
+      "display" : "מרפאות - כימו. וקרינה-מחקר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30420",
+      "display" : "מרפאות - רדיותרפיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30421",
+      "display" : "מרפאות - רדיותרפיה א"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30422",
+      "display" : "מרפאות - רדיותרפיה ב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30427",
+      "display" : "מרפאות - רדיותרפיה שד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30435",
+      "display" : "מרפאות - אונקולוגיה ראש צואר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30436",
+      "display" : "מרפאות - אונקולוגיה לבלב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30440",
+      "display" : "מרפאות - ברכיתרפיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30500",
+      "display" : "מרפאות - עור ומין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30505",
+      "display" : "מרפאות - מלנומה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30506",
+      "display" : "מרפאות - דרמטואונקולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30507",
+      "display" : "מרפאות - עור לייזר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30508",
+      "display" : "מרפאות - פוטותרפיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30600",
+      "display" : "מרפאות - השתלת מח עצם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "30750",
+      "display" : "מרפאות - מעקב ט.נ."
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "31100",
+      "display" : "מרפאות - אלרגיה ואימונולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "31101",
+      "display" : "מרפאות - אימונולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "31103",
+      "display" : "מרפאות - אימונותרפיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "31105",
+      "display" : "מרפאות - אימונולוגיה השתלות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "31107",
+      "display" : "מרפאות - רפואה מולק. פרוטאומ"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "31110",
+      "display" : "מרפאות - איידס"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "31120",
+      "display" : "מרפאות - אלרגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "31130",
+      "display" : "מרפאות - עייפות מתמשכת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "31200",
+      "display" : "מרפאות - גסטרואנטרולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "31201",
+      "display" : "מרפאות - תנועתיות מערכת העיכ"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "31202",
+      "display" : "מרפאות - תזונה ודיאטה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "31203",
+      "display" : "מרפאות - כבד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "31204",
+      "display" : "מרפאות - כבד וכיס מרה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/department-type-moh",
+      "code" : "31205",
+      "display" : "מרפאות - מניעת ממאירות מ.עיכ"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

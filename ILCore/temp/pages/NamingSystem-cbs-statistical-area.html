@@ -1,0 +1,47 @@
+---
+---
+{% include fragment-pagebegin.html %}
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-base-navtabs.html type='NamingSystem' id='cbs-statistical-area' active='content' %}
+  <a name="root"> </a>
+
+  <h2 id="root">NamingSystem: {{site.data.pages[page.path].title | escape_once}}
+{% if site.data.resources[resource_].experimental == true %}(Experimental){% endif %}
+  </h2>
+
+{% include fragment-resourceTable.html %}
+
+{%if site.data.resources[resource_].description %}
+<p>
+{{site.data.resources[resource_].description|markdownify}}
+</p>
+{% endif %}
+{%if site.data.resources[resource_].purpose %}
+<p>
+{{site.data.resources[resource_].purpose|markdownify}}
+</p>
+{% endif %}
+  <!-- insert intro if present -->
+  {% include fragment-intro.html type='NamingSystem' id='cbs-statistical-area' %}
+
+<!--  <p>
+  Formats: <a href="NamingSystem-cbs-statistical-area.xml.html">XML</a>, <a href="NamingSystem-cbs-statistical-area.json.html">JSON</a>, <a href="NamingSystem-cbs-statistical-area.ttl.html">Turtle</a>
+  </p>-->
+{% unless example %}
+  {% if 'NamingSystem' == 'CapabilityStatement' %}
+  <p>
+      <a href="cbs-statistical-area.openapi.json" no-download="true">Raw OpenAPI-Swagger Definition file</a> | <a href="cbs-statistical-area.openapi.json" download>Download</a>
+  </p>
+  {% endif %}
+{% endunless %}
+
+  {% include NamingSystem-cbs-statistical-area-html.xhtml %}
+
+  <!-- insert notes if present -->
+  {% include fragment-notes.html type='NamingSystem' id='cbs-statistical-area' %}
+
+  {%include NamingSystem-cbs-statistical-area-history.xhtml%}
+
+</div>
+{% include fragment-pageend.html %}

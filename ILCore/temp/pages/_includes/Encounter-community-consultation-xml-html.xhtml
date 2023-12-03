@@ -1,0 +1,62 @@
+{% raw %}<pre class="xml" style="white-space: pre; overflow: hidden"><code class="language-xml">
+
+&lt;<a href="http://hl7.org/fhir/R4/encounter.html#Encounter">Encounter</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;community-consultation&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://fhir.health.gov.il/StructureDefinition/il-core-encounter&quot;/&gt;
+  &lt;/meta&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Encounter: Community Consultation&lt;/div&gt;<a name="end-xhtml"></a>
+  &lt;/text&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.identifier">identifier</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>
+            <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://fhir.community-emr.co.il/identifier/entity-id/encounter&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;234234234&quot;/&gt;
+  &lt;/identifier&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;in-progress&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.class">class</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://fhir.health.gov.il/cs/il-core-encounter-class&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;COMMUNITY-OR-HMO&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Community Care/HMO setting&quot;/&gt;
+  &lt;/class&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.type">type</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;11429006&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Consultation&quot;/&gt;
+    &lt;/coding&gt;
+  &lt;/type&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.serviceType">serviceType</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;310116007&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Psychiatry service&quot;/&gt;
+    &lt;/coding&gt;
+  &lt;/serviceType&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.subject">subject</a>&gt;<a href="Patient-patient-israeli-with-statistical-area.html" style="color: Maroon">&#x1F517;</a> 
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Patient/patient-israeli-with-statistical-area&quot;/&gt;
+  &lt;/subject&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.participant">participant</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.participant.type">type</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;PPRF&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;primary performer&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/type&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.participant.individual">individual</a>&gt;<a href="Practitioner-practitioner-md.html" style="color: Maroon">&#x1F517;</a> 
+      &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Practitioner/practitioner-md&quot;/&gt;
+    &lt;/individual&gt;
+  &lt;/participant&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.serviceProvider">serviceProvider</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://fhir.health.gov.il/identifier/legal-entity&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;589902279&quot;/&gt;
+    &lt;/identifier&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;מכבי שירותי בריאות&quot;/&gt;
+  &lt;/serviceProvider&gt;
+&lt;/Encounter&gt;</code></pre>
+{% endraw %}

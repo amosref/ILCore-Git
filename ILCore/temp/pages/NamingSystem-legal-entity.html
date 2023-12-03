@@ -1,0 +1,47 @@
+---
+---
+{% include fragment-pagebegin.html %}
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-base-navtabs.html type='NamingSystem' id='legal-entity' active='content' %}
+  <a name="root"> </a>
+
+  <h2 id="root">NamingSystem: {{site.data.pages[page.path].title | escape_once}}
+{% if site.data.resources[resource_].experimental == true %}(Experimental){% endif %}
+  </h2>
+
+{% include fragment-resourceTable.html %}
+
+{%if site.data.resources[resource_].description %}
+<p>
+{{site.data.resources[resource_].description|markdownify}}
+</p>
+{% endif %}
+{%if site.data.resources[resource_].purpose %}
+<p>
+{{site.data.resources[resource_].purpose|markdownify}}
+</p>
+{% endif %}
+  <!-- insert intro if present -->
+  {% include fragment-intro.html type='NamingSystem' id='legal-entity' %}
+
+<!--  <p>
+  Formats: <a href="NamingSystem-legal-entity.xml.html">XML</a>, <a href="NamingSystem-legal-entity.json.html">JSON</a>, <a href="NamingSystem-legal-entity.ttl.html">Turtle</a>
+  </p>-->
+{% unless example %}
+  {% if 'NamingSystem' == 'CapabilityStatement' %}
+  <p>
+      <a href="legal-entity.openapi.json" no-download="true">Raw OpenAPI-Swagger Definition file</a> | <a href="legal-entity.openapi.json" download>Download</a>
+  </p>
+  {% endif %}
+{% endunless %}
+
+  {% include NamingSystem-legal-entity-html.xhtml %}
+
+  <!-- insert notes if present -->
+  {% include fragment-notes.html type='NamingSystem' id='legal-entity' %}
+
+  {%include NamingSystem-legal-entity-history.xhtml%}
+
+</div>
+{% include fragment-pageend.html %}

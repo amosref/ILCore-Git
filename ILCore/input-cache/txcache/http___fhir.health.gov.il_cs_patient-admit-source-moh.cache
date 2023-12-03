@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.health.gov.il/cs/patient-admit-source-moh"
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://fhir.health.gov.il/cs/patient-admit-source-moh"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://fhir.health.gov.il/ValueSet/patient-admit-source-moh", "version": "0.13.1"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://fhir.health.gov.il/cs/patient-admit-source-moh"
+}
+-------------------------------------------------------------------------------------

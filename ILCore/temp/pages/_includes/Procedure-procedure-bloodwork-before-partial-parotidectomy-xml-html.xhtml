@@ -1,0 +1,45 @@
+{% raw %}<pre class="xml" style="white-space: pre; overflow: hidden"><code class="language-xml">
+
+&lt;<a href="http://hl7.org/fhir/R4/procedure.html#Procedure">Procedure</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/procedure.html#Procedure.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;procedure-bloodwork-before-partial-parotidectomy&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/procedure.html#Procedure.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://fhir.health.gov.il/StructureDefinition/il-core-procedure&quot;/&gt;
+  &lt;/meta&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/procedure.html#Procedure.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Bloodwork 24H before Partial Parotidectomy&lt;/div&gt;<a name="end-xhtml"></a>
+  &lt;/text&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/procedure.html#Procedure.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;completed&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/procedure.html#Procedure.code">code</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;396550006&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Blood test (procedure)&quot;/&gt;
+    &lt;/coding&gt;
+  &lt;/code&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/procedure.html#Procedure.subject">subject</a>&gt;<a href="Patient-patient-with-israeli-id.html" style="color: Maroon">&#x1F517;</a> 
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Patient/patient-with-israeli-id&quot;/&gt;
+  &lt;/subject&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/procedure.html#Procedure.performed[x]">performedDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2020-02-07&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime#dateTime.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/relative-date&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;event&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueReference</a>&gt;<a href="Procedure-partial-parotidectomy.html" style="color: Maroon">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Procedure/partial-parotidectomy&quot;/&gt;
+        &lt;/valueReference&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;relationship&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;before-start&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;offset&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueDuration</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Duration#Duration.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">value</a>=&quot;24&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Duration#Duration.unit">unit</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;hour&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Duration#Duration.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://unitsofmeasure.org&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Duration#Duration.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;h&quot;/&gt;
+        &lt;/valueDuration&gt;
+      &lt;/extension&gt;
+    &lt;/extension&gt;
+  &lt;/performedDateTime&gt;
+&lt;/Procedure&gt;</code></pre>
+{% endraw %}

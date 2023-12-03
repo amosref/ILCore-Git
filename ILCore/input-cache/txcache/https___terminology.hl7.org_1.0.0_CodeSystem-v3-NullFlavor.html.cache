@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "https://terminology.hl7.org/1.0.0/CodeSystem-v3-NullFlavor.html",
+      "concept" : [{
+        "code" : "UNK",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system https://terminology.hl7.org/1.0.0/CodeSystem-v3-NullFlavor.html"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "https://terminology.hl7.org/1.0.0/CodeSystem-v3-NullFlavor.html",
+      "concept" : [{
+        "code" : "UNK",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system https://terminology.hl7.org/1.0.0/CodeSystem-v3-NullFlavor.html"
+}
+-------------------------------------------------------------------------------------

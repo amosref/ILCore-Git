@@ -1,0 +1,2 @@
+I"+<p>This extension extends the AllergyIntolerance resource to support the exchange of information describing the date when the allergy or intolerance was no longer valid, and/or, the reason why the allergy or intolerance is no longer valid, which is currently not supported by the FHIR standard.</p>
+:ET

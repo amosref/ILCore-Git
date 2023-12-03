@@ -1,0 +1,94 @@
+{% raw %}<a name="rim"> </a><h3>Mappings for RIM Mapping (<a href="http://hl7.org/comparison-v3.html">http://hl7.org/v3</a>)</h3><table class="grid">
+ <tr><td colspan="3"><b>ILCoreSubstance</b></td></tr>
+ <tr><td>Substance</td><td>Entity. Role, or Act, Material</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;id</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;meta</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;implicitRules</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;language</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;text</td><td>Act.text?</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;contained</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>.id</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;status</td><td>.statusCode</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;category</td><td>.code</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;code</td><td>.code</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;description</td><td>.player.desc</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;instance</td><td>.player.determinerCode</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;identifier</td><td>.id</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;expiry</td><td>.expiryTime</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quantity</td><td>.player.quantity</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;ingredient</td><td>.player.scopesRole[classCode=INGR]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quantity</td><td>.quantity</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;substance[x]</td><td>.player</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;substance[x] (substanceReference)</td><td>.player</td> </tr>
+</table>
+<a name="orim"> </a><h3>Mappings for Ontological RIM Mapping (http://hl7.org/orim)</h3><table class="grid">
+ <tr><td colspan="3"><b>ILCoreSubstance</b></td></tr>
+ <tr><td>Substance</td><td>fhir:Substance rdfs:subClassOf   rim:Entity, [      a owl:Restriction;     owl:onProperty  rim:Act.classCode;     owl:allValuesFrom  cs:EntityClass\#MAT   ].</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;id</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;meta</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;implicitRules</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;language</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;text</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;contained</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;modifierExtension</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;status</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;category</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;code</td><td>fhir:Substance.code rdfs:subPropertyOf rim:Entity.code</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;description</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;instance</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;identifier</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;expiry</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quantity</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;ingredient</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quantity</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;substance[x]</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;substance[x] (substanceReference)</td><td></td> </tr>
+</table>
+<a name="w5"> </a><h3>Mappings for FiveWs Pattern Mapping (http://hl7.org/fhir/fivews)</h3><table class="grid">
+ <tr><td colspan="3"><b>ILCoreSubstance</b></td></tr>
+ <tr><td>Substance</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;id</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;meta</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;implicitRules</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;language</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;text</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;contained</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;modifierExtension</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>FiveWs.identifier</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;status</td><td>FiveWs.status</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;category</td><td>FiveWs.class</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;code</td><td>FiveWs.what[x]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;description</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;instance</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;identifier</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;expiry</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quantity</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;ingredient</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quantity</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;substance[x]</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;substance[x] (substanceReference)</td><td></td> </tr>
+</table>
+{% endraw %}

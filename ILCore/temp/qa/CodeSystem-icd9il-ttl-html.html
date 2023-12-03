@@ -1,0 +1,574 @@
+﻿<html>
+<head>
+  <title>CodeSystem-icd9il-ttl-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="rdf" style="white-space: pre; overflow: hidden">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:CodeSystem ;
+  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;icd9il&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Properties&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;This code system  defines the following properties for its concepts&lt;/b&gt;&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;type&lt;/td&gt;&lt;td&gt;string&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Concepts&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This case-insensitive code system &lt;code&gt;http://fhir.health.gov.il/cs/icd9il&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;type&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;00.97&lt;a name=\&quot;icd9il-00.4697\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;INTRAVENOUS INFUSION OF MONOCLONAL ANTIBODIES (IGG1) FOR CORONAVIRUS (COVID-19) PATIENT&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;079.84&lt;a name=\&quot;icd9il-079.4684\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CORONAVIRUS (COVID-19) INFECTION&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;079.85&lt;a name=\&quot;icd9il-079.4685\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CORONAVIRUS (COVID-19) INFECTION AFTER RECEIVING ONE VACCINE DOSE&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;079.86&lt;a name=\&quot;icd9il-079.4686\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CORONAVIRUS (COVID-19) INFECTION AFTER RECEIVING TWO VACCINE DOSES&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;079.87&lt;a name=\&quot;icd9il-079.4687\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CORONAVIRUS (COVID-19) RECURRENT INFECTION AFTER PREVIOUS EPISODE&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;079.90&lt;a name=\&quot;icd9il-079.4690\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CORONAVIRUS (COVID-19) INFECTION AFTER RECEIVING THREE VACCINE DOSES&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;079.91&lt;a name=\&quot;icd9il-079.4691\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CORONAVIRUS (COVID-19) INFECTION AFTER RECEIVING FOUR VACCINE DOSES&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;139.2&lt;a name=\&quot;icd9il-139.462\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;LATE EFFECTS OF CORONAVIRUS (COVID-19) INFECTION&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;250.76&lt;a name=\&quot;icd9il-250.4676\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;DIABETIC FOOT GANGRENE, ACTIVE&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;250.86&lt;a name=\&quot;icd9il-250.4686\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;DIABETIC FOOT ULCER, ACTIVE&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;539.02&lt;a name=\&quot;icd9il-539.4602\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PORT LEAK OF GASTRIC BAND PROCEDURE&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;539.03&lt;a name=\&quot;icd9il-539.4603\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PORT DISPLACEMENT OF GASTRIC BAND PROCEDURE&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;539.04&lt;a name=\&quot;icd9il-539.4604\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MINOR PORT INFECTION OF GASTRIC BAND PROCEDURE&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;539.05&lt;a name=\&quot;icd9il-539.4605\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;STOMACH OBSTRUCTION BY BAND SLIPPAGE&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;539.06&lt;a name=\&quot;icd9il-539.4606\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BAND EROSION&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;539.07&lt;a name=\&quot;icd9il-539.4607\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;LATE PORT OR BAND EROSION&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;539.08&lt;a name=\&quot;icd9il-539.4608\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ESOPHAGEAL DILATATION, ESOPHAGITIS DUE TO GASTRIC BAND&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;539.82&lt;a name=\&quot;icd9il-539.4682\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;LEAKAGE DUE TO OTHER BARIATRIC PROCEDURE&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;539.83&lt;a name=\&quot;icd9il-539.4683\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HEMORRHAGE DUE TO OTHER BARIATRIC PROCEDURE&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;747.65&lt;a name=\&quot;icd9il-747.4665\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;UTERINE ARTERIOVENOUS MALFORMATION (AVM)&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;796.61&lt;a name=\&quot;icd9il-796.4661\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NEONATAL OAE SCREEN PASSED&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;796.62&lt;a name=\&quot;icd9il-796.4662\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NEONATAL OAE SCREEN UNILATERAL FAIL&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;796.63&lt;a name=\&quot;icd9il-796.4663\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NEONATAL OAE SCREEN BILATERAL FAIL&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;796.64&lt;a name=\&quot;icd9il-796.4664\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NEONATAL AABR SCREEN PASSED&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;796.65&lt;a name=\&quot;icd9il-796.4665\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NEONATAL AABR SCREEN UNILATERAL FAIL&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;796.66&lt;a name=\&quot;icd9il-796.4666\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NEONATAL AABR SCREEN BILATERAL FAIL&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;796.67&lt;a name=\&quot;icd9il-796.4667\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NEONATAL HEARING SCREEN NOT PERFORMED&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;995.25&lt;a name=\&quot;icd9il-995.4625\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ADVERSE EFFECT OF COVID-19 VACCINATION&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;995.95&lt;a name=\&quot;icd9il-995.4695\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MULTISYSTEM INFLAMMATORY SYNDROME ASSOCIATED WITH COVID-19&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;998.84&lt;a name=\&quot;icd9il-998.4684\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;FAILED OR DIFFICULT INTUBATION&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;E829.2&lt;a name=\&quot;icd9il-E829.462\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;POWERED SCOOTER ACCIDENT INJURING PEDESTRIAN&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;E829.3&lt;a name=\&quot;icd9il-E829.463\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;POWERED SCOOTER ACCIDENT INJURING RIDER&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;E949.8&lt;a name=\&quot;icd9il-E949.468\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;COVID-19 VACCINE CAUSING ADVERSE EFFECTS IN THERAPEUTIC USE&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;V01.72&lt;a name=\&quot;icd9il-V01.4672\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONTACT WITH OR EXPOSURE TO CONFIRMED CORONAVIRUS (COVID-19)&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;V02.55&lt;a name=\&quot;icd9il-V02.4655\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ASYMPTOMATIC PATIENT TESTED POSITIVE FOR CORONAVIRUS (COVID-19)&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;V07.00&lt;a name=\&quot;icd9il-V07.4600\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NEED FOR ISOLATION&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;V07.01&lt;a name=\&quot;icd9il-V07.4601\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PROPHYLACTIC HOME ISOLATION AFTER CONTACT WITH CORONAVIRUS (COVID-19) PATIENT&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;V12.05&lt;a name=\&quot;icd9il-V12.4605\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CORONAVIRUS (COVID-19) RECOVERED PATIENT - CURRENT EPISODE&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;V13.82&lt;a name=\&quot;icd9il-V13.4682\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HISTORY OF CORONAVIRUS (COVID-19) INFECTION&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;V13.83&lt;a name=\&quot;icd9il-V13.4683\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;EVIDENCE OF PREVIOUS CORONAVIRUS (COVID-19) INFECTION BY SEROLOGY&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;V13.84&lt;a name=\&quot;icd9il-V13.4684\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;STATUS POST CORONAVIRUS (COVID-19) VACCINE, FIRST DOSE&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;V13.85&lt;a name=\&quot;icd9il-V13.4685\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;STATUS POST CORONAVIRUS (COVID-19) VACCINE, SECOND DOSE&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;V13.86&lt;a name=\&quot;icd9il-V13.4686\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;STATUS POST CORONAVIRUS (COVID-19) VACCINATION TO RECOVERED PATIENT&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;V13.87&lt;a name=\&quot;icd9il-V13.4687\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;STATUS POST CORONAVIRUS (COVID-19) VACCINE, THIRD DOSE&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;V13.88&lt;a name=\&quot;icd9il-V13.4688\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;STATUS POST CORONAVIRUS (COVID-19) VACCINE,FOURTH DOSE&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;V15.90&lt;a name=\&quot;icd9il-V15.4690\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;UNSPECIFIED PERSONAL HISTORY PRESENTING HAZARDS TO HEALTH&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;V15.91&lt;a name=\&quot;icd9il-V15.4691\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HISTORY OF FAILED OR DIFFICULT INTUBATION&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;V15.92&lt;a name=\&quot;icd9il-V15.4692\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HISTORY OF DIABETIC FOOT ULCER&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;V58.60&lt;a name=\&quot;icd9il-V58.4660\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;LONG TERM (CURRENT) CANNABIS USE&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;V64.20&lt;a name=\&quot;icd9il-V64.4620\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SURGICAL OR OTHER PROCEDURE NOT CARRIED OUT BECAUSE OF PATIENT'S DECISION&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;V64.21&lt;a name=\&quot;icd9il-V64.4621\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MEDICAL INTERVENTION NOT CARRIED OUT BECAUSE OF CAREGIVER REFUSAL&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;V64.50&lt;a name=\&quot;icd9il-V64.4650\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CORONAVIRUS (COVID-19) TEST NOT CARRIED OUT&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;V65.47&lt;a name=\&quot;icd9il-V65.4647\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CORONAVIRUS COVID-19 VACCINE COUNSELING&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;V71.84&lt;a name=\&quot;icd9il-V71.4684\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;OBSERVATION AND EVALUATION FOR SUSPECTED EXPOSURE TO CORONAVIRUS COVID-19&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;V71.85&lt;a name=\&quot;icd9il-V71.4685\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;OBSERVATION AND EVALUATION FOR SUSPECTED ADVERSE EFFECT OF COVID-19 VACCINATION NOT FOUND&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;V72.64&lt;a name=\&quot;icd9il-V72.4664\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CORONAVIRUS (COVID-19) TEST PERFORMED FOR ADMINISTRATIVE PURPOSES&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;V73.70&lt;a name=\&quot;icd9il-V73.4670\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;EXAMINATION FOR SUSPECTED CORONAVIRUS (COVID-19)&lt;/td&gt;&lt;td&gt;diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;00.98&lt;a name=\&quot;icd9il-00.4698\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SUBCUTANEOUS INJECTION OF MONOCLONAL ANTIBODIES (IGG1) FOR CORONAVIRUS (COVID-19) PATIENT&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;11.77&lt;a name=\&quot;icd9il-11.4677\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;AMNIOTIC MEMBRANE GRAFT&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;13.73&lt;a name=\&quot;icd9il-13.4673\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;INSERTION OF TORIC INTRAOCULAR LENS, UP TO 9 CYLINDER&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;13.74&lt;a name=\&quot;icd9il-13.4674\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;INSERTION OF TORIC INTRAOCULAR LENS, 9 CYLINDER OR OVER&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;13.75&lt;a name=\&quot;icd9il-13.4675\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;INSERTION OF MULTIFOCAL INTRAOCULAR LENS&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;13.76&lt;a name=\&quot;icd9il-13.4676\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;INSERTION OF MULTIFOCAL TORIC INTRAOCULAR LENS&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;26.33&lt;a name=\&quot;icd9il-26.4633\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PARTIAL PAROTIDECTOMY&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;26.34&lt;a name=\&quot;icd9il-26.4634\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;COMPLETE PAROTIDECTOMY&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;36.08&lt;a name=\&quot;icd9il-36.4608\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;INSERTION OF CORONARY SINUS REDUCER SYSTEM&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;43.83&lt;a name=\&quot;icd9il-43.4683\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ENDOSCOPIC (OVERSTITCH) SLEEVE GASTROPLASTY&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;43.84&lt;a name=\&quot;icd9il-43.4684\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRANSORAL ENDOSCOPIC (OVERSTITCH) REVISION OF GASTRIC ANASTOMOSIS&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;44.33&lt;a name=\&quot;icd9il-44.4633\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ONE ANASTOMOTIC GASTRIC BYPASS (LAP MINI GASTRIC BYPASS)&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;44.34&lt;a name=\&quot;icd9il-44.4634\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;OPEN ONE ANASTOMOTIC GASTRIC BYPASS (OPEN MINI GASTRIC BYPASS)&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;58.7&lt;a name=\&quot;icd9il-58.467\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;INSERTION OF URETHRAL STENT&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;75.10&lt;a name=\&quot;icd9il-75.4610\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;DIAGNOSTIC AMNIOCENTESIS&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;75.11&lt;a name=\&quot;icd9il-75.4611\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;THERAPEUTIC AMNIOCENTESIS&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;75.39&lt;a name=\&quot;icd9il-75.4639\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;UMBILICAL CORD OCCLUSION FOR FETAL REDUCTION&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;96.61&lt;a name=\&quot;icd9il-96.4661\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;FECAL MICROBIOTA TRANSPLANT (FMT) BY TRANSANAL ENEMA&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;96.62&lt;a name=\&quot;icd9il-96.4662\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;FECAL MICROBIOTA TRANSPLANT (FMT) BY ENTERAL INFUSION OF NUTRITIONAL SUBSTANCES&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;96.63&lt;a name=\&quot;icd9il-96.4663\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;FECAL MICROBIOTA TRANSPLANT (FMT) BY NASO-INTESTINAL TUBE&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;96.64&lt;a name=\&quot;icd9il-96.4664\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;FECAL MICROBIOTA TRANSPLANT (FMT) BY PEG&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;96.65&lt;a name=\&quot;icd9il-96.4665\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;FECAL MICROBIOTA TRANSPLANT (FMT) BY COLONOSCOPY&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;96.66&lt;a name=\&quot;icd9il-96.4666\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;FECAL MICROBIOTA TRANSPLANT (FMT) BY GASTROSCOPY&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;96.67&lt;a name=\&quot;icd9il-96.4667\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;FECAL MICROBIOTA TRANSPLANT (FMT)- PER OS&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;99.40&lt;a name=\&quot;icd9il-99.4640\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CORONAVIRUS (COVID-19) VACCINATION TO RECOVERED PATIENT&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;99.49&lt;a name=\&quot;icd9il-99.4649\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CORONAVIRUS COVID-19 VACCINE ADMINISTRATION, FIRST DOSE&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;99.50&lt;a name=\&quot;icd9il-99.4650\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CORONAVIRUS COVID-19 VACCINE ADMINISTRATION, SECOND DOSE&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;99.5A&lt;a name=\&quot;icd9il-99.465A\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CORONAVIRUS COVID-19 VACCINE ADMINISTRATION, THIRD DOSE&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;99.5B&lt;a name=\&quot;icd9il-99.465B\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CORONAVIRUS COVID-19 VACCINE ADMINISTRATION, FOURTH DOSE&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.extension">fhir:extension</a> ( [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/StructureDefinition/codesystem-effectiveDate&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#date">fhir:v</a> &quot;2023-01&quot;^^xsd:gYearMonth ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://fhir.health.gov.il/cs/icd9il&quot;^^xsd:anyURI] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;0.13.1&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;ICD9IL&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;ICD9IL: Adendum to ICD9 according to codes by Israeli MoH&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;draft&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.experimental">fhir:experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> &quot;false&quot;^^xsd:boolean] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2023-12-03T19:02:07+02:00&quot;^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">fhir:publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Israel Core Team&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">fhir:contact</a> ( [
+<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Israel Core Team&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:telecom</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;email&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;ido.levin@moh.gov.il&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Kippi Bordowitz&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:telecom</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;email&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;ido.levin@moh.gov.il&quot; ]     ] )
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;Strings for procedures and diagnoses, added to ICD9&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.caseSensitive">fhir:caseSensitive</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> &quot;false&quot;^^xsd:boolean] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">fhir:content</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;complete&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">fhir:count</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">fhir:v</a> &quot;86&quot;^^xsd:nonNegativeInteger] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property">fhir:property</a> ( [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;string&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">fhir:concept</a> ( [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;00.97&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;INTRAVENOUS INFUSION OF MONOCLONAL ANTIBODIES (IGG1) FOR CORONAVIRUS (COVID-19) PATIENT&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;079.84&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;CORONAVIRUS (COVID-19) INFECTION&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;079.85&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;CORONAVIRUS (COVID-19) INFECTION AFTER RECEIVING ONE VACCINE DOSE&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;079.86&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;CORONAVIRUS (COVID-19) INFECTION AFTER RECEIVING TWO VACCINE DOSES&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;079.87&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;CORONAVIRUS (COVID-19) RECURRENT INFECTION AFTER PREVIOUS EPISODE&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;079.90&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;CORONAVIRUS (COVID-19) INFECTION AFTER RECEIVING THREE VACCINE DOSES&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;079.91&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;CORONAVIRUS (COVID-19) INFECTION AFTER RECEIVING FOUR VACCINE DOSES&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;139.2&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;LATE EFFECTS OF CORONAVIRUS (COVID-19) INFECTION&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;250.76&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;DIABETIC FOOT GANGRENE, ACTIVE&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;250.86&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;DIABETIC FOOT ULCER, ACTIVE&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;539.02&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;PORT LEAK OF GASTRIC BAND PROCEDURE&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;539.03&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;PORT DISPLACEMENT OF GASTRIC BAND PROCEDURE&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;539.04&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;MINOR PORT INFECTION OF GASTRIC BAND PROCEDURE&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;539.05&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;STOMACH OBSTRUCTION BY BAND SLIPPAGE&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;539.06&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;BAND EROSION&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;539.07&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;LATE PORT OR BAND EROSION&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;539.08&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;ESOPHAGEAL DILATATION, ESOPHAGITIS DUE TO GASTRIC BAND&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;539.82&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;LEAKAGE DUE TO OTHER BARIATRIC PROCEDURE&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;539.83&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;HEMORRHAGE DUE TO OTHER BARIATRIC PROCEDURE&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;747.65&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;UTERINE ARTERIOVENOUS MALFORMATION (AVM)&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;796.61&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;NEONATAL OAE SCREEN PASSED&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;796.62&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;NEONATAL OAE SCREEN UNILATERAL FAIL&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;796.63&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;NEONATAL OAE SCREEN BILATERAL FAIL&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;796.64&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;NEONATAL AABR SCREEN PASSED&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;796.65&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;NEONATAL AABR SCREEN UNILATERAL FAIL&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;796.66&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;NEONATAL AABR SCREEN BILATERAL FAIL&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;796.67&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;NEONATAL HEARING SCREEN NOT PERFORMED&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;995.25&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;ADVERSE EFFECT OF COVID-19 VACCINATION&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;995.95&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;MULTISYSTEM INFLAMMATORY SYNDROME ASSOCIATED WITH COVID-19&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;998.84&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;FAILED OR DIFFICULT INTUBATION&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;E829.2&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;POWERED SCOOTER ACCIDENT INJURING PEDESTRIAN&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;E829.3&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;POWERED SCOOTER ACCIDENT INJURING RIDER&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;E949.8&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;COVID-19 VACCINE CAUSING ADVERSE EFFECTS IN THERAPEUTIC USE&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;V01.72&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;CONTACT WITH OR EXPOSURE TO CONFIRMED CORONAVIRUS (COVID-19)&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;V02.55&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;ASYMPTOMATIC PATIENT TESTED POSITIVE FOR CORONAVIRUS (COVID-19)&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;V07.00&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;NEED FOR ISOLATION&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;V07.01&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;PROPHYLACTIC HOME ISOLATION AFTER CONTACT WITH CORONAVIRUS (COVID-19) PATIENT&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;V12.05&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;CORONAVIRUS (COVID-19) RECOVERED PATIENT - CURRENT EPISODE&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;V13.82&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;HISTORY OF CORONAVIRUS (COVID-19) INFECTION&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;V13.83&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;EVIDENCE OF PREVIOUS CORONAVIRUS (COVID-19) INFECTION BY SEROLOGY&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;V13.84&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;STATUS POST CORONAVIRUS (COVID-19) VACCINE, FIRST DOSE&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;V13.85&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;STATUS POST CORONAVIRUS (COVID-19) VACCINE, SECOND DOSE&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;V13.86&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;STATUS POST CORONAVIRUS (COVID-19) VACCINATION TO RECOVERED PATIENT&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;V13.87&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;STATUS POST CORONAVIRUS (COVID-19) VACCINE, THIRD DOSE&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;V13.88&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;STATUS POST CORONAVIRUS (COVID-19) VACCINE,FOURTH DOSE&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;V15.90&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;UNSPECIFIED PERSONAL HISTORY PRESENTING HAZARDS TO HEALTH&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;V15.91&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;HISTORY OF FAILED OR DIFFICULT INTUBATION&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;V15.92&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;HISTORY OF DIABETIC FOOT ULCER&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;V58.60&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;LONG TERM (CURRENT) CANNABIS USE&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;V64.20&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;SURGICAL OR OTHER PROCEDURE NOT CARRIED OUT BECAUSE OF PATIENT'S DECISION&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;V64.21&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;MEDICAL INTERVENTION NOT CARRIED OUT BECAUSE OF CAREGIVER REFUSAL&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;V64.50&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;CORONAVIRUS (COVID-19) TEST NOT CARRIED OUT&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;V65.47&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;CORONAVIRUS COVID-19 VACCINE COUNSELING&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;V71.84&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;OBSERVATION AND EVALUATION FOR SUSPECTED EXPOSURE TO CORONAVIRUS COVID-19&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;V71.85&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;OBSERVATION AND EVALUATION FOR SUSPECTED ADVERSE EFFECT OF COVID-19 VACCINATION NOT FOUND&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;V72.64&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;CORONAVIRUS (COVID-19) TEST PERFORMED FOR ADMINISTRATIVE PURPOSES&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;V73.70&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;EXAMINATION FOR SUSPECTED CORONAVIRUS (COVID-19)&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;diagnosis&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;00.98&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;SUBCUTANEOUS INJECTION OF MONOCLONAL ANTIBODIES (IGG1) FOR CORONAVIRUS (COVID-19) PATIENT&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;11.77&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;AMNIOTIC MEMBRANE GRAFT&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;13.73&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;INSERTION OF TORIC INTRAOCULAR LENS, UP TO 9 CYLINDER&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;13.74&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;INSERTION OF TORIC INTRAOCULAR LENS, 9 CYLINDER OR OVER&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;13.75&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;INSERTION OF MULTIFOCAL INTRAOCULAR LENS&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;13.76&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;INSERTION OF MULTIFOCAL TORIC INTRAOCULAR LENS&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;26.33&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;PARTIAL PAROTIDECTOMY&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;26.34&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;COMPLETE PAROTIDECTOMY&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;36.08&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;INSERTION OF CORONARY SINUS REDUCER SYSTEM&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;43.83&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;ENDOSCOPIC (OVERSTITCH) SLEEVE GASTROPLASTY&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;43.84&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;TRANSORAL ENDOSCOPIC (OVERSTITCH) REVISION OF GASTRIC ANASTOMOSIS&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;44.33&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;ONE ANASTOMOTIC GASTRIC BYPASS (LAP MINI GASTRIC BYPASS)&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;44.34&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;OPEN ONE ANASTOMOTIC GASTRIC BYPASS (OPEN MINI GASTRIC BYPASS)&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;58.7&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;INSERTION OF URETHRAL STENT&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;75.10&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;DIAGNOSTIC AMNIOCENTESIS&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;75.11&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;THERAPEUTIC AMNIOCENTESIS&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;75.39&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;UMBILICAL CORD OCCLUSION FOR FETAL REDUCTION&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;96.61&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;FECAL MICROBIOTA TRANSPLANT (FMT) BY TRANSANAL ENEMA&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;96.62&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;FECAL MICROBIOTA TRANSPLANT (FMT) BY ENTERAL INFUSION OF NUTRITIONAL SUBSTANCES&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;96.63&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;FECAL MICROBIOTA TRANSPLANT (FMT) BY NASO-INTESTINAL TUBE&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;96.64&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;FECAL MICROBIOTA TRANSPLANT (FMT) BY PEG&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;96.65&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;FECAL MICROBIOTA TRANSPLANT (FMT) BY COLONOSCOPY&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;96.66&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;FECAL MICROBIOTA TRANSPLANT (FMT) BY GASTROSCOPY&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;96.67&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;FECAL MICROBIOTA TRANSPLANT (FMT)- PER OS&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;99.40&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;CORONAVIRUS (COVID-19) VACCINATION TO RECOVERED PATIENT&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;99.49&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;CORONAVIRUS COVID-19 VACCINE ADMINISTRATION, FIRST DOSE&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;99.50&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;CORONAVIRUS COVID-19 VACCINE ADMINISTRATION, SECOND DOSE&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;99.5A&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;CORONAVIRUS COVID-19 VACCINE ADMINISTRATION, THIRD DOSE&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;99.5B&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;CORONAVIRUS COVID-19 VACCINE ADMINISTRATION, FOURTH DOSE&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;type&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;procedure&quot; ]     ] )
+  ] ) . # 
+
+</pre>
+
+</body>
+</html>

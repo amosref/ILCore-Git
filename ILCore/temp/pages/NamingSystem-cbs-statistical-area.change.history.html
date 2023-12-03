@@ -1,0 +1,21 @@
+---
+---
+<!-- layouts\layout-changehistory.html -->
+<!-- get modelType -->
+
+
+{% include fragment-pagebegin.html %}
+
+<div style="counter-reset: section 10" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-base-navtabs.html type='NamingSystem' id='cbs-statistical-area' active='history' %}
+
+  <a name="root"> </a>
+  <h2 id="root">{{type}}: Israeli CBS statistical area - Change History</h2>
+  <p>History of changes for cbs-statistical-area {{type | downcase}}.</p>
+
+  {%include NamingSystem-cbs-statistical-area-history.xhtml%}
+
+</div>
+{% assign includetabscripts = 'true' %}
+{% include fragment-pageend.html %}

@@ -1,0 +1,5041 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://fhir.health.gov.il/ValueSet/medical-service-moh", "version": "0.13.1"}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "url" : "http://fhir.health.gov.il/ValueSet/medical-service-moh",
+  "version" : "0.13.1",
+  "name" : "MedicalServiceMoH",
+  "title" : "קוד מוצר או שירות",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2023-12-03T19:02:07+02:00",
+  "expansion" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
+      "valueBoolean" : true
+    }],
+    "identifier" : "urn:uuid:8cfff42b-48de-4f63-823a-3bd2e6e770f0",
+    "timestamp" : "2023-12-03T17:16:50.374Z",
+    "total" : 1000,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://fhir.health.gov.il/cs/medical-service-moh|0.13.1"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://fhir.health.gov.il/cs/medical-service-moh|0.13.1"
+    }],
+    "contains" : [{
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "1996",
+      "display" : "שיכוך כאב כרוני, אפידורל"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "1999",
+      "display" : "הרדמה כללית לטפול אמבולטורי, בנוכחות מרדים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "10060",
+      "display" : "חיתוך וניקוז מורסה/ציסטה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "11100",
+      "display" : "ביופסיה, למעט פעולות להן קוד מיוחד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "11750",
+      "display" : "כריתת ציפורן חודרנית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "11770",
+      "display" : "כריתת ציסטה, כגון פילונידלית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "11975",
+      "display" : "הכנסת תכשיר תת עורי, כגון נורפלנט, למניעת הריון, כולל עלות התכשיר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "11976",
+      "display" : "הוצאת תכשיר תת עורי, כגון נורפלנט, למניעת הריון"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "12001",
+      "display" : "איחוי כירורגי שטחי של פצעים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "16030",
+      "display" : "טפול בכוויות גדולות, עם/ללא הטריה, ללא הרדמה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "17000",
+      "display" : "הרחקת גידולי עור בשיטות שונות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "17311",
+      "display" : "נתוח מיקרוגרפי בשיטת MOHS"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "17999",
+      "display" : "טפול בלייזר בעוצמות נמוכות מדרגה 1 או 2, תעריף לטפול"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "19085",
+      "display" : "ביופסיה של השד בהנחיית MRI, תעריף לשד אחד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "19100",
+      "display" : "ביופסיה של השד, מחט, ללא הנחיית דימות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "19101",
+      "display" : "ביופסיה נתוחית של השד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "19102",
+      "display" : "ביופסיה של השד בהנחיית דימות, למעט CT/MRI"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "19499",
+      "display" : "בדיקת שד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "20205",
+      "display" : "ביופסיה של שריר, כולל בדיקות היסטולוגיות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "20206",
+      "display" : "ביופסיה של שריר, כולל לקיחה, הכנת הרקמה לכל הבדיקות, צביעות היסטוכימיות ובדיקה אלקטרומיקרוסקופית באם צריך"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "20220",
+      "display" : "ביופסיה של עצם, שטחית, בעזרת מחט/נקז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "20520",
+      "display" : "הוצאת גוף זר מהשריר/גיד בהרדמה מקומית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "20600",
+      "display" : "ניקור, שאיבה ו/או הזרקה לפרק קטן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "20605",
+      "display" : "ניקור, שאיבה ו/או הזרקה לפרק בינוני"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "20610",
+      "display" : "ניקור, שאיבה ו/או הזרקה לפרק גדול"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "20902",
+      "display" : "הנצלת עצם קורטיקאלית, שולי עצם, סחוס"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "21310",
+      "display" : "החזרת שבר בעצמות האף בשיטה סגורה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "28899",
+      "display" : "לחץ תוך מדורי בלשכות שריר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "29035",
+      "display" : "ערכת גבס, spica, לבעיות עמוד שדרה, מכתף עד אגן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "29065",
+      "display" : "גבס ארוך, מכתף עד כף יד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "29075",
+      "display" : "גבס קצר, ממרפק עד לאצבעות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "29085",
+      "display" : "גבס, כף יד ואמה תחתונה, כפפה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "29345",
+      "display" : "גבס ארוך, מירך עד לאצבעות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "29405",
+      "display" : "גבס קצר, מתחת לברך עד לאצבעות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "29700",
+      "display" : "הורדת גבס"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "29720",
+      "display" : "תיקון גבס"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "30110",
+      "display" : "כריתת פוליפ מהאף, פשוטה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "30200",
+      "display" : "הזרקה לקונכיות האף"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "30300",
+      "display" : "הוצאת גוף זר מהאף, שטחי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "30801",
+      "display" : "צריבה/הרס רירית הקונכיות, חד/דו צדדי, בשיטות שונות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "31002",
+      "display" : "שטיפת סינוסים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "31575",
+      "display" : "לרינגוסקופיה פיבראופטית גמישה אבחנתית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "31579",
+      "display" : "לרינגוסקופיה פיבראופטית עם סטרובוסקופיה של מיתרי הקול"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "32000",
+      "display" : "ניקור/ניקוז תפליט פלאורלי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "36005",
+      "display" : "הזרקת חומר ניגוד לנקז קיים כולל ביצוע צילום/שיקוף"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "36468",
+      "display" : "הזרקת חומרים חוסמי ורידים, spider veins"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "36511",
+      "display" : "לויקופרזיס טפולי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "36513",
+      "display" : "טסיות דם מפרזיס"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "36515",
+      "display" : "פלסמפרזיס טפולי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "36522",
+      "display" : "פוטופרזיס חוץ גופי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "36590",
+      "display" : "הוצאת צנתר קבוע מוריד מרכזי, כגון פורטה-קאת, היקמן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "36600",
+      "display" : "דיקור עורק לשם לקיחת דם עורקי לבדיקה, כולל הבדיקה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "38220",
+      "display" : "שאיבת מח עצם, כולל לקיחה ומשטח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "38221",
+      "display" : "ביופסיה של מח עצם, כולל לקיחה ומשטח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "38505",
+      "display" : "ניקור בלוטה/ות לימפה שטחיות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "40808",
+      "display" : "ביופסיה של חלל הפה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "40840",
+      "display" : "העמקת הוסטיבולום, וסטיבולופלסטיקה, ריפוי שניוני"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "41010",
+      "display" : "חיתוך פרנום הלשון, פרנוטומיה, פרנולקטומיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "42699",
+      "display" : "אנדוסקופיה של בלוטות רוק"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "42700",
+      "display" : "חיתוך וניקוז מורסה פריטונסילרית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "42809",
+      "display" : "הוצאת גוף זר מהלוע, שטחי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "43200",
+      "display" : "אזופגוסקופיה אבחנתית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "43204",
+      "display" : "אזופגוסקופיה עם הזרקת חומר חוסם של דליות בושט"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "43219",
+      "display" : "אזופגוסקופיה עם הרחבה והחדרת תותב/תומך, במסגרת אמבולטורית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "43235",
+      "display" : "אנדוסקופיה של דרכי עיכול עליונות, עם/ללא איסוף דגימה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "43240",
+      "display" : "ניקוז אנדוסקופי של פסוידוציסטה בלבלב בהנחיית EUS"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "43259",
+      "display" : "EUS, בדיקה על קולית אנדוסקופית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "43260",
+      "display" : "ERCP אבחנתי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "43264",
+      "display" : "ERCP טפולי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "43450",
+      "display" : "הרחבת ושט, ללא הנחיית דימות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "43750",
+      "display" : "גסטרוסטומיה מלעורית, PEG"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "43760",
+      "display" : "החלפת גסטרוסטומיה מלעורית, PEG"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "44360",
+      "display" : "אנדוסקופיה אבחנתית של המעי הדק, עם/ללא איסוף דגימה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "45300",
+      "display" : "פרוקטוסיגמואידוסקופיה אבחנתית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "45331",
+      "display" : "סיגמואידוסקופיה גמישה עם/ללא ביופסיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "45378",
+      "display" : "קולונוסקופיה גמישה אבחנתית, עם/ללא לקיחת דגימה, לאוכלוסיה בסיכון"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "45383",
+      "display" : "קולונוסקופיה עם כריתת נגע"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "45387",
+      "display" : "קולונוסקופיה עם הרחבה והחדרת תותב/תומך, במסגרת אמבולטורית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "45905",
+      "display" : "הרחבת פי הטבעת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "46080",
+      "display" : "חיתוך סוגר פי הטבעת בהרדמה כללית/אזורית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "46500",
+      "display" : "הזרקת חומר חוסם טחורים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "46600",
+      "display" : "אנוסקופיה אבחנתית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "47999",
+      "display" : "ריסוק אבנים חיצוני בדרכי מרה על ידי גלי הדף, פשוט"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "49321",
+      "display" : "לפרוסקופיה נתוחית עם ביופסיה אחת/יותר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "50040",
+      "display" : "הכנסת נפרוסטום עם ניקוז שתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "50398",
+      "display" : "מיקום מחדש/החלפת נפרוסטום באגן הכליה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "50590",
+      "display" : "ריסוק אבנים חיצוני בכליה על ידי גלי הדף, פשוט, במסגרת אמבולטורית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "51045",
+      "display" : "הכנסת תומך לשופכה או לשופכן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "51700",
+      "display" : "צנתור ושטיפה של שלפוחית השתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "51703",
+      "display" : "הכנסת צנתר לשופכה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "51720",
+      "display" : "שטיפה כמותרפית בגידולי שלפוחית השתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "51726",
+      "display" : "ציסטומטריה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "51736",
+      "display" : "אורופלומטריה פשוטה, בדיקת עוצמת זרימת השתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "51741",
+      "display" : "אורופלומטריה מורכבת, אורודינמיקה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "51772",
+      "display" : "פרופיל לחצים לאורך השופכה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "51784",
+      "display" : "EMG, אלקטרומיוגרפיה של סוגר השופכה/פי הטבעת, בשיטות שונות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "52000",
+      "display" : "ציסטואורתרוסקופיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "52204",
+      "display" : "ציסטואורתרוסקופיה עם ביופסיה/פעולה כירורגית אחרת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "53000",
+      "display" : "פיום השופכה, אורתרוטומיה או אורתרוסטומיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "53850",
+      "display" : "הרס רקמת הערמונית על ידי חום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "53899",
+      "display" : "ציסטוסקופיה להזרקת בוטולינום טוקסין, כולל עלות החומר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "54235",
+      "display" : "הזרקה לגוף הספוגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "54250",
+      "display" : "בדיקת נוכחות זקפה לילית, NPT, כגון Rigiscan"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "55000",
+      "display" : "ניקור הידרוצלה, עם/ללא הזרקת תרופות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "55700",
+      "display" : "ביופסיה של הערמונית, בגישות שונות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "55870",
+      "display" : "הפקת זרע באלקטרוסטימולציה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "57452",
+      "display" : "קולפוסקופיה, וגינוסקופיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "57510",
+      "display" : "צריבת צואר הרחם בשיטות שונות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "58120",
+      "display" : "גרידה אבחנתית ו/או טפולית, למעט להפסקת הריון"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "58300",
+      "display" : "הכנסת התקן תוך רחמי, IUD"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "58301",
+      "display" : "הוצאת התקן תוך רחמי, IUD"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "58321",
+      "display" : "הזרקת זרע לצואר הרחם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "58322",
+      "display" : "הזרקת זרע לתוך הרחם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "58323",
+      "display" : "רחיצת זרע והכנתו להפריה מלאכותית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "58345",
+      "display" : "צנתור חצוצרות אבחנתי/טפולי, במסגרת אמבולטורית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "58555",
+      "display" : "היסטרוסקופיה אבחנתית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "58558",
+      "display" : "היסטרוסקופיה כירורגית עם ביופסיה/פעולה כירורגית אחרת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "58563",
+      "display" : "היסטרוסקופיה כירורגית עם הרס רירית הרחם על ידי חום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "58974",
+      "display" : "החזרת עוברים שנשמרו בהקפאה לחלל הרחם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "59000",
+      "display" : "דיקור מי שפיר, אמניוצנטזיס"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "59012",
+      "display" : "דיקור חבל הטבור, קורדוצנטזיס, בגישות שונות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "59020",
+      "display" : "תבחין דחק לעובר על ידי מתן פיטוצין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "59025",
+      "display" : "תבחין לעובר ללא דחק וללא פיטוצין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "59866",
+      "display" : "הפחתה סלקטיבית של עוברים, לרבות הנחיית US"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "59871",
+      "display" : "הוצאת תפר מצואר הרחם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "62270",
+      "display" : "ניקור/ניקוז מותני, אבחנתי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "62272",
+      "display" : "ניקור/ניקוז מותני, טפולי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "62310",
+      "display" : "הזרקה אפידורלית/תת עכבישית, צוארי/גבי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "62311",
+      "display" : "הזרקה אפידורלית/תת עכבישית, מותני/סקרלי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "64400",
+      "display" : "הזרקת חומר הרדמה לעצב, כגון ליגנוקאין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "64470",
+      "display" : "הזרקה פרהורטברלית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "64550",
+      "display" : "דיכוי עצבי על ידי גירוי חשמלי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "64612",
+      "display" : "הזרקת בוטולינום טוקסין, 10 יחידות בוטוקס"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "65205",
+      "display" : "הוצאת גוף זר מהעין החיצונית, שטחי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "66984",
+      "display" : "השתלת עדשה תוך עינית, למעט עדשה טורית, מולטיפוקלית או מולטיפוקלית טורית, כולל עלות העדשה, במסגרת אמבולטורית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "66999",
+      "display" : "השתלת טבעות בקרנית לטפול בקרטוקונוס"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "67210",
+      "display" : "פוטוקואגולציה PDT לרשתית, ללא חומר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "67912",
+      "display" : "השתלת משקולת זהב בעפעף"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "68810",
+      "display" : "צנרור צנור הדמעות, עם/ללא שטיפה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "68811",
+      "display" : "צנרור צנור הדמעות, עם/ללא שטיפה, בהרדמה כללית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "69000",
+      "display" : "ניקור/ניקוז מורסה/המטומה באוזן החיצונית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "69200",
+      "display" : "הוצאת גוף זר מהאוזן, שטחי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "69210",
+      "display" : "שטיפת אוזניים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "69420",
+      "display" : "פיום עור התוף כולל ניקור/ניקוז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "69436",
+      "display" : "הכנסת כפתורים לאוזן בהרדמה כללית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "70030",
+      "display" : "צילום עיניים לאיתור גוף זר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "70100",
+      "display" : "צילום לסת, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "70120",
+      "display" : "צילום מסטואיד, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "70170",
+      "display" : "צילום שק הדמעות, עם חומר ניגוד, כולל נוכחות רדיולוג ופענוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "70200",
+      "display" : "צילום ארובות עיניים, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "70210",
+      "display" : "צילום מערות אף, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "70240",
+      "display" : "צילום אוכף תורכי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "70250",
+      "display" : "צילום גולגולת, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "70332",
+      "display" : "ארתרוגרפיה של מפרק הלסת, כולל הזרקה ופענוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "70336",
+      "display" : "MRI מפרק/י הלסת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "70360",
+      "display" : "צילום רקמות רכות בצואר, כולל קנה הנשימה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "70390",
+      "display" : "צילום בלוטות רוק, סיאלוגרפיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "70540",
+      "display" : "MRI ארובות עיניים, פנים וצואר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "70544",
+      "display" : "MRA מוח, תעריף לבדיקה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "70547",
+      "display" : "MRA ראש ו/או צואר, תעריף לבדיקה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "70551",
+      "display" : "MRI מוח, כולל גזע המוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "71020",
+      "display" : "צילום בית החזה, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "71023",
+      "display" : "צילום בית החזה עד שני מבטים, עם שיקוף"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "71100",
+      "display" : "צילום צלעות, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "71120",
+      "display" : "צילום עצם החזה, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "71550",
+      "display" : "MRI בית החזה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "71555",
+      "display" : "MRA בית החזה, למעט שריר הלב, תעריף לבדיקה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "72010",
+      "display" : "צילום עמוד שדרה לכל אורכו, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "72040",
+      "display" : "צילום עמוד שדרה צוארי, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "72070",
+      "display" : "צילום עמוד שדרה גבי, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "72080",
+      "display" : "צילום עמוד שדרה גבי-מותני, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "72100",
+      "display" : "צילום עמוד שדרה מותני-סקרלי, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "72141",
+      "display" : "MRI תעלה ועמוד שדרה צוארי, לנבדק ליום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "72146",
+      "display" : "MRI תעלה ועמוד שדרה גבי, לנבדק ליום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "72148",
+      "display" : "MRI תעלה ועמוד שדרה מותני, לנבדק ליום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "72159",
+      "display" : "MRA תעלת עמוד שדרה ותכולתה, תעריף לבדיקה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "72170",
+      "display" : "צילום אגן, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "72198",
+      "display" : "MRA אגן, תעריף לבדיקה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "72200",
+      "display" : "צילום מפרקי עצה וכסל, SIJ, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "72270",
+      "display" : "מיאלוגרפיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73000",
+      "display" : "צילום עצם הבריח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73010",
+      "display" : "צילום עצם השכמה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73030",
+      "display" : "צילום כתף מלא, צד אחד, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73040",
+      "display" : "ארתרוגרפיה של הכתף, כולל הזרקה ופענוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73060",
+      "display" : "צילום זרוע, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73070",
+      "display" : "צילום מרפק, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73085",
+      "display" : "ארתרוגרפיה של המרפק, כולל הזרקה ופענוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73090",
+      "display" : "צילום אמה, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73092",
+      "display" : "צילום גפיים עליונים, פעוט, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73100",
+      "display" : "צילום שורש יד, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73115",
+      "display" : "ארתרוגרפיה של שורש יד, כולל הזרקה ופענוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73120",
+      "display" : "צילום כף יד, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73140",
+      "display" : "צילום אצבע/ות יד, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73221",
+      "display" : "MRI מפרקי הגף העליון, לנבדק ליום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73225",
+      "display" : "MRA גף עליון, תעריף לבדיקה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73500",
+      "display" : "צילום מפרק הירך, חד צדדי, מבט אחד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73520",
+      "display" : "צילום מפרק הירך, דו צדדי, כולל צילום אגן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73525",
+      "display" : "ארתרוגרפיה של הירך, כולל הזרקה ופענוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73542",
+      "display" : "ארתרוגרפיה של מפרק עצה וכסל, כולל הזרקה ופענוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73550",
+      "display" : "צילום ירך, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73560",
+      "display" : "צילום ברך, עד שני מבטים, לצד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73562",
+      "display" : "צילום ברך, תוספת עבור מבט שלישי ואילך"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73580",
+      "display" : "ארתרוגרפיה של הברך, כולל הזרקה ופענוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73590",
+      "display" : "צילום שוק, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73592",
+      "display" : "צילום גפיים תחתונים, פעוט, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73610",
+      "display" : "צילום קרסול, מלא, צד אחד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73615",
+      "display" : "ארתרוגרפיה של הקרסול, כולל הזרקה ופענוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73620",
+      "display" : "צילום כף רגל, עד שני מבטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73721",
+      "display" : "MRI מפרקי הגף התחתון, לנבדק ליום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "73725",
+      "display" : "MRA גף תחתון, תעריף לבדיקה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "74000",
+      "display" : "צילום בטן ללא חומר ניגוד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "74181",
+      "display" : "MRI בטן, לנבדק ליום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "74185",
+      "display" : "MRA בטן, תעריף לבדיקה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "74220",
+      "display" : "צילום ושט"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "74230",
+      "display" : "תפקוד הבליעה, כולל הסרטה, סינה/וידאורדיוגרפיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "74241",
+      "display" : "שיקוף ו/או צילום ושט, קיבה ותריסריון, עם/ללא צילומים מאוחרים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "74245",
+      "display" : "שיקוף ושט, קיבה, תרסריון ומעי דק, כולל צילומים סדרתיים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "74249",
+      "display" : "צילומי בטן עוקבים למעבר חומר ניגוד במעי הדק"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "74270",
+      "display" : "חוקן בריום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "74280",
+      "display" : "חוקן בריום ואויר, עם/ללא גלוקגון"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "74290",
+      "display" : "צילום כיס מרה לאחר מתן חומר דרך הפה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "74360",
+      "display" : "הרחבת היצרויות ו/או חסימות בושט בהנחיית דימות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "74400",
+      "display" : "IVP עם/ללא טומוגרפיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "74420",
+      "display" : "צילום כליות לאחר מילוי רטרוגרדי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "74450",
+      "display" : "אורתרוציסטוגרפיה, שיקוף ו/או צילום שלפוחית השתן והשופכה לאחר מילוי רטרוגרדי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "74455",
+      "display" : "אורתרוציסטוגרפיה, שיקוף ו/או צילום שלפוחית השתן והשופכה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "74740",
+      "display" : "צילום רחם וחצוצרות, היסטרוסלפינגוגרפיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "75552",
+      "display" : "MRI מבנה לב, לנבדק ליום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "75554",
+      "display" : "MRI תפקוד לב, עם/ללא מבנה, מבחן מלא, לנבדק ליום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "75803",
+      "display" : "לימפאנגיוגרפיה, גפיים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "75822",
+      "display" : "פלבוגרפיה, ונוגרפיה, כולל הזרקת החומר וביצוע הצילום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "76000",
+      "display" : "שיקוף לצורך פעולות נוספות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "76120",
+      "display" : "בדיקת המעי באמצעות מצלמה ניידת, קפסולה נבלעת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "76140",
+      "display" : "פענוח/יעוץ לבדיקת דימות מבחוץ, למעט פענוח MRI מוח לגידול ממאיר להערכת תגובה לטפול"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "76390",
+      "display" : "MRI ספקטרוסקופיה, לנבדק ליום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "76512",
+      "display" : "US עיניים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "76514",
+      "display" : "US עיניים, פכימטריה, מדידת עובי הקרנית, לנבדק"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "76536",
+      "display" : "US רקמות רכות בראש וצואר, עם תיעוד תמונות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "76604",
+      "display" : "US בית החזה, כולל מדיאסטינום, עם תיעוד תמונות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "76645",
+      "display" : "US שדיים ובית החזה, עם תיעוד תמונות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "76700",
+      "display" : "US בטן, למעט סקר לאבחון מפרצת אאורטה, עם תיעוד תמונות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "76805",
+      "display" : "US לסקירת מערכות עובר עם תיעוד תמונות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "76813",
+      "display" : "US לשקיפות עורפית של העובר, לעובר אחד, עם תיעוד תמונות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "76814",
+      "display" : "US לשקיפות עורפית של העובר, לכל עובר נוסף, עם תיעוד תמונות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "76815",
+      "display" : "US מיילדותי, עם תיעוד תמונות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "76825",
+      "display" : "אקוקרדיוגרפיה עוברית, עם תיעוד תמונות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "76827",
+      "display" : "אקוקרדיוגרפיה עוברית, כולל דופלר, בדיקת זרימת דם לעובר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "76830",
+      "display" : "US וגינלי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "76831",
+      "display" : "הדגמה סונוגרפית של חלל הרחם והחצוצרות, עם חומר ניגוד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "76857",
+      "display" : "US אגן, מעקב זקיקים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "76870",
+      "display" : "US שק האשכים, עם תיעוד תמונות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "76872",
+      "display" : "US דרך החלחולת, טרנסרקטלי, עם תיעוד תמונות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "76942",
+      "display" : "ביופסיה/פעולה כירורגית בהנחיית US"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "77002",
+      "display" : "ביופסיה/פעולה כירורגית בהנחיית שיקוף"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "77012",
+      "display" : "ביופסיה/פעולה כירורגית בהנחיית CT, במסגרת אמבולטורית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "77021",
+      "display" : "ביופסיה/פעולה כירורגית בהנחיית MRI, למעט שד, במסגרת אמבולטורית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "77031",
+      "display" : "הכוונה סטראוטקטית לביופסיה של השד/מיקום מחט, כולל הפעולה, תחת דימות כגון ממוגרפיה ממוחשבת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "77032",
+      "display" : "ממוגרפיה לסימון המיקום של גוש בשד על ידי מחטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "77054",
+      "display" : "דקטוגרפיה/גלקטוגרפיה של השד עם פענוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "77056",
+      "display" : "ממוגרפיה דו צדדית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "77059",
+      "display" : "MRI שד, דו צדדי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "77073",
+      "display" : "צילום למדידת אורך עצמות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "77080",
+      "display" : "צפיפות עצם בשיטת DXA"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "77261",
+      "display" : "תכנון הקרנה טפולית, רדיותרפיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "77280",
+      "display" : "סימולציה לפני הקרנה טפולית, רדיותרפיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "77295",
+      "display" : "סימולציה ותכנון הקרנה בעזרת מחשב, תלת ממדי, 3D"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "77401",
+      "display" : "הקרנות ביחידה לרדיותרפיה, לשדה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78000",
+      "display" : "בלוטת התריס, קליטה, מדידה אחת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78001",
+      "display" : "בלוטת התריס, קליטה, מספר מדידות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78007",
+      "display" : "מיפוי בלוטת התריס, עם קליטה, מספר מדידות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78010",
+      "display" : "מיפוי בלוטת התריס"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78018",
+      "display" : "מיפוי בלוטת התריס לגרורות, כל גופי, I-131"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78070",
+      "display" : "מיפוי יותרת התריס, פרתירואיד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78104",
+      "display" : "מיפוי מח עצם, כל גופי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78122",
+      "display" : "מדידה רדיואיזוטופית של נפח דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78130",
+      "display" : "אורך חיים של כדוריות אדומות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78191",
+      "display" : "טסיות דם, אורך חיים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78195",
+      "display" : "מיפוי בלוטות לימפה ודרכי לימפה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78205",
+      "display" : "מיפוי כבד וטחול, SPECT"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78215",
+      "display" : "מיפוי כבד וטחול, סטטי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78216",
+      "display" : "מיפוי כבד וטחול, דינמי וסטטי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78223",
+      "display" : "מיפוי דרכי מרה וכיס מרה, עם/ללא שימוש בתרופות, עם/ללא מדידת תפקוד כיס מרה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78231",
+      "display" : "מיפוי בלוטות רוק, עם סדרת תמונות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78258",
+      "display" : "מיפוי תנועתיות ושט, דינמי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78262",
+      "display" : "מיפוי רפלוקס קיבתי-ושטי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78264",
+      "display" : "מיפוי התרוקנות קיבה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78270",
+      "display" : "ספיגת ויטמין B-12, ללא פקטור אינטרינסי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78271",
+      "display" : "ספיגת ויטמין B-12, עם פקטור אינטרינסי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78278",
+      "display" : "מיפוי דמם חריף במערכת העיכול, דינמי וסטטי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78290",
+      "display" : "מיפוי רקמת מעיים, כגון רירית קיבה אקטופית, מקלס"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78291",
+      "display" : "מיפוי פתיחות דלף ורידי פריטונאלי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78300",
+      "display" : "מיפוי עצם ו/או מפרק, ממוקד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78306",
+      "display" : "מיפוי עצם ו/או מפרק, כל גופי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78315",
+      "display" : "מיפוי עצם ו/או מפרק, תלת שלבי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78320",
+      "display" : "מיפוי עצם ו/או מפרק, SPECT"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78399",
+      "display" : "מיפוי עצם ו/או מפרק, כל גופי, לאחר 24 שעות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78428",
+      "display" : "מיפוי לב לדלף, דינמי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78445",
+      "display" : "מיפוי כלי דם, פרפוזיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78458",
+      "display" : "מיפוי פקקת ורידית, דו צדדי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78461",
+      "display" : "מיפוי שריר הלב, פרפוזיה, במנוחה ו/או במאמץ, פלנרי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78465",
+      "display" : "מיפוי שריר הלב, פרפוזיה, במנוחה ו/או במאמץ, SPECT"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78466",
+      "display" : "מיפוי שריר הלב באוטם, פלנרי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78468",
+      "display" : "מיפוי שריר הלב באוטם, עם EF על ידי First Pass, פלנרי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78469",
+      "display" : "מיפוי שריר הלב באוטם, SPECT"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78472",
+      "display" : "מיפוי לב מאגר דם, BP, במנוחה/במאמץ, עם EF, פלנרי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78473",
+      "display" : "מיפוי לב מאגר דם, BP, במנוחה ובמאמץ, עם EF"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78478",
+      "display" : "מיפוי שריר הלב, פרפוזיה, עם תנועתיות הלב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78480",
+      "display" : "מיפוי שריר הלב, פרפוזיה, במנוחה ובמאמץ, עם EF"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78481",
+      "display" : "מיפוי לב מאגר דם, BP, במנוחה/במאמץ, עם EF על ידי First Pass, פלנרי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78499",
+      "display" : "מיפוי לב מאגר דם, BP, סטטי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78580",
+      "display" : "מיפוי ריאות, פרפוזיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78585",
+      "display" : "מיפוי ריאות, ונטילציה ופרפוזיה, קסנון"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78587",
+      "display" : "מיפוי ריאות, ונטילציה, אירוסול"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78594",
+      "display" : "מיפוי ריאות, ונטילציה, קסנון"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78596",
+      "display" : "מיפוי ריאות, ונטילציה ופרפוזיה, כמותי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78605",
+      "display" : "מיפוי מוח, סטטי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78606",
+      "display" : "מיפוי מוח, דינמי וסטטי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78607",
+      "display" : "מיפוי מוח, SPECT"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78610",
+      "display" : "מיפוי מוח, פרפוזיה, דינמי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78630",
+      "display" : "מיפוי CSF, ציסטרנוגרפיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78645",
+      "display" : "מיפוי CSF, הערכת מעבר בדלף, shunt"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78650",
+      "display" : "מיפוי CSF, זיהוי ומיקום דליפה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78660",
+      "display" : "מיפוי דרכי דמעות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78699",
+      "display" : "מיפוי מוח לאבחון גידולים, SPECT"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78700",
+      "display" : "מיפוי כליות סטטי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78701",
+      "display" : "מיפוי כליות, דינמי, GFR"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78707",
+      "display" : "מיפוי כליות, דינמי, ללא התערבות תרופתית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78708",
+      "display" : "מיפוי כליות, דינמי, עם התערבות תרופתית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78710",
+      "display" : "מיפוי כליות, SPECT"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78740",
+      "display" : "מיפוי רפלוקס לשופכן, ציסטוגרם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78761",
+      "display" : "מיפוי אשכים, דינמי וסטטי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78802",
+      "display" : "מיפוי לאיתור גידולים, פלנרי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78803",
+      "display" : "מיפוי לאיתור גידולים, SPECT"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78805",
+      "display" : "מיפוי לאיתור תהליך דלקתי, ממוקד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78806",
+      "display" : "מיפוי לאיתור תהליך דלקתי, כל גופי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78807",
+      "display" : "מיפוי לאיתור תהליך דלקתי, SPECT"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78813",
+      "display" : "מיפוי FDG PET, גלוקוז מסומן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "78999",
+      "display" : "מיפוי גידולים, נוגדנים מסומנים, SPECT"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "79101",
+      "display" : "טפול רדיופרמצאוטי בפוליציטמיה ורה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "79403",
+      "display" : "טפול רדיופרמצאוטי תוך ורידי באמצעות זבלין, 90Y-Ibritumomab tiuxetan"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "79440",
+      "display" : "טפול רדיופרמצאוטי תוך מפרקי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "80053",
+      "display" : "כימיה, פרופיל"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "80061",
+      "display" : "שומנים, פרופיל - דם: כולסטרול, LDL ,HDL ,TG"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "80076",
+      "display" : "תפקודי כבד, פרופיל"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "80100",
+      "display" : "תרופה/סם, איכותי - שתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "80101",
+      "display" : "תרופה, תבחין איכותי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "80162",
+      "display" : "דיגוקסין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "80178",
+      "display" : "ליתיום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "80195",
+      "display" : "סירולימוס"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "80299",
+      "display" : "תרופה, תבחין כמותי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "80400",
+      "display" : "מבחן גירוי ACTH, כולל בדיקת רמת הורמונים בדם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "80420",
+      "display" : "תבחין דיכוי דקסמטזון, 48 שעות, כולל בדיקת קורטיזול חופשי, קורטיזול בשתן ומדידות נפח בו זמניות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "81000",
+      "display" : "בדיקת שתן כללית, עם מיקרוסקופיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "81002",
+      "display" : "בדיקה בסטיק, שתן וכו', ללא מיקרוסקופיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "81227",
+      "display" : "CYP2C9, אפיון גן - דם, לנבדק"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "81235",
+      "display" : "קולטן לגורם שגשוג אפידרמלי, EGFR, מוטציה - דם, לנבדק"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82010",
+      "display" : "אצטון, כמותי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82013",
+      "display" : "אצטילכולינאסטרז - מי שפיר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82017",
+      "display" : "אצילקרניטין, כמותי - דם/שתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82030",
+      "display" : "ציקליק AMP - דם ושתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82040",
+      "display" : "אלבומין - סרום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82042",
+      "display" : "אלבומין, כמותי - שתן/נוזל גוף אחר, למעט סרום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82043",
+      "display" : "מיקרואלבומין, כמותי - שתן / 24 שעות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82085",
+      "display" : "אלדולז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82088",
+      "display" : "אלדוסטרון"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82103",
+      "display" : "אלפא 1 אנטיטריפסין, סך"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82105",
+      "display" : "אלפא פטופרוטאין - סרום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82128",
+      "display" : "חומצות אמינו, איכותי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82131",
+      "display" : "חומצות אמינו, כמותי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82135",
+      "display" : "חומצה אמינולבולינית, ALA, כמותי - שתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82140",
+      "display" : "אמוניה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82150",
+      "display" : "עמילז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82154",
+      "display" : "אנדרוסטנדיון/אנדרוסטנדיול גלוקורניד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82160",
+      "display" : "אנדרוסטרון"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82172",
+      "display" : "אפוליפופרוטאין B1/A1"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82180",
+      "display" : "חומצה אסקורבית, ויטמין C - דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82205",
+      "display" : "ברביטורטים, איכותי - שתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82232",
+      "display" : "בטא 2 מיקרוגלובולין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82239",
+      "display" : "תבחין פירוק מלחי מרה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82247",
+      "display" : "בילירובין, סך"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82248",
+      "display" : "בילירובין, ישיר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82261",
+      "display" : "ביוטינידז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82270",
+      "display" : "דם סמוי - צואה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82306",
+      "display" : "קלציפדיול, 25 הידרוקסי ויטמין D"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82307",
+      "display" : "קלציפרול, ויטמין D"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82308",
+      "display" : "קלציטונין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82310",
+      "display" : "סידן, סך, למעט בשתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82340",
+      "display" : "סידן, כמותי - שתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82360",
+      "display" : "בדיקת אבנים, כמותית ואיכותית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82374",
+      "display" : "פחמן דו-חמצני, ביקרבונאט"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82378",
+      "display" : "בדיקת CEA כולל מיהולים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82380",
+      "display" : "קרוטן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82382",
+      "display" : "קטכולאמינים, סך"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82390",
+      "display" : "צרולופלזמין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82435",
+      "display" : "כלוריד - דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82436",
+      "display" : "כלוריד - שתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82438",
+      "display" : "כלוריד - מקור אחר, למעט דם/שתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82465",
+      "display" : "כולסטרול, סך - דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82480",
+      "display" : "כולינאסטרז - סרום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82486",
+      "display" : "כרומטוגרפיה איכותית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82492",
+      "display" : "כרומטוגרפיה כמותית בשיטות שונות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82525",
+      "display" : "נחושת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82533",
+      "display" : "קורטיזול, סך"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82540",
+      "display" : "קריאטין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82550",
+      "display" : "קריאטין קינז, CPK ,CK, סך"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82552",
+      "display" : "קריאטין קינז, CPK ,CK, איזואנזימים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82565",
+      "display" : "קריאטינין - דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82570",
+      "display" : "קריאטינין - נוזלי גוף, למעט דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82575",
+      "display" : "פינוי קריאטינין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82585",
+      "display" : "קריופיברינוגן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82595",
+      "display" : "קריוגלובולינים, איכותי או חצי-כמותי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82607",
+      "display" : "ויטמין B-12, ציאנוקובאלאמין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82608",
+      "display" : "ויטמין B-12, ציאנוקובאלאמין, כושר קשירה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82626",
+      "display" : "דהידרואפיאנדרוסטרון, DHEA"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82627",
+      "display" : "דהידרואפיאנדרוסטרון-סולפאט, DHEA-S"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82652",
+      "display" : "1, 25 דיהידרוקסי ויטמין D"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82657",
+      "display" : "אנזימים, פעילות - תאי דם, תרבית/רקמה, לכל אנזים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82670",
+      "display" : "אסטרדיול"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82672",
+      "display" : "אסטרוגנים, סך, כל הנגזרות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82677",
+      "display" : "אסטריול"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82679",
+      "display" : "אסטרון"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82705",
+      "display" : "שומנים, איכותי - צואה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82710",
+      "display" : "שומנים, כמותי - צואה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82726",
+      "display" : "חומצות שומן ארוכות מאוד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82728",
+      "display" : "פריטין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82731",
+      "display" : "פיברונקטין עוברי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82746",
+      "display" : "חומצה פולית - סרום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82757",
+      "display" : "פרוקטוז - נוזל הזרע"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82759",
+      "display" : "גלקטוקינז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82760",
+      "display" : "גלקטוז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82775",
+      "display" : "גלקטוז 1 פוספט אורידיל טרנפרז, כמותי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82787",
+      "display" : "גמאגלובולין, אימונוגלובולין, תת קבוצות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82800",
+      "display" : "גזים, PH בלבד - דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82803",
+      "display" : "גזים - דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82941",
+      "display" : "גסטרין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82945",
+      "display" : "גלוקוז - נוזלי גוף, למעט דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82947",
+      "display" : "גלוקוז, כמותי - דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82951",
+      "display" : "מבחן סבילות לגלוקוז, העמסה, GTT"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82955",
+      "display" : "גלוקוז-6-פוספט-דהידרוגנז, G6PD, כמותי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82960",
+      "display" : "גלוקוז-6-פוספט-דהידרוגנז, G6PD, סקר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82977",
+      "display" : "גמא גלוטאמילטרנספרז, GGT"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "82985",
+      "display" : "פרוקטוזמין/חלבון מסוכר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83001",
+      "display" : "גונאדוטרופין, הורמון מעורר זקיקים, FSH"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83002",
+      "display" : "גונאדוטרופין, הורמון מגרה גופיף צהוב, LH"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83003",
+      "display" : "הורמון גדילה, HGH, סומטוטרופין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83010",
+      "display" : "הפטוגלובין, כמותי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83013",
+      "display" : "תבחין אוראז מהיר להליקובקטר פילורי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83015",
+      "display" : "מתכות כבדות, ארסן, בריום, בריליום, ביסמות, אנטימון, כספית, תליום, סקר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83020",
+      "display" : "המוגלובין, אלקטרופורזיס"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83036",
+      "display" : "המוגלובין מסוכר, HbA1C"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83045",
+      "display" : "המוגלובין, מטהמוגלובין, איכותי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83069",
+      "display" : "המוגלובין, Hb - שתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83070",
+      "display" : "המוסידרין, איכותי - שתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83071",
+      "display" : "המוסידרין, כמותי - שתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83090",
+      "display" : "הומוציסטאין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83491",
+      "display" : "הידרוקסיקורטיקוסטרואידים, 17-OHCS"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83497",
+      "display" : "חומצה הידרוקסיאינדול אצטית, 5-HIAA"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83525",
+      "display" : "אינסולין, סך"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83540",
+      "display" : "ברזל"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83550",
+      "display" : "ברזל, כושר קשירה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83586",
+      "display" : "קטוסטרואידים, סך"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83593",
+      "display" : "קטוסטרואידים, KS-17, אבחנה דיפרנציאלית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83605",
+      "display" : "לקטט, חומצה לקטית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83615",
+      "display" : "לקטט דהידרוגנז, LD, LDH"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83625",
+      "display" : "לקטט דהידרוגנז LD ,LDH איזואנזימים, סך"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83655",
+      "display" : "עופרת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83661",
+      "display" : "הערכת בשלות ריאות העובר, תבחין לציטין ספינגומיאלין - מי שפיר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83690",
+      "display" : "ליפז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83700",
+      "display" : "ליפופרוטאין, אלקטרופרזה - דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83718",
+      "display" : "ליפופרוטאין, כולסטרול HDL"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83719",
+      "display" : "ליפופרוטאין, כולסטרול VLDL"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83735",
+      "display" : "מגנזיום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83825",
+      "display" : "כספית, כמותי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83866",
+      "display" : "מוקופוליסכרידים, סקר - שתן, לנבדק"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83872",
+      "display" : "מוצין/חומר אחר - נוזל סינוביאלי, כולל ביוכימיה, ציטולוגיה ותרבית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83874",
+      "display" : "מיוגלובין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83896",
+      "display" : "אבחון מולקולרי, ממאירות המטולוגית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83898",
+      "display" : "אבחון מולקולרי, RT-PCR"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83918",
+      "display" : "חומצות אורגניות, כמותי - שתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83930",
+      "display" : "אוסמולליות - דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83935",
+      "display" : "אוסמולליות - שתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83945",
+      "display" : "אוקסלט, איכותי/כמותי - שתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "83970",
+      "display" : "הורמון יותרת התריס, פרתירואיד, PTH"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84060",
+      "display" : "פוספטזה חומצית, סך"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84061",
+      "display" : "פוספטזה חומצית, צביעה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84066",
+      "display" : "פוספטזה חומצית, ממקור הערמונית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84075",
+      "display" : "פוספטזה בסיסית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84080",
+      "display" : "פוספטזה בסיסית, איזואנזימים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84100",
+      "display" : "זרחן לא אורגני, פוספט - דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84105",
+      "display" : "זרחן לא אורגני, פוספט - שתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84110",
+      "display" : "פורפובילינוגן, כמותי, איסוף - שתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84119",
+      "display" : "פורפירינים, איכותי - שתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84127",
+      "display" : "פורפירינים, איכותי - צואה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84132",
+      "display" : "אשלגן - דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84135",
+      "display" : "פרגננדיול"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84138",
+      "display" : "פרגננטריול"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84144",
+      "display" : "פרוגסטרון"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84146",
+      "display" : "פרולקטין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84153",
+      "display" : "סמן פרוסטטי PSA, סך"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84154",
+      "display" : "סמן פרוסטטי PSA, חופשי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84155",
+      "display" : "חלבון, סך - סרום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84156",
+      "display" : "חלבון, סך - שתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84165",
+      "display" : "חלבון, אלקטרופורזה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84207",
+      "display" : "ויטמין B-6, פירידוקסל פוספט"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84210",
+      "display" : "חומצה פניליפירובית - שתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84233",
+      "display" : "רצפטורים להורמונים בסרטן השד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84244",
+      "display" : "רנין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84260",
+      "display" : "סרוטונין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84295",
+      "display" : "נתרן - דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84375",
+      "display" : "סוכרים, כרומטוגרפיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84376",
+      "display" : "סוכרים, מונו, די ואוליגוסכריד, איכותי - נוזלי גוף"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84402",
+      "display" : "טסטוסטרון, חופשי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84403",
+      "display" : "טסטוסטרון, סך"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84432",
+      "display" : "תירוגלובולין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84436",
+      "display" : "תירוקסין T4, סך"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84443",
+      "display" : "הורמון מגרה בלוטת התריס, TSH"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84446",
+      "display" : "טוקופרול אלפא, ויטמין E"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84450",
+      "display" : "אספרטט אמינו טרנספרז, AST ,GOT"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84460",
+      "display" : "אלאנין אמינו טרנספרז, ALT ,GPT"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84466",
+      "display" : "טרנספרין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84478",
+      "display" : "טריגליצרידים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84479",
+      "display" : "הורמון בלוטת התריס, T3/T4, קליטה או יחס קשירה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84480",
+      "display" : "תירוקסין T3, סך"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84484",
+      "display" : "טרופונין, כמותי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84490",
+      "display" : "כימוטריפסין, כמותי - צואה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84520",
+      "display" : "אוראה, כמותי - דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84540",
+      "display" : "אוראה - שתן/נוזל אחר, למעט דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84550",
+      "display" : "חומצת שתן - דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84560",
+      "display" : "חומצת שתן - נוזלי גוף, למעט דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84585",
+      "display" : "חומצה ונילילמנדלית, VMA - שתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84588",
+      "display" : "וסופרסין, הורמון ADH"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84590",
+      "display" : "ויטמין A"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84620",
+      "display" : "קסילוז, מבחן ספיגה - דם/שתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84681",
+      "display" : "C פפטיד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "84702",
+      "display" : "גונדוטרופין כוריוני, hCG, איכותי/כמותי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85002",
+      "display" : "זמן דימום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85007",
+      "display" : "דיפרנציאל ידני"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85009",
+      "display" : "ספירת דם ודיפרנציאל, הפרדת buffy coat"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85025",
+      "display" : "ספירת דם מלאה כולל דיפרנציאל"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85032",
+      "display" : "בדיקת משטח דם ידני"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85044",
+      "display" : "ספירת רטיקולוציטים ידנית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85049",
+      "display" : "טסיות דם, תרומבוציטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85170",
+      "display" : "התכווצות קריש"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85210",
+      "display" : "גורם קרישה פקטור 2, פרותרומבין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85220",
+      "display" : "גורם קרישה פקטור 5, ACG או פרואקסלרין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85230",
+      "display" : "גורם קרישה פקטור 7, פרוקונוורטין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85244",
+      "display" : "גורם קרישה פקטור 8, אנטיגן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85245",
+      "display" : "גורם קרישה פקטור 8, VW, ריסטוסטין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85250",
+      "display" : "גורם קרישה פקטור 9"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85260",
+      "display" : "גורם קרישה פקטור 10, סטיוארט-פראוור"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85270",
+      "display" : "גורם קרישה פקטור 11, PTA"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85280",
+      "display" : "גורם קרישה פקטור 12, הגמן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85290",
+      "display" : "גורם קרישה פקטור 13, מייצב פיברין"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85301",
+      "display" : "נוגד קרישה, אנטיתרומבין 3"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85302",
+      "display" : "חלבון C, נוגד קרישת יתר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85305",
+      "display" : "חלבון S, נוגד קרישת יתר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85362",
+      "display" : "תוצרי פירוק של פיברינוגן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85384",
+      "display" : "פעילות פיברינוגן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85390",
+      "display" : "פיברינוליזין/הפרעות במנגנון קרישה, סקר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85460",
+      "display" : "צביעה להמוגלובין עוברי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85475",
+      "display" : "המוליזין, חומצה, מבחן הם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85540",
+      "display" : "פוספטזה בסיסית בלויקוציטים, עם ספירה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85549",
+      "display" : "מוראמידז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85557",
+      "display" : "שבירות אוסמוטית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85576",
+      "display" : "מבחן אגרגציה של טסיות דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85597",
+      "display" : "רגישות טסיות דם לתרופות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85610",
+      "display" : "זמן פרותרומבין, PT"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85635",
+      "display" : "מבחן רפטילז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85651",
+      "display" : "שקיעת דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85670",
+      "display" : "זמן תרומבין - פלסמה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85730",
+      "display" : "זמן תרומבופלסטין PTT - פלסמה/דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "85810",
+      "display" : "צמיגות פלסמה או סרום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86000",
+      "display" : "אגלוטינינים במחלות חום, לבדיקה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86021",
+      "display" : "לויקוציטים, נוגדנים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86022",
+      "display" : "טסיות דם, נוגדנים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86038",
+      "display" : "גרעין, נוגדנים, ANA"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86060",
+      "display" : "אנטיסטרפטוליזין, ASL0, טיטרציה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86140",
+      "display" : "חלבון מגיב CRP ,C"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86147",
+      "display" : "קרדיוליפין, פוספוליפידים, נוגדנים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86155",
+      "display" : "תבחין כמוטקסיס"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86156",
+      "display" : "אגלוטינציה בקור, סקר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86157",
+      "display" : "אגלוטינציה בקור, כמותי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86162",
+      "display" : "מערכת המשלים, סך פעילות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86171",
+      "display" : "מבחן קיבוע המשלים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86225",
+      "display" : "DNA, טבעי או דו גדילי, נוגדנים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86235",
+      "display" : "אנטיגן גרעין מסיס, נוגדנים, כגון nRNP, SS-A, SS-B, Sm, RNP, Sc170, J01, לכל נוגדן, בשיטות שונות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86255",
+      "display" : "נוגדנים פלורסנציים לגורם לא זיהומי לגביו לא קיים קוד מיוחד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86300",
+      "display" : "סמן סרטני CA 15-3"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86301",
+      "display" : "סמן סרטני של הלבלב CA 19-9"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86304",
+      "display" : "סמן סרטני CA 125"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86320",
+      "display" : "אימונואלקטרופורזה - סרום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86325",
+      "display" : "אימונואלקטרופורזה - נוזלי גוף, למעט נסיוב, כגון שתן לזיהוי חלבון בנס-ג'ונס, נוזל שדרה, זרע וכו'"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86336",
+      "display" : "אינהיבין - סרום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86337",
+      "display" : "אינסולין, נוגדנים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86341",
+      "display" : "Islet cell, נוגדנים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86344",
+      "display" : "פאגוציטוזיס של לויקוציטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86353",
+      "display" : "טרנספורמציה של לויקוציטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86359",
+      "display" : "תאי T ו-B, ספירה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86360",
+      "display" : "תאי T, ספירה אבסולוטית של CD4 ו- CD8, כולל יחס"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86376",
+      "display" : "בלוטת התריס, כבד-כליה, נוגדנים למיקרוזומים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86382",
+      "display" : "נגיפים, מבחן נאוטרליזציה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86403",
+      "display" : "אגלוטינציה, סקר, לטקס, רוזוולר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86406",
+      "display" : "אגלוטינציה, טיטרציה, לכל נוגדן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86431",
+      "display" : "פקטור שיגרוני, איכותי/כמותי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86580",
+      "display" : "תבחין עור לשחפת, מנטו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86592",
+      "display" : "עגבת, תבחינים סרולוגיים, ELISA ,FTA ,RPR ,TPHA ,VDRL"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86619",
+      "display" : "בורליה, קדחת חוזרת, נוגדנים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86644",
+      "display" : "ציטומגלווירוס, CMV, נוגדנים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86648",
+      "display" : "דיפתריה, אסכרה, נוגדנים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86677",
+      "display" : "הליקובקטר פילורי, נוגדנים - דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86692",
+      "display" : "דלקת כבד Delta, נוגדנים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86703",
+      "display" : "בדיקת מנת דם לנוכחות וירוס HIV"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86704",
+      "display" : "דלקת כבד B ליבה, נוגדנים, HBcAb, סך, IgG ו-IgM"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86705",
+      "display" : "דלקת כבד B ליבה, נוגדנים, IgM ,HBcAb"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86706",
+      "display" : "דלקת כבד B פני שטח, נוגדנים, HBsAb"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86707",
+      "display" : "דלקת כבד Be, נוגדנים, HBeAb"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86708",
+      "display" : "דלקת כבד A, נוגדנים, HAAb, סך, IgG ו-IgM"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86709",
+      "display" : "דלקת כבד A, נוגדנים, IgM ,HAAb או IgG"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86720",
+      "display" : "לפטוספירה, נוגדנים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86738",
+      "display" : "מיקופלסמה, נוגדנים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86762",
+      "display" : "נגיף האדמת, IgG ו-IgM, לשני הסוגים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86778",
+      "display" : "טוקסופלסמה, IgM"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86789",
+      "display" : "נגיף הנילוס המערבי, IgG ו-IgM"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86790",
+      "display" : "נוגדנים לנגיפים/חיידקים לגביהם לא קיים קוד מיוחד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86800",
+      "display" : "תירוגלובולין, נוגדנים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86803",
+      "display" : "דלקת כבד C, נוגדנים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86805",
+      "display" : "בדיקת לימפוציטוטוקסיות, הצלבה, עם טיטרציה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86813",
+      "display" : "סיווג רקמות HLA, אנטיגנים A, B, C"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86817",
+      "display" : "סיווג רקמות HLA, אנטיגנים DR/DQ"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86821",
+      "display" : "סיווג רקמות HLA, תרבית לויקוציטים מעורבת, MLC"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86880",
+      "display" : "מבחן אנטיגלובולין ישיר, DAT / קומבס"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86900",
+      "display" : "סוג דם, כולל RH"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86901",
+      "display" : "בדיקת RH"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86903",
+      "display" : "סוג דם ו-RH, נוגדנים, סקר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86904",
+      "display" : "סוג דם ו-RH, נוגדנים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86905",
+      "display" : "סוג דם, אפיון כדוריות דם אדומות, למעט סוג דם ABO/RH"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "86940",
+      "display" : "המוליזינים ואגלוטינינים, סקר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87001",
+      "display" : "נסיון חיה, אינוקולציה, כגון שחפת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87040",
+      "display" : "תרבית דם ורגישות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87045",
+      "display" : "תרבית צואה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87070",
+      "display" : "תרבית ממקור אחר ורגישות, למעט דם, שתן וצואה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87081",
+      "display" : "תרבית שתן לא כמותית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87086",
+      "display" : "תרבית שתן כמותית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87088",
+      "display" : "תרבית שתן ורגישות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87106",
+      "display" : "תרבית פטריות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87109",
+      "display" : "תרבית מיקופלסמה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87110",
+      "display" : "תרבית כלמידיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87116",
+      "display" : "תרבית מיקובקטריה והגדרה ראשונית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87118",
+      "display" : "הגדרת גזע שחפת וריאנט MTb complex"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87140",
+      "display" : "מיקרוסקופיה פלורסנצית או אפלה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87177",
+      "display" : "תולעים וביצים, זיהוי - צואה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87181",
+      "display" : "רגישות לתרופות אנטי מיקרוביאליות, למעט מיקובקטריה, כל סוג בנפרד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87190",
+      "display" : "רגישות לתרופות אנטי מיקרוביאליות, מיקובקטריה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87205",
+      "display" : "בדיקת משטח, צביעה לחיידקים, פטריות, טפילים, נגיפים או סוגי תאים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87207",
+      "display" : "בדיקת משטח, צביעה מיוחדת לטפילים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87250",
+      "display" : "בידוד נגיף, לרבות באמצעות זיהוי חומצת גרעין נגיפית על ידי PCR"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87252",
+      "display" : "בידוד נגיף באמצעות תרבית רקמה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87253",
+      "display" : "בידוד וזיהוי נגיף, תרבית רקמה, בשיטות שונות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87278",
+      "display" : "לגיונלה פנאומופילה, אנטיגן - שתן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87299",
+      "display" : "אימונופלורסנציה, למקרים בהם אין קוד מיוחד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87340",
+      "display" : "דלקת כבד B פני שטח, אנטיגן, HBsAg, בשיטות שונות, כולל פלורסנציה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87350",
+      "display" : "דלקת כבד Be, אנטיגן, HBeAg, בשיטות שונות, כולל פלורסנציה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87389",
+      "display" : "HIV, נוגדנים ואנטיגן P24, EIA/ELISA, במעבדת HIV המוכרת על ידי משרד הבריאות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87449",
+      "display" : "נוגדנים לגורם זיהומי לגביו לא קיים קוד מיוחד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87472",
+      "display" : "ברטונלה הנזלה וברטונלה קוינטאנה, כמותי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87517",
+      "display" : "דלקת כבד DNA/RNA ,B, כמותי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87522",
+      "display" : "דלקת כבד DNA/RNA ,C, כמותי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87536",
+      "display" : "DNA/RNA ,HIV-1, כמותי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87539",
+      "display" : "DNA/RNA ,HIV-2, כמותי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87556",
+      "display" : "גילוי חיידקי שחפת בשיטת AMTD"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87590",
+      "display" : "משטח גונוריאה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87620",
+      "display" : "פפילומה וירוס, HPV ברקמה כולל לקיחת ביופסיה ובדיקתה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "87622",
+      "display" : "בדיקת משטח פפילומה וירוס, HPV"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "88036",
+      "display" : "בדיקת אברים ממכון חיצוני, במכון לרפואה משפטית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "88130",
+      "display" : "זיהוי כרומטין המין, גופי בר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "88141",
+      "display" : "בדיקה ציטופתולוגית של משטח מצואר הרחם/נרתיק, Pap smear, כולל לקיחה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "88160",
+      "display" : "בדיקה ציטולוגית, עבודת המעבדה ותשובת המעבדה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "88230",
+      "display" : "קריוטיפ מלויקוציטים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "88233",
+      "display" : "קריוטיפ מתרבית רקמה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "88240",
+      "display" : "הקפאה ושימור תאים, כגון מח עצם, למשך שנה אחת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "88299",
+      "display" : "סידור גנים לקולטני תאי T ו-B"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "88305",
+      "display" : "בדיקה היסטולוגית כולל מיקרוסקופיה ופענוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "88313",
+      "display" : "לקיחת מח עצם וצביעת ברזל"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "88319",
+      "display" : "צביעה היסטוכימית/ציטוכימית לזיהוי אנזים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "88346",
+      "display" : "אימונופלורסנציה, רקמה, שיטה ישירה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "88347",
+      "display" : "אימונופלורסנציה, שיטה לא ישירה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "88348",
+      "display" : "אלקטרומיקרוסקופיה אבחנתית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "89051",
+      "display" : "ספירת תאים - נוזלי גוף, כגון נוזל שדרה, נוזל מפרק, למעט דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "89258",
+      "display" : "שמירת עוברים מוקפאים למשך 5 שנים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "89259",
+      "display" : "הקפאת מנת זרע ושמירתו שנה אחת, עד 5 מבחנות/קשיות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "89280",
+      "display" : "מיקרומניפולציה ב-IVF, בשיטות שונות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "89290",
+      "display" : "אבחון גנטי לפני החזרת עובר לרחם על ידי נטילת דגימה ובדיקתה, PGD"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "89300",
+      "display" : "נוכחות ו/או תנועתיות תאי זרע כולל תבחין הונר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "89320",
+      "display" : "זרע, בדיקה שלמה, נפח, ספירה, תנועתיות ודיפרנציאל"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "89325",
+      "display" : "זרע, נוגדנים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "90371",
+      "display" : "חיסון סביל, סגולי, נגד דלקת כבד HBIg ,B, תוך שרירי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "90375",
+      "display" : "חיסון סביל אימונוגלובולין נגד כלבת, תוך שרירי ו/או תת עורי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "90384",
+      "display" : "חיסון נגד נוגדני RH, אנטי D"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "90585",
+      "display" : "חיסון שחפת, BCG"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "90586",
+      "display" : "שטיפת שלפוחית השתן עם BCG, תעריף לטפול, כולל החומר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "90749",
+      "display" : "חיסון מחלות מדבקות, למעט חיסונים להם קוד מיוחד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "90772",
+      "display" : "הזרקה תוך שרירית/תת עורית של חומר אבחנתי/מניעתי/טפולי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "90862",
+      "display" : "טפול/מעקב פסיכיאטרי תרופתי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "90867",
+      "display" : "גרייה מוחית מגנטית, TMS, אבחון ובניית תכנית טפול"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "90868",
+      "display" : "גרייה מוחית מגנטית, TMS, טפול"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "90870",
+      "display" : "נזע חשמלי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "90880",
+      "display" : "היפנוזה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "90889",
+      "display" : "חוות דעת רפואית פסיכיאטרית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "90901",
+      "display" : "משוב ביולוגי, ביופידבק"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "90935",
+      "display" : "המודיאליזה, תעריף לטפול"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "90945",
+      "display" : "דיאליזה שאינה המודיאליזה, כגון פריטונאלית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "91010",
+      "display" : "מדידת תנועתיות בושט, בדיקה מנומטרית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "91034",
+      "display" : "מבחן רפלוקס בושט עם ניטור pH, לזיהוי רפלוקס קיבתי-ושטי, ניטור ממושך"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "91065",
+      "display" : "מבחן מימן בנשימה, כגון לזיהוי מחסור בלקטז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "91122",
+      "display" : "מדידת לחצים בפי הטבעת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92004",
+      "display" : "בדיקה נוירואופטלמולוגית ראשונית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92065",
+      "display" : "בדיקה, הערכה וטפול לשיקום ראיה, אורתופטית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92081",
+      "display" : "מבחן שדה ראיה ממוחשב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92083",
+      "display" : "מבחן שדה ראיה, כגון גולדמן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92230",
+      "display" : "צילום כלי דם, פלורוסצין, עין אחת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92235",
+      "display" : "צילום כלי דם, פלורוסצין, שתי עיניים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92240",
+      "display" : "דימות כלי דם בעין, ICGI, עם פענוח ודוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92250",
+      "display" : "צילום קרקעית העין, עין אחת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92270",
+      "display" : "אלקטרואוקולוגרפיה, עם פענוח ודוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92275",
+      "display" : "אלקטרורטינוגרפיה, עם פענוח ודוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92283",
+      "display" : "בדיקת ראיית צבעים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92284",
+      "display" : "בדיקת הסתגלות לחושך, עם פענוח ודוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92285",
+      "display" : "צילום עין חיצונית, עם פענוח ודוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92286",
+      "display" : "צילום מקטע קדמי, עין אחת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92287",
+      "display" : "צילום מקטע קדמי, שתי עיניים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92310",
+      "display" : "התאמת עדשות מגע, כולל הסתגלות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92355",
+      "display" : "התאמת עדשה טלסקופית בניוון מקולרי תלוי גיל"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92506",
+      "display" : "הערכת הפרעות קול ודיבור"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92507",
+      "display" : "ריפוי בדיבור פרטני"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92508",
+      "display" : "ריפוי בדיבור קבוצתי, לשעת טפול"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92512",
+      "display" : "רינומנומטריה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92526",
+      "display" : "טפול בהפרעות במנגנון הבליעה, תעריף לטפול"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92541",
+      "display" : "בדיקת מערכות שיווי משקל ספונטנית, ENG"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92551",
+      "display" : "בדיקת שמיעה, סקר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92557",
+      "display" : "בדיקת שמיעה מקיפה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92567",
+      "display" : "טימפנומטריה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92568",
+      "display" : "רישום רפלקס אקוסטי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92585",
+      "display" : "רישום פוטנציאל מגזע המוח, מבוגר, שמיעה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92588",
+      "display" : "רישום פוטנציאל מגזע המוח, ילד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92590",
+      "display" : "התאמת מכשיר שמיעה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92593",
+      "display" : "בקורת מכשיר שמיעה/יעוץ, לשתי אוזניים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92601",
+      "display" : "הערכה וכיוון ממוחשב, שתל קוכליארי, שתי אוזניים, עד גיל 7"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92602",
+      "display" : "הערכה וכיוון ממוחשב חלקי, שתל קוכליארי, אוזן אחת, עד גיל 7"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92603",
+      "display" : "הערכה וכיוון ממוחשב, שתל קוכליארי, שתי אוזניים, גיל 7 ומעלה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92604",
+      "display" : "הערכה וכיוון ממוחשב חלקי, שתל קוכליארי, אוזן אחת, גיל 7 ומעלה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92620",
+      "display" : "הערכת עיבוד אודיטורי מרכזי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "92633",
+      "display" : "שיקום אחר השתלת קוכליאר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "93000",
+      "display" : "ECG, אלקטרוקרדיוגרם, עם פענוח ודוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "93012",
+      "display" : "קרדיוביפר, השאלת מכשיר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "93015",
+      "display" : "מבחן מאמץ"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "93224",
+      "display" : "ECG, אלקטרוקרדיוגרם רציף ליממה, הולטר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "93295",
+      "display" : "מעקב רפואי לנבדק עם קוצב לב דפיברילטור, תעריף לשנה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "93307",
+      "display" : "אקוקרדיוגרפיה חיצונית, TTE, מבוגר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "93312",
+      "display" : "אקוקרדיוגרפיה דרך הוושט, TEE"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "93350",
+      "display" : "אקוקרדיוגרפיה משולבת במאמץ"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "93720",
+      "display" : "תפקודי ריאות, פעוט, פלתיסמוגרפיה, ב-Baby box, עם פענוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "93784",
+      "display" : "לחץ דם, ניטור ל-24 שעות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "93797",
+      "display" : "שיקום חולה לב, תעריף לחודש שיקום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "93880",
+      "display" : "דופלקס עורקי הצואר, דו צדדי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "93923",
+      "display" : "דופלקס עורקי הגפיים במאמץ ובמנוחה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "93925",
+      "display" : "דופלקס עורקי הגפיים או שתלים עוקפים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "93965",
+      "display" : "זרימת דם בכלי דם היקפיים, כגון דופלר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "93975",
+      "display" : "דופלקס כלי דם בבטן, אגן ורטרופריטונאום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "93980",
+      "display" : "דופלקס כלי דם של הפין, לנבדק"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "94010",
+      "display" : "ספירומטריה פשוטה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "94060",
+      "display" : "ספירומטריה עם מרחיבי סמפונות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "94070",
+      "display" : "תגר סמפונות ממושך, מטכולין וכו'"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "94200",
+      "display" : "איורור יתר מירבי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "94240",
+      "display" : "מדידת נפח הריאות באמצעות גז אציל"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "94250",
+      "display" : "בדיקת גזים באויר נשוף"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "94360",
+      "display" : "מדידת נפח ותגובות נשימה בשיטה פלתיסמוגרפית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "94400",
+      "display" : "מבחן תגובת נשימה ל-CO2"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "94620",
+      "display" : "מבחן מאמץ ריאתי פשוט, כולל ספירומטריה לפני ואחרי המאמץ"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "94621",
+      "display" : "מבחן מאמץ ריאתי מורכב"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "94640",
+      "display" : "אינהלציה, תעריף לטפול"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "94660",
+      "display" : "התאמת מכשיר CPAP"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "94664",
+      "display" : "לימוד שימוש במשאף/אינהלציה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "94667",
+      "display" : "פיזיותרפיה לחולה ריאות, תעריף לטפול"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "94720",
+      "display" : "דיפוזיית פחמן חד חמצני"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "94760",
+      "display" : "ריווי חמצן, אוקסימטריה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "94762",
+      "display" : "ריווי חמצן, אוקסימטריה לילית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "94772",
+      "display" : "תפקודי ריאות פסיביים, ילד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "95004",
+      "display" : "אירואלרגנים/מזון, עד 10 אלרגנים, סקר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "95012",
+      "display" : "תחמוצת ניטרית, מדידה - אויר נשוף, לנבדק"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "95028",
+      "display" : "אירואלרגנים/מזון, 11 אלרגנים שונים ומעלה, בדיקה נרחבת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "95044",
+      "display" : "תבחין עור אלרגי מסוג מטלית כגון לחומר קוסמטי, ביתי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "95120",
+      "display" : "אימונותרפיה באלרגן רגיל"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "95130",
+      "display" : "אימונותרפיה באלרגן טהור"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "95199",
+      "display" : "רגישות לימפוציטים ונסיוב לתרופות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "95800",
+      "display" : "בדיקת שינה ביתית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "95803",
+      "display" : "זיהוי מחזורי שינה וערות באמצעות אקטיגרף"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "95805",
+      "display" : "בדיקת חביוני שינה ביום ומבחן ערנות, MWT ,MSLT"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "95810",
+      "display" : "בדיקת שינה במכון, PSG, מבוגר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "95812",
+      "display" : "EEG, אלקטרואנצפלוגרם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "95813",
+      "display" : "EEG, אלקטרואנצפלוגרם, מעקב רציף טלמטריה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "95822",
+      "display" : "EEG, אלקטרואנצפלוגרם, בשינה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "95830",
+      "display" : "EEG, אלקטרואנצפלוגרם, ספנואידלי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "95857",
+      "display" : "מבחן טנסילון למיאסתניה גרביס"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "95861",
+      "display" : "EMG, אלקטרומיוגרפיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "95872",
+      "display" : "EMG, אלקטרומיוגרפיה ממוחשבת כמותית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "95900",
+      "display" : "בדיקת מוליכות העצב NCT"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "95922",
+      "display" : "Tilt test, בדיקת מערכת העצבים האוטונומית תוך ביצוע הטיה ושינויי תנוחה פסיביים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "95923",
+      "display" : "בדיקת זיעה לקביעת ריכוז מלחים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "95930",
+      "display" : "רישום פוטנציאל מגזע המוח, מבוגר, VEP, ראיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "95950",
+      "display" : "EEG, אלקטרואנצפלוגרם, ניטור למשך 24 שעות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "95990",
+      "display" : "מילוי משאבה לשיכוך כאב כרוני, למעט בקלופן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "96001",
+      "display" : "אנליזה ממוחשבת, תלת ממדית, 3D, של תנועה והליכה, לנבדק"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "96567",
+      "display" : "טפול פוטודינמי, PDT, בנגעים גידוליים בעור מסוג שאינו סולר קרטוזיס, למטופל ליום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "96910",
+      "display" : "פוטותרפיה על ידי UVB ועטרן/פטרולטום"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "96912",
+      "display" : "פוטוכמותרפיה על ידי PUVA, לרבות אספקת פסוראלן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "97001",
+      "display" : "פיזיותרפיה, אבחון ובניית תכנית טפול, מבוגר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "97003",
+      "display" : "ריפוי בעיסוק, אבחון ובניית תכנית טפול, מבוגר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "97113",
+      "display" : "פיזיותרפיה/שיקום פרטני בבריכה, הידרותרפיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "97140",
+      "display" : "פיזיותרפיה פרטנית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "97150",
+      "display" : "פיזיותרפיה/שיקום קבוצתי, מעל 4 משתתפים, כולל ילד, למשתתף"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "97530",
+      "display" : "ריפוי בעיסוק פרטני"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "97750",
+      "display" : "מדידת לחצים במערכת השרירים והשלד, כגון בכף רגל, עם דוח"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "97802",
+      "display" : "תזונה-דיאטה, יעוץ וטפול"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "97810",
+      "display" : "אקופונקטורה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "99001",
+      "display" : "הכנת פרפאראט היסטולוגי לשילוח בארץ"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "99002",
+      "display" : "הכנת פרפאראט היסטולוגי לשילוח לחו''ל"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "99075",
+      "display" : "חוות דעת רפואית משפטית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "99080",
+      "display" : "חוות דעת רפואית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "99183",
+      "display" : "טפול אלקטיבי בתא לחץ חמצני, תעריף לטפול, עד שעתיים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "99195",
+      "display" : "הקזת דם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "99212",
+      "display" : "בדיקה אלרגית חוזרת לאחר קוד 95028"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "99214",
+      "display" : "בדיקת רופא לאחר אשפוז"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "99223",
+      "display" : "הערכה טרום נתוחית, סדרת בדיקות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "99242",
+      "display" : "בדיקת רופא מומחה במרפאה, למעט בדיקות להן קוד מיוחד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "99283",
+      "display" : "ביקור במיון, תשלום גלובלי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "99315",
+      "display" : "שירות אחות במרפאה, עד 30 דקות"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "99316",
+      "display" : "שירות אחות במרפאה, מעל 30 דקות, כגון הדרכת בעלי סטומה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "99362",
+      "display" : "בדיקת צוות רב תחומי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "99371",
+      "display" : "יעוץ טלפוני להרעלות/מידע תרופתי/טרטולוגיה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "99600",
+      "display" : "ביקור בית, מטפל"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C0443",
+      "display" : "שחרור תעלה קרפלית, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C0449",
+      "display" : "שחרור הדבקויות בעצב היקפי, למעט אנדונוירוליזיס, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C0460",
+      "display" : "העברת עצב היקפי, כגון אולנרי, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C0476",
+      "display" : "תיקון עצב היקפי, לאחר חבלה ישנה, כגון אולנרי, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C0492",
+      "display" : "השתלת אלקטרודה לגירוי עצב סקרלי, למעט לשיכוך כאב כרוני, באשפוז יום כירורגי, ללא עלות האביזר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C0494",
+      "display" : "השתלת אלקטרודה/ות זמנית/ות לגירוי עצב שדרתי/שורשי/היקפי לשיכוך כאב כרוני, באשפוז יום כירורגי, ללא עלות האביזר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C0495",
+      "display" : "השתלת אלקטרודה/ות וקוצב קבועים לגירוי עצב שדרתי/שורשי/היקפי לשיכוך כאב כרוני, באשפוז יום כירורגי, ללא עלות האביזר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C0496",
+      "display" : "החלפת קוצב קבוע לגירוי עצב שדרתי/שורשי/היקפי לשיכוך כאב כרוני, באשפוז יום כירורגי, ללא עלות האביזר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C0670",
+      "display" : "כריתת ציסטה/סינוס תירוגלוסלי/ברנכיאלי, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C0823",
+      "display" : "כריתת נגעים ו/או רקמה בעפעף, למעט כלזיון, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C0849",
+      "display" : "תיקון מנח עפעף, למעט תיקון מורכב, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C0870",
+      "display" : "שחזור עפעף, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C0889",
+      "display" : "תיקון מנח עפעף, מורכב, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C0920",
+      "display" : "נתוח מערכת הדמע, למעט הרחבה באמצעות בלון, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C1000",
+      "display" : "נתוח לחמית העין, למעט הוצאת גוף זר שטחי, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C1139",
+      "display" : "כריתת פטריגיום, ללא שתל, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C1511",
+      "display" : "נתוח שריר/ים חוץ עיני/ים לתיקון פזילה, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C1985",
+      "display" : "US ממוקד לטפול בגרורה בעצם בהנחיית MRI, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C2169",
+      "display" : "כריתת קונכיות האף, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C2189",
+      "display" : "נתוח אף/רינופלסטיה, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C2220",
+      "display" : "חיתוך מערות האף, אנטרוטומיה, דרך האף, למעט FESS, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C2840",
+      "display" : "כריתת שקד משני/שקד הלשון או אדנואידים ללא כריתת שקדים, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C3143",
+      "display" : "לרינגוסקופיה עם ביופסיה, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C3201",
+      "display" : "ברונכוסקופיה עם כריתה/הרס גידול/שחרור היצרות בשיטות שונות, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C3322",
+      "display" : "ברונכוסקופיה אבחנתית עם/ללא שטיפה והברשה, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C3324",
+      "display" : "ברונכוסקופיה עם ביופסיה אנדוברונכיאלית ו/או טרנסברונכיאלית, עם/ללא הנחיית נווט/EBUS, ללא ביופסיה של בלוטות לימפה, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C3327",
+      "display" : "ברונכוסקופיה עם ביופסיה אנדוברונכיאלית ו/או טרנסברונכיאלית, עם/ללא הנחיית נווט/EBUS, עם ביופסיה של בלוטות לימפה, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C3329",
+      "display" : "ברונכוסקופיה עם קריוביופסיה, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C3342",
+      "display" : "ברונכוסקופיה לסגירת נצור באמצעות אטם תוך סמפוני, באשפוז יום כירורגי, כולל עלות האביזר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C3371",
+      "display" : "ברונכוסקופיה עם הקטנת נפח ריאה אחת, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C3374",
+      "display" : "ברונכוסקופיה עם הקטנת נפח שתי ריאות, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C3379",
+      "display" : "ברונכוסקופיה עם החדרת תומכנים לסמפונות, עם/ללא ביופסיה, באשפוז יום כירורגי, כולל עלות האביזרים"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C3404",
+      "display" : "החדרת נקז קבוע לפלאורה בהנחיית US, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C3420",
+      "display" : "תורקוסקופיה אבחנתית ו/או טפולית, עם/ללא ביופסיה של הפלאורה, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C3490",
+      "display" : "ניקור/ניקוז פלאורלי, ללא ביופסיה, בהנחיית US, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C3491",
+      "display" : "ניקור/ניקוז פלאורלי, עם ביופסיה, בהנחיית US, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C4011",
+      "display" : "ביופסיה של מבנה לימפתי, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C4012",
+      "display" : "ברונכוסקופיה עם ביופסיה של בלוטות לימפה בהנחיית EBUS, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C4021",
+      "display" : "כריתת בלוטה/ות לימפה, למעט בשד, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C4911",
+      "display" : "נתוח נצור בפי הטבעת בהרדמה כללית, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C4913",
+      "display" : "טפול בתאי גזע לנצור בפי הטבעת בהרדמה כללית, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C4943",
+      "display" : "הרס טחורים באמצעות צריבה/קריו, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C4945",
+      "display" : "קשירת טחורים, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C5011",
+      "display" : "ביופסיה מלעורית של הכבד בעזרת מחט, ללא הנחיית CT/MRI, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C5349",
+      "display" : "תיקון בקע טבורי, עד גיל 5, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C5810",
+      "display" : "חיתוך מבוא השופכה, מיאטוטומיה, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C5860",
+      "display" : "הרחבת השופכה, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C6120",
+      "display" : "כריתת נגעים ו/או והידרוצלה ו/או וריקוצלה של האשך/צנור הזרע, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C6212",
+      "display" : "הפקת זרע מיקרוכירורגית מהאשך, Micro TESE, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C6250",
+      "display" : "תיקון טמירות אשך, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C6420",
+      "display" : "כריתה/הרס נגעים ו/או רקמה בפין בהרדמה כללית, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C6720",
+      "display" : "ביופסיה/קוניזציה של צואר הרחם, למעט באמצעות צריבה/קריו, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C6739",
+      "display" : "כריתת נגעים בצואר הרחם, לרבות באמצעות צריבה/קריו, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C6759",
+      "display" : "קשירת/תיקון צואר הרחם, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C7011",
+      "display" : "חיתוך/כריתת קרום הבתולים, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C7024",
+      "display" : "ביופסיה/כריתה/הרס נגעים בנרתיק, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C7129",
+      "display" : "נתוח בלוטת/ציסטת ברתולין בהרדמה כללית, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C7609",
+      "display" : "נתוח הרחבת לסת עליונה SARPE, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C7744",
+      "display" : "ביופסיה/חיתוך עצם/מפרק כף יד/רגל ואצבע/ות, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C7752",
+      "display" : "נתוח בוניון, כגון הלוקס ואלגוס, למעט אצבע פטיש, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C7753",
+      "display" : "נתוח בוניון, כגון הלוקס ואלגוס, עם נתוח אצבע פטיש, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C7756",
+      "display" : "נתוח אצבע פטיש, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C7860",
+      "display" : "הוצאת קיבוע מעצם, למעט פנים/כף יד/כף רגל, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C8044",
+      "display" : "נתוח קופסית כף יד/רגל ואצבע/ות, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C8149",
+      "display" : "שחזור רצועה בקרסול, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C8201",
+      "display" : "חיתוך מעטפת הגיד, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C8313",
+      "display" : "חיתוך גיד, למעט בכף יד, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C8331",
+      "display" : "כריתת נגעים ממעטפת הגיד, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C8350",
+      "display" : "כריתת בורסה, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C8611",
+      "display" : "ביופסיה של רקמות רכות בהרדמה כללית, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C8630",
+      "display" : "כריתה/הרס נגעים ברקמות רכות, 4 ומעלה, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C8660",
+      "display" : "השתלת שתל עור חופשי, כולל הוצאת שתל להשתלה עצמית, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C8689",
+      "display" : "תיקון ושחזור עור ורקמה תת עורית, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C8694",
+      "display" : "השתלת קוצב לגירוי עצב סקרלי, למעט לשיכוך כאב כרוני, באשפוז יום כירורגי, ללא עלות האביזר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C9802",
+      "display" : "אזופגוסקופיה להוצאת גוף זר מהושט, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C9815",
+      "display" : "ברונכוסקופיה להוצאת גוף זר, באשפוז יום כירורגי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "C999C",
+      "display" : "אשפוז יום כירורגי, למעט פעולות להן קוד מיוחד"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D0210",
+      "display" : "צילום שיניים - סטטוס מלא"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D0220",
+      "display" : "צילום פריאפיקלי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D0230",
+      "display" : "צילום פריאפיקלי, כל שן נוספת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D0240",
+      "display" : "צילום אוקלוזלי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D0330",
+      "display" : "צילום פנורמי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D1110",
+      "display" : "סילוק אבנית, מבוגר, לכל הפה, כולל הדרכה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D1120",
+      "display" : "סילוק אבנית, ילד, לכל הפה, כולל הדרכה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D1206",
+      "display" : "טפול מקומי בלכת פלואוריד, לכל הפה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D1208",
+      "display" : "טפול מקומי בג'ל פלואוריד, לכל הפה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D1351",
+      "display" : "איטום חריצים, לשן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D1510",
+      "display" : "שומר מקום קבוע - התקנה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D2140",
+      "display" : "שחזור אמלגם - משטח 1, משנן ראשוני/קבוע"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D2150",
+      "display" : "שחזור אמלגם - 2 משטחים, משנן ראשוני/קבוע"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D2160",
+      "display" : "שחזור אמלגם - 3 משטחים, משנן ראשוני/קבוע"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D2161",
+      "display" : "שחזור אמלגם - 4 משטחים או יותר, משנן ראשוני/קבוע"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D2330",
+      "display" : "שחזור מחומר מרוכב - משטח 1, שן קדמית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D2331",
+      "display" : "שחזור מחומר מרוכב - 2 משטחים, שן קדמית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D2332",
+      "display" : "שחזור מחומר מרוכב - 3 משטחים, שן קדמית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D2335",
+      "display" : "שחזור מחומר מרוכב - 4 משטחים או יותר, שן קדמית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D2390",
+      "display" : "שחזור מחומר מרוכב, כותרת שן קדמית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D2391",
+      "display" : "שחזור מחומר מרוכב - משטח 1, שן אחורית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D2392",
+      "display" : "שחזור מחומר מרוכב - 2 משטחים, שן אחורית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D2393",
+      "display" : "שחזור מחומר מרוכב - 3 משטחים, שן אחורית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D2394",
+      "display" : "שחזור מחומר מרוכב - 4 משטחים או יותר, שן אחורית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D2710",
+      "display" : "כתר על בסיס שרף, מוכן בצורה לא ישירה, מבושל, הכנה והתקנה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D2752",
+      "display" : "כתר חרסינה מאוחה למתכת חצי אצילה, הכנה והתקנה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D2920",
+      "display" : "הדבקה חוזרת של כתר משחזר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D2950",
+      "display" : "בניית תווך, כולל פינים לסוגיהם"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D2952",
+      "display" : "מבנה יצוק בתוספת לכתר"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D2975",
+      "display" : "כיפת שורש, הכנה והתקנה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D2980",
+      "display" : "תיקון כתר והתקנה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D3220",
+      "display" : "קיטוע מוך שן נשירה או קבועה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D3230",
+      "display" : "טפול שורש - שן נשירה, מילוי בחומר נספג, לא כולל שחזור סופי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D3310",
+      "display" : "טפול שורש - שן קדמית, לא כולל שחזור סופי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D3320",
+      "display" : "טפול שורש - שן מלתעה, לא כולל שחזור סופי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D3330",
+      "display" : "טפול שורש - שן טוחנת, לא כולל שחזור סופי"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D3346",
+      "display" : "טפול שורש חוזר - שן קדמית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D3347",
+      "display" : "טפול שורש חוזר - שן מלתעה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D3348",
+      "display" : "טפול שורש חוזר - שן טוחנת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D3351",
+      "display" : "אפקסיפיקציה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D3410",
+      "display" : "כריתת חוד השורש, אפיקואקטומי - שן קדמית, כולל סתימה רטרוגרדית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D3421",
+      "display" : "כריתת חוד השורש, אפיקואקטומי - שן מלתעה, שורש ראשון, כולל סתימה רטרוגרדית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D3425",
+      "display" : "כריתת חוד השורש, אפיקואקטומי - שן טוחנת, שורש ראשון, כולל סתימה רטרוגרדית"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D3450",
+      "display" : "כריתת שורש"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D3920",
+      "display" : "פיצול שורשים, המיסקציה, לא כולל טפול שורש"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D4210",
+      "display" : "ג'ינג'יבקטומיה/ג'ינג'יבופלסטיקה - 4 שיניים או יותר צמודות ברבע פה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D4211",
+      "display" : "ג'ינג'יבקטומיה/ג'ינג'יבופלסטיקה - 1-3 שיניים צמודות ברבע פה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D4240",
+      "display" : "הרמת מתלה עם החלקת שורשים, רבע פה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D4249",
+      "display" : "הארכת כותרת שן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D4260",
+      "display" : "נתוח חניכיים כולל עיצוב עצם, רבע פה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D4341",
+      "display" : "הקצעת שורשים - 4 שיניים או יותר ברבע פה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5110",
+      "display" : "תותבת שלמה עליונה נשלפת, הכנה והתאמה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5120",
+      "display" : "תותבת שלמה תחתונה נשלפת, הכנה והתאמה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5130",
+      "display" : "תותבת מיידית שלמה עליונה נשלפת, הכנה והתאמה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5140",
+      "display" : "תותבת מיידית שלמה תחתונה נשלפת, הכנה והתאמה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5211",
+      "display" : "תותבת חלקית עליונה נשלפת - בסיס שרף, הכנה והתאמה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5212",
+      "display" : "תותבת חלקית תחתונה נשלפת - בסיס שרף, הכנה והתאמה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5213",
+      "display" : "תותבת חלקית עליונה נשלפת - יציקת מתכת, הכנה והתאמה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5214",
+      "display" : "תותבת חלקית תחתונה נשלפת - יציקת מתכת, הכנה והתאמה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5225",
+      "display" : "תותבת חלקית עליונה נשלפת - בסיס גמיש, הכנה והתאמה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5226",
+      "display" : "תותבת חלקית תחתונה נשלפת - בסיס גמיש, הכנה והתאמה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5282",
+      "display" : "תותבת חלקית חד צדדית עליונה נשלפת - יציקת מתכת, הכנה והתאמה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5283",
+      "display" : "תותבת חלקית חד צדדית תחתונה נשלפת - יציקת מתכת, הכנה והתאמה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5410",
+      "display" : "התאמת תותבת שלמה עליונה נשלפת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5411",
+      "display" : "התאמת תותבת שלמה תחתונה נשלפת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5421",
+      "display" : "התאמת תותבת חלקית עליונה נשלפת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5422",
+      "display" : "התאמת תותבת חלקית תחתונה נשלפת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5511",
+      "display" : "תיקון שבר בבסיס תותבת שלמה עליונה נשלפת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5512",
+      "display" : "תיקון שבר בבסיס תותבת שלמה תחתונה נשלפת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5520",
+      "display" : "החלפת שן שבורה/חסרה בתותבת שלמה נשלפת, לשן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5611",
+      "display" : "תיקון בסיס תותבת חלקית תחתונה נשלפת משרף"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5612",
+      "display" : "תיקון בסיס תותבת חלקית עליונה נשלפת משרף"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5621",
+      "display" : "תיקון שלד יצוק של תותבת חלקית תחתונה נשלפת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5622",
+      "display" : "תיקון שלד יצוק של תותבת חלקית עליונה נשלפת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5630",
+      "display" : "תיקון/החלפת וו בתותבת חלקית נשלפת, לוו"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5640",
+      "display" : "החלפת שן שבורה בתותבת חלקית נשלפת, לשן"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5650",
+      "display" : "הוספת שן לתותבת חלקית נשלפת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5660",
+      "display" : "הוספת וו לתותבת חלקית נשלפת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5699",
+      "display" : "הוספת שן/וו לתותבת חלקית נשלפת, שן/וו שני ומעלה באותה ישיבה"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5710",
+      "display" : "חידוש בסיס תותבת שלמה עליונה נשלפת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5711",
+      "display" : "חידוש בסיס תותבת שלמה תחתונה נשלפת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5720",
+      "display" : "חידוש בסיס תותבת חלקית עליונה נשלפת"
+    },
+    {
+      "system" : "http://fhir.health.gov.il/cs/medical-service-moh",
+      "code" : "D5721",
+      "display" : "חידוש בסיס תותבת חלקית תחתונה נשלפת"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

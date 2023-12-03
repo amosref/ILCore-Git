@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ILCoreServiceType",
+  "id": "il-core-service-type",
+  "title": "IL Core Service type",
+  "description": "A list of codes for Service types for the IL Core",
+  "url": "http://fhir.health.gov.il/ValueSet/il-core-service-type",
+  "version": "0.13.0",
+  "experimental": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "224891009"
+          }
+        ]
+      }
+    ]
+  }
+}

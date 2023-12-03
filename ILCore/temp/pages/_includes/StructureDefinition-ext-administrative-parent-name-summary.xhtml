@@ -1,0 +1,8 @@
+{% raw %}<a name="summary"> </a>
+<p><b>
+Summary
+</b></p>
+<p>Complex Extension: Extension: The name of a person’s parent, recorded for administrative purposes as part of the person’s demographics (e.g to help with identification). This SHOULD NOT be confused with a parent whose details are recorded for contact purposes (Patient.contact) or as a family member (RelatedPerson). Most systems will use the “father’s name” field as the source of data for this extension. NOTE: This extension replaces the old ParentName extension and is the PREFFERED extension. Note: there SHOULD be only one parent marked as 'official'</p><ul><li>given: string: when recording a parent’s name as part of a person’s record, only the given name is used</li>
+<li>role: code: most systems define this field as “father’s name”, but it may actually contain the name of a mother. When the role is explicitly known, systems should populate this element.</li>
+<li>official: boolean: A parent’s name marked as ‘official’ is the one expected to match the person’s father name in governmental records.</li>
+</ul>{% endraw %}

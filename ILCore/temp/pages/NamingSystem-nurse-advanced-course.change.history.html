@@ -1,0 +1,21 @@
+---
+---
+<!-- layouts\layout-changehistory.html -->
+<!-- get modelType -->
+
+
+{% include fragment-pagebegin.html %}
+
+<div style="counter-reset: section 10" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-base-navtabs.html type='NamingSystem' id='nurse-advanced-course' active='history' %}
+
+  <a name="root"> </a>
+  <h2 id="root">{{type}}: Israeli Ministry of Health nurse advanced course - Change History</h2>
+  <p>History of changes for nurse-advanced-course {{type | downcase}}.</p>
+
+  {%include NamingSystem-nurse-advanced-course-history.xhtml%}
+
+</div>
+{% assign includetabscripts = 'true' %}
+{% include fragment-pageend.html %}

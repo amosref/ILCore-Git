@@ -1,0 +1,79 @@
+{% raw %}<pre class="xml" style="white-space: pre; overflow: hidden"><code class="language-xml">
+
+&lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient">Patient</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;patient-israeli-redacted&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://fhir.health.gov.il/StructureDefinition/il-core-patient&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.tag">tag</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-ObservationValue&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;REDACTED&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;redacted&quot;/&gt;
+    &lt;/tag&gt;
+  &lt;/meta&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Patient with missing&lt;/div&gt;<a name="end-xhtml"></a>
+  &lt;/text&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://fhir.health.gov.il/StructureDefinition/ext-il-hmo&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://fhir.health.gov.il/cs/paying-entity-moh&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;104&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;קופת חולים מאוחדת&quot;/&gt;
+      &lt;/coding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;קופת חולים מאוחדת&quot;/&gt;
+    &lt;/valueCodeableConcept&gt;
+  &lt;/extension&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.identifier">identifier</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://fhir.health.gov.il/identifier/il-national-id&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;000000018&quot;/&gt;
+  &lt;/identifier&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.active">active</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.name">name</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.extension">extension</a>
+               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/data-absent-reason&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;masked&quot;/&gt;
+    &lt;/extension&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/language&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;he&quot;/&gt;
+    &lt;/extension&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">family</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#string#string.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/data-absent-reason&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;masked&quot;/&gt;
+      &lt;/extension&gt;
+    &lt;/family&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#string#string.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/data-absent-reason&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;masked&quot;/&gt;
+      &lt;/extension&gt;
+    &lt;/given&gt;
+  &lt;/name&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.gender">gender</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;unknown&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#code#code.extension">extension</a>
+               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/data-absent-reason&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;masked&quot;/&gt;
+    &lt;/extension&gt;
+  &lt;/gender&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.birthDate">birthDate</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#date#date.extension">extension</a>
+               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/data-absent-reason&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;masked&quot;/&gt;
+    &lt;/extension&gt;
+  &lt;/birthDate&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.deceased[x]">deceasedBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.contact">contact</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.contact.name">name</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.text">text</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ggg&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#string#string.extension">extension</a>
+                   <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/data-absent-reason&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;masked&quot;/&gt;
+        &lt;/extension&gt;
+      &lt;/text&gt;
+    &lt;/name&gt;
+  &lt;/contact&gt;
+&lt;/Patient&gt;</code></pre>
+{% endraw %}

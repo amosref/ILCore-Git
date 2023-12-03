@@ -1,0 +1,206 @@
+{% raw %}<pre class="json" style="white-space: pre; overflow: hidden"><code class="language-json">
+{
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient">resourceType</a>" : "Patient",
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.id">id</a>" : "patient-with-two-addresses",
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
+      <a href="StructureDefinition-il-core-patient.html" style="color: Maroon">&#x1F517;</a> "http://fhir.health.gov.il/StructureDefinition/il-core-patient"
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;רונן חרזי&lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.extension">extension</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://fhir.health.gov.il/StructureDefinition/ext-il-hmo",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://fhir.health.gov.il/cs/paying-entity-moh",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "103",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "קופת חולים מכבי"
+          }
+        ]
+      }
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.identifier">identifier</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>" : "http://fhir.health.gov.il/identifier/il-national-id",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a>" : "000000018"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.active">active</a>" : true,
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.name">name</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.extension">extension</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/language",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "he"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.text">text</a>" : "רונן חרזי",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">family</a>" : "חרזי",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a>" : [
+        "רונן"
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.telecom">telecom</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "phone",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "050545411",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.use">use</a>" : "home"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "Ronen.h@example.com"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.gender">gender</a>" : "male",
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.birthDate">birthDate</a>" : "1958-01-01",
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.birthDate">_birthDate</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#date#date.extension">extension</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "display",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "ט' בטבת ה'תשי\&quot;ח"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "day",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>" : {
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://fhir.health.gov.il/cs/hebrew-date-day",
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "9",
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "ט'"
+                }
+              ]
+            }
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "month",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>" : {
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://fhir.health.gov.il/cs/hebrew-date-month",
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "4",
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "טבת"
+                }
+              ]
+            }
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "year",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "ה'תשי\&quot;ח"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://fhir.health.gov.il/StructureDefinition/ext-hebrew-date"
+      }
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.deceased[x]">deceasedBoolean</a>" : false,
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.address">address</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.extension">extension</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "longitude",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueDecimal</a>" : 182468.59
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "latitude",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueDecimal</a>" : 670131.38
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/geolocation"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.use">use</a>" : "home",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.type">type</a>" : "physical",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.text">text</a>" : "פרג 7ב' דירה 3 גדרה",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">line</a>" : [
+        "פרג 7'",
+        "כניסה ב'",
+        "דירה 3'",
+        null
+      ],
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">_line</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#string#string.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "פרג"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "7"
+            }
+          ]
+        },
+        null,
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#string#string.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-unitID",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "3"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#string#string.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "1446"
+            }
+          ]
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">city</a>" : "גדרה",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">_city</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#string#string.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://fhir.health.gov.il/StructureDefinition/ext-city-code",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>" : {
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://fhir.health.gov.il/cs/city-symbol",
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "2660"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.district">district</a>" : "גדרה",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">postalCode</a>" : "6964101",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">country</a>" : "IL"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.use">use</a>" : "home",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.type">type</a>" : "postal",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.text">text</a>" : "ת\&quot;ד 1446 גדרה",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">city</a>" : "גדרה",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">_city</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#string#string.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://fhir.health.gov.il/StructureDefinition/ext-city-code",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>" : {
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://fhir.health.gov.il/cs/city-symbol",
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "2550"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">postalCode</a>" : "6964000"
+    }
+  ]
+}</code></pre>
+{% endraw %}

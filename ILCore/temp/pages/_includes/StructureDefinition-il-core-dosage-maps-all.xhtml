@@ -1,0 +1,53 @@
+{% raw %}<a name="rim"> </a><h3>Mappings for RIM Mapping (<a href="http://hl7.org/comparison-v3.html">http://hl7.org/v3</a>)</h3><table class="grid">
+ <tr><td colspan="3"><b>ILCoreDosage</b></td></tr>
+ <tr><td>Dosage</td><td>n/a, .outboundRelationship[typeCode=COMP].target[classCode=SBADM, moodCode=INT]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;sequence</td><td>.text</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;text</td><td>.text</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;additionalInstruction</td><td>.text</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;patientInstruction</td><td>.text</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;timing</td><td>.effectiveTime</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;asNeeded[x]</td><td>.outboundRelationship[typeCode=PRCN].target[classCode=OBS, moodCode=EVN, code=&quot;as needed&quot;].value=boolean or codable concept</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;asNeeded[x] (asNeededCodeableConcept)</td><td>.outboundRelationship[typeCode=PRCN].target[classCode=OBS, moodCode=EVN, code=&quot;as needed&quot;].value=boolean or codable concept</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;site</td><td>.approachSiteCode</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;route</td><td>.routeCode</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;method</td><td>.doseQuantity</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;doseAndRate</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dose[x]</td><td>.doseQuantity</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rate[x]</td><td>.rateQuantity</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;maxDosePerPeriod</td><td>.maxDoseQuantity</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;maxDosePerAdministration</td><td>not supported</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;maxDosePerLifetime</td><td>not supported</td> </tr>
+</table>
+<a name="v2"> </a><h3>Mappings for HL7 v2 Mapping (<a href="http://hl7.org/comparison-v2.html">http://hl7.org/v2</a>)</h3><table class="grid">
+ <tr><td colspan="3"><b>ILCoreDosage</b></td></tr>
+ <tr><td>Dosage</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;id</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;modifierExtension</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;sequence</td><td>TQ1-1</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;text</td><td>RXO-6; RXE-21</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;additionalInstruction</td><td>RXO-7</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;patientInstruction</td><td>RXO-7</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;timing</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;asNeeded[x]</td><td>TQ1-9</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;asNeeded[x] (asNeededCodeableConcept)</td><td>TQ1-9</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;site</td><td>RXR-2</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;route</td><td>RXR-1</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;method</td><td>RXR-4</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;doseAndRate</td><td>TQ1-2</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type</td><td>RXO-21; RXE-23</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dose[x]</td><td>RXO-2, RXE-3</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rate[x]</td><td>RXE22, RXE23, RXE-24</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;maxDosePerPeriod</td><td>RXO-23, RXE-19</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;maxDosePerAdministration</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;maxDosePerLifetime</td><td></td> </tr>
+</table>
+{% endraw %}

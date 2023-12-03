@@ -1,0 +1,13 @@
+﻿<html>
+<head>
+  <title>StructureDefinition-il-core-allergy-intolerance-inv-diff</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<h4>Constraints</h4>
+<table class="list">
+<tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
+<tr><td>element-sct</td><td>warning</td><td>AllergyIntolerance.code, AllergyIntolerance.reaction.manifestation</td><td>Element.coding SHOULD contain a SNOMED-CT code. Other code systems included in the ValueSet are for historical purposes only<br/>: coding.where(system='http://snomed.info/sct' and code.exists()).exists()</td><td></td></tr>
+</table>
+</body>
+</html>

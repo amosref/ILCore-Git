@@ -1,0 +1,91 @@
+﻿<html>
+<head>
+  <title>Organization-organization-hospital-department-json-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="json" style="white-space: pre; overflow: hidden"><code class="language-json">
+{
+  "<a href="http://hl7.org/fhir/R4/organization.html#Organization">resourceType</a>" : "Organization",
+  "<a href="http://hl7.org/fhir/R4/organization.html#Organization.id">id</a>" : "organization-hospital-department",
+  "<a href="http://hl7.org/fhir/R4/organization.html#Organization.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
+      <a href="StructureDefinition-il-core-organization.html" style="color: Maroon">&#x1F517;</a> "http://fhir.health.gov.il/StructureDefinition/il-core-organization"
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/organization.html#Organization.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;מחלקת אשפוז - פנימיתטרית&lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R4/organization.html#Organization.identifier">identifier</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.use">use</a>" : "official",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>" : "http://fhir.health.gov.il/identifier/moh-hospital-department",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a>" : "12345-abc12"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/organization.html#Organization.active">active</a>" : true,
+  "<a href="http://hl7.org/fhir/R4/organization.html#Organization.type">type</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://fhir.health.gov.il/cs/department-type-moh",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "10000",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "אשפוז - פנימית"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/organization.html#Organization.name">name</a>" : "מחלקת אשפוז - פנימיתטרית",
+  "<a href="http://hl7.org/fhir/R4/organization.html#Organization.telecom">telecom</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "phone",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "08-6241010",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.use">use</a>" : "work"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/organization.html#Organization.address">address</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.use">use</a>" : "work",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.type">type</a>" : "physical",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.text">text</a>" : "ירמיהו 39 ירושלים",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">line</a>" : [
+        "ירמיהו 39"
+      ],
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">_line</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#string#string.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "ירמיהו"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "39"
+            }
+          ]
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">city</a>" : "ירושלים",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">_city</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#string#string.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://fhir.health.gov.il/StructureDefinition/ext-city-code",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>" : {
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://fhir.health.gov.il/cs/city-symbol",
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "3000"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">postalCode</a>" : "9446724",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">country</a>" : "IL"
+    }
+  ]
+}</code></pre>
+</body>
+</html>

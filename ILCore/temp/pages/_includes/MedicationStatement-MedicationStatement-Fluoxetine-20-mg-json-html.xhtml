@@ -1,0 +1,117 @@
+{% raw %}<pre class="json" style="white-space: pre; overflow: hidden"><code class="language-json">
+{
+  "<a href="http://hl7.org/fhir/R4/medicationstatement.html#MedicationStatement">resourceType</a>" : "MedicationStatement",
+  "<a href="http://hl7.org/fhir/R4/medicationstatement.html#MedicationStatement.id">id</a>" : "MedicationStatement-Fluoxetine-20-mg",
+  "<a href="http://hl7.org/fhir/R4/medicationstatement.html#MedicationStatement.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
+      <a href="StructureDefinition-il-core-medication-statement.html" style="color: Maroon">&#x1F517;</a> "http://fhir.health.gov.il/StructureDefinition/il-core-medication-statement"
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/medicationstatement.html#MedicationStatement.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;Active medication statement reported by a practitioner regarding a patient in a long term care facility for long-term, continuous use of 20mg/day Prozac (Fluoxetine) taken each morning.&lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R4/medicationstatement.html#MedicationStatement.extension">extension</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://fhir.health.gov.il/StructureDefinition/ext-medication-course-of-therapy-type",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "continuous",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Continuous long term therapy"
+          }
+        ]
+      }
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/medicationstatement.html#MedicationStatement.status">status</a>" : "active",
+  "<a href="http://hl7.org/fhir/R4/medicationstatement.html#MedicationStatement.category">category</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://fhir.health.gov.il/cs/medication-category",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "community-other",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Community Care/Long Term Care/Home"
+      }
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/medicationstatement.html#MedicationStatement.medication[x]">medicationCodeableConcept</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "372767007",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Fluoxetine (substance)"
+      }
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/medicationstatement.html#MedicationStatement.subject">subject</a>" : {
+    <a href="Patient-patient-with-israeli-id.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Patient/patient-with-israeli-id",
+    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.type">type</a>" : "Patient",
+    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.display">display</a>" : "תמר כהן"
+  },
+  "<a href="http://hl7.org/fhir/R4/medicationstatement.html#MedicationStatement.context">context</a>" : {
+    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Encounter/123",
+    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.type">type</a>" : "Encounter"
+  },
+  "<a href="http://hl7.org/fhir/R4/medicationstatement.html#MedicationStatement.effective[x]">effectivePeriod</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.start">start</a>" : "2022-10-05",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.end">end</a>" : "2022-10-10"
+  },
+  "<a href="http://hl7.org/fhir/R4/medicationstatement.html#MedicationStatement.dateAsserted">dateAsserted</a>" : "2022-07-30",
+  "<a href="http://hl7.org/fhir/R4/medicationstatement.html#MedicationStatement.informationSource">informationSource</a>" : {
+    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Practitioner/1",
+    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.type">type</a>" : "Practitioner"
+  },
+  "<a href="http://hl7.org/fhir/R4/medicationstatement.html#MedicationStatement.dosage">dosage</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.text">text</a>" : "20mg per day every morning",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.timing">timing</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat">repeat</a>" : {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.when">when</a>" : [
+            "MORN"
+          ]
+        }
+      },
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.route">route</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://snomed.info/sct",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "26643006",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Oral route"
+          }
+        ]
+      },
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.method">method</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://snomed.info/sct",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "738995006",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Swallow (administration method)"
+          }
+        ]
+      },
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate">doseAndRate</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate.dose[x]">doseQuantity</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.value">value</a>" : 20,
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.unit">unit</a>" : "mg",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.system">system</a>" : "http://unitsofmeasure.org",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.code">code</a>" : "mg"
+          },
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate.rate[x]">rateRatio</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.numerator">numerator</a>" : {
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">value</a>" : 15,
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">unit</a>" : "mg",
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">system</a>" : "http://snomed.info/sct"
+            },
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.denominator">denominator</a>" : {
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">value</a>" : 4,
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">unit</a>" : "hour"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}</code></pre>
+{% endraw %}

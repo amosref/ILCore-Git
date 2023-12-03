@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://israeldrugs.health.gov.il"
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://israeldrugs.health.gov.il"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://fhir.health.gov.il/ValueSet/moh-medication-code", "version": "0.13.1"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://israeldrugs.health.gov.il"
+}
+-------------------------------------------------------------------------------------

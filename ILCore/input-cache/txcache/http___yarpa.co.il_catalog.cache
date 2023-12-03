@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://yarpa.co.il/catalog"
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://yarpa.co.il/catalog"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://fhir.health.gov.il/ValueSet/yarpa-medication-code", "version": "0.13.1"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://yarpa.co.il/catalog"
+}
+-------------------------------------------------------------------------------------

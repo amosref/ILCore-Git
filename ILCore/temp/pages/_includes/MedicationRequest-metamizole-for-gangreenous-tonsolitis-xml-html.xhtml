@@ -1,0 +1,106 @@
+{% raw %}<pre class="xml" style="white-space: pre; overflow: hidden"><code class="language-xml">
+
+&lt;<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest">MedicationRequest</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;metamizole-for-gangreenous-tonsolitis&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://fhir.health.gov.il/StructureDefinition/il-core-medication-request&quot;/&gt;
+  &lt;/meta&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;A request by a GP in an HMO setting for 10 drops of oral Optalgin (Metamizole) up to 3 times a day for the duration of two weeks due to a diagnosis of acute gangrenous tonsillitis.&lt;/div&gt;<a name="end-xhtml"></a>
+  &lt;/text&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;completed&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.intent">intent</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;order&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.category">category</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://fhir.health.gov.il/cs/il-core-medicationrequest-category&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;community-hmo&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Community Care/HMO&quot;/&gt;
+    &lt;/coding&gt;
+  &lt;/category&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.medication[x]">medicationCodeableConcept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;22165008&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Metamizole sodium (substance)&quot;/&gt;
+    &lt;/coding&gt;
+  &lt;/medicationCodeableConcept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.subject">subject</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Patient/1&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;Patient&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Ben Binyamini&quot;/&gt;
+  &lt;/subject&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.encounter">encounter</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Encounter/123&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;Encounter&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;GP HMO visit&quot;/&gt;
+  &lt;/encounter&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.supportingInformation">supportingInformation</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Observation/1&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;Observation&quot;/&gt;
+  &lt;/supportingInformation&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.authoredOn">authoredOn</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2022-12-10&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.requester">requester</a>&gt;<a href="Practitioner-practitioner-md.html" style="color: Maroon">&#x1F517;</a> 
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Practitioner/practitioner-md&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;Practitioner&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Dr. Moshe Ben Haim&quot;/&gt;
+  &lt;/requester&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.recorder">recorder</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Practitioner/10&quot;/&gt;
+  &lt;/recorder&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.reasonCode">reasonCode</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;652005&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Gangrenous tonsillitis&quot;/&gt;
+    &lt;/coding&gt;
+  &lt;/reasonCode&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.courseOfTherapyType">courseOfTherapyType</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;acute&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Short course (acute) therapy&quot;/&gt;
+    &lt;/coding&gt;
+  &lt;/courseOfTherapyType&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.dosageInstruction">dosageInstruction</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.text">text</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;10 טיפות כל 8 שעות עד 3 פעמים בבליעה דרך הפה&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.route">route</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;26643006&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Oral route&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/route&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.method">method</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;738995006&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Swallow (administration method)&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/method&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate">doseAndRate</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate.dose[x]">doseQuantity</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">value</a>=&quot;10&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.unit">unit</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;drop&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://unitsofmeasure.org&quot;/&gt;
+      &lt;/doseQuantity&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate.rate[x]">rateRatio</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.numerator">numerator</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">value</a>=&quot;10&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">unit</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;drop&quot;/&gt;
+        &lt;/numerator&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.denominator">denominator</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">value</a>=&quot;8&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">unit</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;hour&quot;/&gt;
+        &lt;/denominator&gt;
+      &lt;/rateRatio&gt;
+    &lt;/doseAndRate&gt;
+  &lt;/dosageInstruction&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.substitution">substitution</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.substitution.allowed[x]">allowedBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
+  &lt;/substitution&gt;
+&lt;/MedicationRequest&gt;</code></pre>
+{% endraw %}

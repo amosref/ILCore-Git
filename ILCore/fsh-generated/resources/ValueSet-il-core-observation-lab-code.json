@@ -1,0 +1,190 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ILCoreObservationLabCode",
+  "id": "il-core-observation-lab-code",
+  "title": "IL Core Observation Lab Code",
+  "description": "A list of lab-code codes for lab observations for the IL Core",
+  "url": "http://fhir.health.gov.il/ValueSet/il-core-observation-lab-code",
+  "version": "0.13.0",
+  "experimental": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "filter": [
+          {
+            "property": "CLASSTYPE",
+            "op": "=",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "11778-8",
+            "display": "Delivery date Estimated"
+          },
+          {
+            "code": "15325-4",
+            "display": "Prostate specific Ag/Prostate volume calculated"
+          },
+          {
+            "code": "19991-9",
+            "display": "Alveolar-arterial oxygen Partial pressure difference"
+          },
+          {
+            "code": "20564-1",
+            "display": "Oxygen saturation in Blood"
+          },
+          {
+            "code": "2709-4",
+            "display": "Oxygen saturation in Capillary blood"
+          },
+          {
+            "code": "2711-0",
+            "display": "Oxygen saturation in Venous blood"
+          },
+          {
+            "code": "29463-7",
+            "display": "Body weight"
+          },
+          {
+            "code": "3137-7",
+            "display": "Body height Measured"
+          },
+          {
+            "code": "33069-6",
+            "display": "Fetal nuchal translucency measured by US"
+          },
+          {
+            "code": "33434-2",
+            "display": "Volume expired (vol/time)"
+          },
+          {
+            "code": "38018-8",
+            "display": "US Guidance for fine needle aspiration of Unspecified body region"
+          },
+          {
+            "code": "39231-6",
+            "display": "Syphilis screen test status CPHS"
+          },
+          {
+            "code": "43150-2",
+            "display": "Hemoglobin A1c measurement device panel"
+          },
+          {
+            "code": "45251-6",
+            "display": "HIV confirmation facility"
+          },
+          {
+            "code": "45687-1",
+            "display": "Sexually transmitted diseases [Minimum Data Set]"
+          },
+          {
+            "code": "46633-4",
+            "display": "Remarks [RFC]"
+          },
+          {
+            "code": "48585-4",
+            "display": "NM Exhaled gas Gastric emptying time post 100 mg sodium acetate PO"
+          },
+          {
+            "code": "48770-2",
+            "display": "Fetal Biophysical profile panel US"
+          },
+          {
+            "code": "48807-2",
+            "display": "Bone marrow aspiration report"
+          },
+          {
+            "code": "55399-0",
+            "display": "Diabetes tracking panel"
+          },
+          {
+            "code": "60834-9",
+            "display": "Blood temperature"
+          },
+          {
+            "code": "62855-2",
+            "display": "Deprecated PhenX measure - oral glucose tolerance test"
+          },
+          {
+            "code": "62856-0",
+            "display": "PhenX - oral glucose tolerance test protocol 141001"
+          },
+          {
+            "code": "64604-2",
+            "display": "Technician [Identifier]"
+          },
+          {
+            "code": "64711-5",
+            "display": "How many weeks or months did that pregnancy last [#] [PhenX]"
+          },
+          {
+            "code": "68608-9",
+            "display": "Summary note"
+          },
+          {
+            "code": "71853-6",
+            "display": "Oxygen saturation [Pure mass fraction] in Blood"
+          },
+          {
+            "code": "73806-2",
+            "display": "Newborn age in hours"
+          },
+          {
+            "code": "76282-3",
+            "display": "Heart rate.beat-to-beat by EKG"
+          },
+          {
+            "code": "78354-8",
+            "display": "Arterial-alveolar oxygen Partial pressure ratio"
+          },
+          {
+            "code": "78940-4",
+            "display": "Coronary artery disease risk factor panel"
+          },
+          {
+            "code": "80333-8",
+            "display": "Other elements in Urine"
+          },
+          {
+            "code": "81035-8",
+            "display": "Trans fat intake 24 hour Measured"
+          },
+          {
+            "code": "8277-6",
+            "display": "Body surface area"
+          },
+          {
+            "code": "8310-5",
+            "display": "Body temperature"
+          },
+          {
+            "code": "8609-0",
+            "display": "Hypertrophy [Interpretation] by EKG"
+          },
+          {
+            "code": "87179-8",
+            "display": "Guidance for fine needle aspiration"
+          },
+          {
+            "code": "9187-6",
+            "display": "Urine output"
+          },
+          {
+            "code": "92573-5",
+            "display": "Resident of region that is endemic for the disease of interest"
+          },
+          {
+            "code": "99742-9",
+            "display": "Peritoneal dialysis panel"
+          }
+        ]
+      }
+    ]
+  }
+}

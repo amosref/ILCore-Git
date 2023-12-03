@@ -1,0 +1,79 @@
+{% raw %}<pre class="json" style="white-space: pre; overflow: hidden"><code class="language-json">
+{
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient">resourceType</a>" : "Patient",
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.id">id</a>" : "patient-with-palestinian-id-and-parent-name",
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
+      <a href="StructureDefinition-il-core-patient.html" style="color: Maroon">&#x1F517;</a> "http://fhir.health.gov.il/StructureDefinition/il-core-patient"
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;דלאל עומאר&lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.extension">extension</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "given",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "יוסוף"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "role",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "FTH"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "official",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueBoolean</a>" : false
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://fhir.health.gov.il/StructureDefinition/ext-administrative-parent-name"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.identifier">identifier</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>" : "http://fhir.health.gov.il/identifier/pna-national-id",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a>" : "566333344"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.active">active</a>" : true,
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.name">name</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.extension">extension</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/language",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "ar"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.text">text</a>" : "עומאר דלאל",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">family</a>" : "דלאל",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a>" : [
+        "עומאר"
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.telecom">telecom</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "phone",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "059334455",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.use">use</a>" : "mobile"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "dalal@example.com"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.gender">gender</a>" : "male",
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.birthDate">birthDate</a>" : "1999-02-05",
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.deceased[x]">deceasedBoolean</a>" : false,
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.address">address</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">line</a>" : [
+        "חילו 20 עזה"
+      ],
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">city</a>" : "עזה",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">country</a>" : "PS"
+    }
+  ]
+}</code></pre>
+{% endraw %}

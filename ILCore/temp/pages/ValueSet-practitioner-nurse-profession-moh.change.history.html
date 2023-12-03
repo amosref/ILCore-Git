@@ -1,0 +1,21 @@
+---
+---
+<!-- layouts\layout-changehistory.html -->
+<!-- get modelType -->
+
+
+{% include fragment-pagebegin.html %}
+
+<div style="counter-reset: section 10" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-base-navtabs.html type='ValueSet' id='practitioner-nurse-profession-moh' active='history' %}
+
+  <a name="root"> </a>
+  <h2 id="root">{{type}}: PractitionerNurseProfessionMoH - Change History</h2>
+  <p>History of changes for practitioner-nurse-profession-moh {{type | downcase}}.</p>
+
+  {%include ValueSet-practitioner-nurse-profession-moh-history.xhtml%}
+
+</div>
+{% assign includetabscripts = 'true' %}
+{% include fragment-pageend.html %}

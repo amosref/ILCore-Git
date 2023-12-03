@@ -1,0 +1,33 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "ILCoreCoverageClass",
+  "id": "il-core-coverage-class",
+  "title": "IL Core Coverage Class codes",
+  "description": "Codes for Coverage classes",
+  "url": "http://fhir.health.gov.il/cs/il-core-coverage-class",
+  "concept": [
+    {
+      "code": "OBL-EXT",
+      "display": "Obligation from HMO extended healthcare",
+      "definition": "Obligation from an HMO extended healthcare coverage"
+    },
+    {
+      "code": "OBL-BASKET",
+      "display": "Obligation from health basket",
+      "definition": "Obligation from an Israel national health basket"
+    }
+  ],
+  "version": "0.13.0",
+  "caseSensitive": false,
+  "experimental": false,
+  "valueSet": "http://fhir.health.gov.il/ValueSet/il-core-coverage-class",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/codesystem-effectiveDate",
+      "valueDate": "2023-08"
+    }
+  ],
+  "count": 2
+}
