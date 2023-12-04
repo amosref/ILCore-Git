@@ -1,3 +1,6 @@
 .DS_Store
 ILCore/fsh-generated
 ILCore/temp
+publisher.jar
+ILCore/input-cache
+ILCore/template
