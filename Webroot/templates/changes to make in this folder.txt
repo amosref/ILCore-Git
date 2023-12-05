@@ -1,2 +1,0 @@
-preamble - change all the links regarding kl-dk; basically everything in the "container" div
-heade - line 8 should reference our own stylesheet
