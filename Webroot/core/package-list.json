@@ -8,7 +8,7 @@
     },
     {
       "version" : "0.14.0",
-      "path" : "http://fhir.health.gov.il/0.14.0",
+      "path" : "http://fhir.health.gov.il/core/0.14.0",
       "status" : "draft",
       "sequence" : "draft-1",
       "fhirversion" : "4.0.1",
@@ -18,7 +18,7 @@
     },
     {
       "version" : "0.13.1",
-      "path" : "http://fhir.health.gov.il/0.12.0",
+      "path" : "http://fhir.health.gov.il/core/0.12.0",
       "status" : "draft",
       "sequence" : "draft-1",
       "fhirversion" : "4.0.1",
