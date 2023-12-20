@@ -1,0 +1,2 @@
+# example
+java -jar publisher.jar -go-publish -source /Users/jkiddo/work/ILCore-Git/ILCore  -web /Users/jkiddo/work/ILCore-Git/Webroot -temp /Users/jkiddo/work/temp -registry ig-registry/fhir-ig-list.json -history fhir-ig-history-template -templates /Users/jkiddo/work/ILCore-Git/Webroot/templates
