@@ -5,3 +5,4 @@ publisher.jar
 ILCore/input-cache
 ILCore/template
 ILCore/output
+*.db
