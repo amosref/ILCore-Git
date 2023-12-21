@@ -6,3 +6,5 @@ ILCore/input-cache
 ILCore/template
 ILCore/output
 *.db
+full-ig.zip
+.index.json
