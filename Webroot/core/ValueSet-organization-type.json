@@ -6,12 +6,12 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  285201006 (Hospital environment)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  43741000 (Site of care)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  440654001 (Inpatient environment (environment))</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  440655000 (Outpatient environment (environment))</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  285141008 (Work environment)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  264368004 (Military establishment)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  419955002 (Residential institution (environment))</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  257698009 (School)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  257727001 (Warehouse)</li></ul></div>"
   },
   "url" : "http://fhir.health.gov.il/ValueSet/organization-type",
-  "version" : "0.14.0",
+  "version" : "0.15.0",
   "name" : "OrganizationType",
   "title" : "Organization Type",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-12-05T11:14:13+01:00",
+  "date" : "2023-12-21T10:19:00+01:00",
   "publisher" : "Israel Core Team",
   "contact" : [{
     "name" : "Israel Core Team",

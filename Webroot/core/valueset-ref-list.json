@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "http://fhir.health.gov.il/ValueSet/city-symbol",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "CitySymbol",
       "title" : "City Symbol (סמל ישוב)",
@@ -14,7 +14,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/department-type-moh",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "DepartmentTypeMoH",
       "title" : "Department Type MoH",
@@ -26,7 +26,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/hebrew-date-day",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "HebrewDateDay",
       "title" : "Hebrew Date Day",
@@ -38,7 +38,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/hebrew-date-month",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "HebrewDateMonth",
       "title" : "Hebrew Date Month",
@@ -50,7 +50,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/icd9-cm-diagnoses",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "Icd9CmDiagnoses",
       "title" : "Icd9 Cm diagnoses",
@@ -64,7 +64,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/icd9-cm-procedures",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "Icd9CmProcedures",
       "title" : "Icd9 Cm Procedures",
@@ -76,7 +76,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/icd9il-diagnoses",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ICD9ILDiagnoses",
       "title" : "ICD9 IL Diagnoses",
@@ -90,7 +90,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/icd9il-procedures",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ICD9ILProcedures",
       "title" : "ICD9 IL Procedures",
@@ -102,7 +102,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-allergy-intolerance-code",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreAllergyIntoleranceCode",
       "title" : "IL Core Allergy Intolerance Code",
@@ -126,7 +126,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-allergy-intolerance-end-reason",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreAllergyIntoleranceEndReason",
       "title" : "IL Core Condition End Reason",
@@ -138,7 +138,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-common-units-of-measure",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreCommonUnitsOfMeasure",
       "title" : "IL Core Units Of Measure Codes",
@@ -149,12 +149,12 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-il-core-dosage.html" : "ILCore Dosage Profile",
-      "StructureDefinition-il-core-medication-administration.html" : "ILCore MedicationAdministration Profile"
+      "StructureDefinition-il-core-medication-administration.html" : "ILCore MedicationAdministration Profile",
+      "StructureDefinition-il-core-dosage.html" : "ILCore Dosage Profile"
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-condition-category",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreConditionCategory",
       "title" : "IL Core Condition Category Codes",
@@ -169,7 +169,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-condition-code",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreConditionCode",
       "title" : "IL Core Condition Code",
@@ -184,13 +184,13 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-il-core-procedure.html" : "ILCore Procedure Profile",
+      "StructureDefinition-il-core-condition.html" : "ILCore Condition Profile",
       "ValueSet-il-core-procedure-reason.html" : "IL Core procedure Reason",
-      "StructureDefinition-il-core-condition.html" : "ILCore Condition Profile"
+      "StructureDefinition-il-core-procedure.html" : "ILCore Procedure Profile"
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-coverage-class",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreCoverageClass",
       "title" : "IL Core Coverage Class codes",
@@ -199,7 +199,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-coverage-type",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreCoverageType",
       "title" : "IL Core Coverage Type codes",
@@ -211,7 +211,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-doctor-to-doctor",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreDoctorToDoctor",
       "title" : "IL Core Doctor To Doctor Codes",
@@ -223,7 +223,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-encounter-class",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreEncounterClass",
       "title" : "IL Core Encounter Class Codes",
@@ -238,7 +238,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-jurisdiction",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreJurisdiction",
       "title" : "Country Codes",
@@ -251,7 +251,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-manifestation",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreManifestation",
       "title" : "IL Core Condition Codes",
@@ -269,7 +269,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-medication-administration-category",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreMedicationAdministrartionCategory",
       "title" : "ILCore Medication administrartion Category",
@@ -283,7 +283,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-medication-code",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreMedicationCode",
       "title" : "ILCore Medication Code",
@@ -298,14 +298,14 @@
       ],
       "uses" : {
       },
+      "StructureDefinition-il-core-medication.html" : "ILCore Medication Profile",
       "ValueSet-il-core-medication-statement-code.html" : "ILCore Medication statement Code",
-      "ValueSet-il-core-substance.html" : "IL Core Substance Codes",
       "StructureDefinition-il-core-medication-request.html" : "ILCore MedicationRequest Profile",
-      "StructureDefinition-il-core-medication.html" : "ILCore Medication Profile"
+      "ValueSet-il-core-substance.html" : "IL Core Substance Codes"
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-medication-course-of-therapy-type",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreMedicationCourseOfTherapyType",
       "title" : "ILCore Medication Course Of Therapy type",
@@ -321,7 +321,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-medication-request-category",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreMedicationRequestCategory",
       "title" : "ILCore Medication Request Category",
@@ -335,7 +335,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-medication-statement-category",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreMedicationStatementCategory",
       "title" : "ILCore Medication statement Category",
@@ -349,7 +349,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-medication-statement-code",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreMedicationStatementCode",
       "title" : "ILCore Medication statement Code",
@@ -364,12 +364,12 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-il-core-medication-administration.html" : "ILCore MedicationAdministration Profile",
-      "StructureDefinition-il-core-medication-statement.html" : "ILCore MedicationStatement Profile"
+      "StructureDefinition-il-core-medication-statement.html" : "ILCore MedicationStatement Profile",
+      "StructureDefinition-il-core-medication-administration.html" : "ILCore MedicationAdministration Profile"
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-not-performed-reason",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreNotPerformedReason",
       "title" : "IL Core procedure Reason",
@@ -378,7 +378,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-observation-code",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreObservationCode",
       "title" : "IL Core Observation Codes",
@@ -390,7 +390,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-observation-lab-code",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreObservationLabCode",
       "title" : "IL Core Observation Lab Code",
@@ -402,7 +402,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-observation-value",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreObservationValue",
       "title" : "IL Core Observation Value Codes",
@@ -415,7 +415,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-parent-name-role",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreParentNameRole",
       "title" : "The role of the parent (father/mother) whose name is recorded",
@@ -427,7 +427,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-premium-type",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreCoveragePremiumType",
       "title" : "IL Core Coverage Premium Type codes",
@@ -436,7 +436,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-procedure-code",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreProcedureCode",
       "title" : "IL Core procedure Codes",
@@ -450,13 +450,13 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-il-core-procedure.html" : "ILCore Procedure Profile",
       "ValueSet-il-core-procedure-reason.html" : "IL Core procedure Reason",
+      "StructureDefinition-il-core-procedure.html" : "ILCore Procedure Profile",
       "StructureDefinition-il-core-service-request.html" : "ILCore ServiceRequest Profile"
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-procedure-reason",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreProcedureReason",
       "title" : "IL Core procedure Reason",
@@ -473,14 +473,14 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-il-core-procedure.html" : "ILCore Procedure Profile",
+      "StructureDefinition-il-core-medication-statement.html" : "ILCore MedicationStatement Profile",
       "StructureDefinition-il-core-medication-request.html" : "ILCore MedicationRequest Profile",
-      "StructureDefinition-il-core-service-request.html" : "ILCore ServiceRequest Profile",
-      "StructureDefinition-il-core-medication-statement.html" : "ILCore MedicationStatement Profile"
+      "StructureDefinition-il-core-procedure.html" : "ILCore Procedure Profile",
+      "StructureDefinition-il-core-service-request.html" : "ILCore ServiceRequest Profile"
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-route-code",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreRouteCode",
       "title" : "IL Core Route Code",
@@ -492,7 +492,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-service-category",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreServiceCategory",
       "title" : "IL Core ServiceCategory",
@@ -504,7 +504,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-service-type",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreServiceType",
       "title" : "IL Core Service type",
@@ -516,7 +516,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-substance",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreSubstance",
       "title" : "IL Core Substance Codes",
@@ -532,12 +532,12 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-il-core-allergy-intolerance.html" : "ILCore AllergyIntolerance Profile",
-      "ValueSet-il-core-allergy-intolerance-code.html" : "IL Core Allergy Intolerance Code"
+      "ValueSet-il-core-allergy-intolerance-code.html" : "IL Core Allergy Intolerance Code",
+      "StructureDefinition-il-core-allergy-intolerance.html" : "ILCore AllergyIntolerance Profile"
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-units-of-measure",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreUnitsOfMeasure",
       "title" : "IL Core Units Of Measure Codes",
@@ -546,7 +546,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-virtual-type",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreVirtualType",
       "title" : "IL Core Virtual encounter Type Codes",
@@ -558,7 +558,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-religion-code",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreReligionCode",
       "title" : "IL Core Religion Code",
@@ -570,7 +570,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/immunization-body-site",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ImmunizationBodySite",
       "title" : "Immunization Observation Body Site list",
@@ -582,7 +582,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/immunization-side-effect",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ImmunizationSideEffects",
       "title" : "Immunization side-effect codes",
@@ -594,7 +594,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/institution-type-moh",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "InstitutionTypeMoH",
       "title" : "סוג מוסד לפי רישוי משרד הבריאות",
@@ -606,7 +606,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/israel-hmo",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "IsraelHMO",
       "title" : "Israeli Health Management Organization (קופת חולים)",
@@ -621,7 +621,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/medical-service-moh",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "MedicalServiceMoH",
       "title" : "קוד מוצר או שירות",
@@ -630,7 +630,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/moh-admit-source",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "MoHAdmitSource",
       "title" : "MoH Admit Source Codes",
@@ -645,7 +645,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/moh-medication-code",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "MoHMedicationCode",
       "title" : "MoH Medication Code",
@@ -654,7 +654,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/organization-type",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "OrganizationType",
       "title" : "Organization Type",
@@ -666,7 +666,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/passport-uri",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "PassportUri",
       "title" : "Passport URIs",
@@ -674,13 +674,13 @@
       "systems" : ["urn:ietf:rfc:3986"],
       "uses" : {
       },
-      "StructureDefinition-il-core-practitioner.html" : "ILCore Practitioner Profile",
+      "StructureDefinition-il-core-patient.html" : "ILCore Patient Profile",
       "StructureDefinition-il-core-related-person.html" : "ILCore RelatedPerson Profile",
-      "StructureDefinition-il-core-patient.html" : "ILCore Patient Profile"
+      "StructureDefinition-il-core-practitioner.html" : "ILCore Practitioner Profile"
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/patient-admit-source-moh",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "PatientAdmitSourceMoH",
       "title" : "Patient Admit Source MoH",
@@ -689,7 +689,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/patient-relationship-type",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCorePatientRelationshipType",
       "title" : "IL Core Patient Relationship Type codes",
@@ -704,7 +704,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/patient-release-type-moh",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "PatientRealeaseTypeMoH",
       "title" : "Patient Realease Type MoH",
@@ -716,7 +716,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/patient-visit-reason-moh",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "PatientVisitReasonMoH",
       "title" : "Patient Visit Reason MoH",
@@ -728,7 +728,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/practitioner-advanced-course-moh",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "PractitionerAdvancedCourseMoH",
       "title" : "קוד קורס על בסיסי לעוסק בסיעוד",
@@ -742,7 +742,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/practitioner-certificate-type",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "PractitionerCertificateType",
       "title" : "Practitioner Certificate Types",
@@ -757,7 +757,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/practitioner-education-moh",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "PractitionerEducationMoH",
       "title" : "קוד מומחיות לעוסק בבריאות",
@@ -766,7 +766,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/practitioner-expertise-moh",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "PractitionerExpertiseMoH",
       "title" : "קוד מומחיות לעוסק בבריאות",
@@ -778,7 +778,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/practitioner-nurse-profession-moh",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "PractitionerNurseProfessionMoH",
       "title" : "קוד מקצוע לעוסק בסיעוד",
@@ -790,7 +790,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/practitioner-profession-moh",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "PractitionerProfessionMoH",
       "title" : "קוד מקצוע לעוסק בבריאות",
@@ -802,7 +802,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/reason-not-done",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ReasonNotDone",
       "title" : "statusReason codes for Immunization profile",
@@ -814,7 +814,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/statistical-area-uri",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "StatisticalAreaUri",
       "title" : "Israeli statistical area (אג\"ס) URI",
@@ -826,7 +826,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/target-disease",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "TargetDisease",
       "title" : "Target Disease Codes",
@@ -838,7 +838,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/tofes17-error-codes",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "Tofes17ErrorCodes",
       "title" : "Tofes17 Error Codes",
@@ -850,7 +850,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/tofes17-reject-codes",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "Tofes17RejectCodes",
       "title" : "Tofes17 Reject Codes",
@@ -859,7 +859,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/vaccine-code",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "VaccineCode",
       "title" : "Vaccine Codes",
@@ -871,7 +871,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/vaccine-product-code",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "VaccineProductCode",
       "title" : "Vaccine Product Codes",
@@ -883,7 +883,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/yarpa-medication-code",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "YarpaMedicationCode",
       "title" : "Yarpa Medication Code",
@@ -916,8 +916,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.97"],
       "uses" : {
       },
-      "StructureDefinition-il-core-dosage.html" : "ILCore Dosage Profile",
-      "StructureDefinition-il-core-medication-administration.html" : "ILCore MedicationAdministration Profile"
+      "StructureDefinition-il-core-medication-administration.html" : "ILCore MedicationAdministration Profile",
+      "StructureDefinition-il-core-dosage.html" : "ILCore Dosage Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/age-units",
@@ -945,8 +945,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.346"],
       "uses" : {
       },
-      "StructureDefinition-il-core-dosage.html" : "ILCore Dosage Profile",
-      "StructureDefinition-il-core-medication-administration.html" : "ILCore MedicationAdministration Profile"
+      "StructureDefinition-il-core-medication-administration.html" : "ILCore MedicationAdministration Profile",
+      "StructureDefinition-il-core-dosage.html" : "ILCore Dosage Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/body-site",
@@ -960,9 +960,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
-      "StructureDefinition-il-core-immunization-reaction-observation.html" : "ILCore ImmunizationReactionObservation Profile",
+      "StructureDefinition-il-core-procedure.html" : "ILCore Procedure Profile",
       "StructureDefinition-il-core-observation.html" : "ILCore Observation Profile",
-      "StructureDefinition-il-core-procedure.html" : "ILCore Procedure Profile"
+      "StructureDefinition-il-core-immunization-reaction-observation.html" : "ILCore ImmunizationReactionObservation Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/dose-rate-type",
@@ -1048,8 +1048,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.98"],
       "uses" : {
       },
-      "StructureDefinition-il-core-dosage.html" : "ILCore Dosage Profile",
-      "StructureDefinition-il-core-medication-administration.html" : "ILCore MedicationAdministration Profile"
+      "StructureDefinition-il-core-medication-administration.html" : "ILCore MedicationAdministration Profile",
+      "StructureDefinition-il-core-dosage.html" : "ILCore Dosage Profile"
     }
   ]
 }

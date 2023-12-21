@@ -9,14 +9,14 @@
       "ci-build" : "https://build.fhir.org/ig/il/core",
       "version-count" : 2,
       "latest" : {
-        "version" : "0.14.0",
-        "date" : "2023-12-05",
-        "path" : "http://fhir.health.gov.il/core/0.14.0"
+        "version" : "0.15.0",
+        "date" : "2023-12-21",
+        "path" : "http://fhir.health.gov.il/0.15.0"
       },
       "milestone" : {
-        "version" : "0.14.0",
-        "date" : "2023-12-05",
-        "path" : "http://fhir.health.gov.il/core/0.14.0"
+        "version" : "0.15.0",
+        "date" : "2023-12-21",
+        "path" : "http://fhir.health.gov.il/0.15.0"
       }
     }
   ]

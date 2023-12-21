@@ -7,19 +7,19 @@ function Redirect($url)
 
 $accept = $_SERVER['HTTP_ACCEPT'];
 if (strpos($accept, 'application/json+fhir') !== false)
-  Redirect('http://fhir.health.gov.il/0.14.0/Practitioner-practitioner-nurse-no-expertise-with-advanced-courses.json2');
+  Redirect('http://fhir.health.gov.il/0.15.0/Practitioner-practitioner-nurse-no-expertise-with-advanced-courses.json2');
 elseif (strpos($accept, 'application/fhir+json') !== false)
-  Redirect('http://fhir.health.gov.il/0.14.0/Practitioner-practitioner-nurse-no-expertise-with-advanced-courses.json1');
+  Redirect('http://fhir.health.gov.il/0.15.0/Practitioner-practitioner-nurse-no-expertise-with-advanced-courses.json1');
 elseif (strpos($accept, 'json') !== false)
-  Redirect('http://fhir.health.gov.il/0.14.0/Practitioner-practitioner-nurse-no-expertise-with-advanced-courses.json');
+  Redirect('http://fhir.health.gov.il/0.15.0/Practitioner-practitioner-nurse-no-expertise-with-advanced-courses.json');
 elseif (strpos($accept, 'application/xml+fhir') !== false)
-  Redirect('http://fhir.health.gov.il/0.14.0/Practitioner-practitioner-nurse-no-expertise-with-advanced-courses.xml2');
+  Redirect('http://fhir.health.gov.il/0.15.0/Practitioner-practitioner-nurse-no-expertise-with-advanced-courses.xml2');
 elseif (strpos($accept, 'application/fhir+xml') !== false)
-  Redirect('http://fhir.health.gov.il/0.14.0/Practitioner-practitioner-nurse-no-expertise-with-advanced-courses.xml1');
+  Redirect('http://fhir.health.gov.il/0.15.0/Practitioner-practitioner-nurse-no-expertise-with-advanced-courses.xml1');
 elseif (strpos($accept, 'html') !== false)
-  Redirect('http://fhir.health.gov.il/0.14.0/Practitioner-practitioner-nurse-no-expertise-with-advanced-courses.html');
+  Redirect('http://fhir.health.gov.il/0.15.0/Practitioner-practitioner-nurse-no-expertise-with-advanced-courses.html');
 else 
-  Redirect('http://fhir.health.gov.il/0.14.0/Practitioner-practitioner-nurse-no-expertise-with-advanced-courses.xml');
+  Redirect('http://fhir.health.gov.il/0.15.0/Practitioner-practitioner-nurse-no-expertise-with-advanced-courses.xml');
 ?>
     
 You should not be seeing this page. If you do, PHP has failed badly.

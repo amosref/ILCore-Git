@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "http://fhir.health.gov.il/cs/city-symbol",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "CitySymbol",
       "title" : "City Symbol (סמל ישוב)",
@@ -10,7 +10,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/department-type-moh",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "DepartmentTypeMoH",
       "title" : "Department Type MoH",
@@ -18,7 +18,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/hebrew-date-day",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "HebrewDateDay",
       "title" : "Hebrew Date Day",
@@ -26,7 +26,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/hebrew-date-month",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "HebrewDateMonth",
       "title" : "Hebrew Date Month",
@@ -34,7 +34,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/icd9il",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ICD9IL",
       "title" : "ICD9IL: Adendum to ICD9 according to codes by Israeli MoH",
@@ -42,7 +42,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/il-core-coverage-class",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreCoverageClass",
       "title" : "IL Core Coverage Class codes",
@@ -50,7 +50,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/il-core-coverage-premium-type",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreCoveragePremiumType",
       "title" : "IL Core Coverage Premium Type codes",
@@ -58,7 +58,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/il-core-coverage-type",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreCoverageType",
       "title" : "IL Core Coverage Type codes",
@@ -66,7 +66,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/il-core-encounter-class",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreEncounterClass",
       "title" : "IL Core Encounter Class codes",
@@ -74,7 +74,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/il-core-error-code",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreErrorCode",
       "title" : "IL Core Error code",
@@ -82,7 +82,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/il-core-medication-course-of-therapy-type",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreMedicationCourseOfTherapyType",
       "title" : "Codes for Medication Course of therpy types",
@@ -90,7 +90,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/il-core-medicationrequest-category",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreMedicationCategory",
       "title" : "Codes for MedicationRequest categories",
@@ -98,7 +98,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/il-core-not-performed-reason",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreNotPerformedReason",
       "title" : "IL Core Not Perfomed Reasons",
@@ -106,7 +106,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/il-core-religion-code",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreReligionCode",
       "title" : "IL Core relirion code",
@@ -114,7 +114,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/institution-type-moh",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "InstitutionTypeMoH",
       "title" : "סוג מוסד לפי רישוי משרד הבריאות",
@@ -122,7 +122,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/medical-service-moh",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "MedicalServiceMoH",
       "title" : "קוד מוצר או שירות על פי משרד הבריאות",
@@ -130,7 +130,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/moh-tofes17-issue-code",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "MohTofes17IssueCode",
       "title" : "Moh Form-17 Issue Code",
@@ -138,7 +138,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/patient-admit-source-moh",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "PatientAdmitSourceMoH",
       "title" : "Patient Admit Source MoH",
@@ -146,7 +146,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/patient-release-type-moh",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "PatientRealeaseTypeMoH",
       "title" : "Patient Realease Type MoH",
@@ -154,7 +154,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/patient-visit-reason-moh",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "PatientVisitReasonMoH",
       "title" : "Patient Visit Reason MoH",
@@ -162,7 +162,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/paying-entity-moh",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "PayingEntityMoH",
       "title" : "Payer (Paying Entity / גורם משלם)",
@@ -170,7 +170,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/practitioner-advanced-course-moh",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "PractitionerAdvancedCourseMoH",
       "title" : "Ministry of Health practitioner advanced courses codes",
@@ -178,7 +178,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/practitioner-certificate-type-moh",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "PractitionerCertificateTypeMoH",
       "title" : "MoH Certificate Types",
@@ -186,7 +186,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/practitioner-certificate-type-molsa",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "PractitionerCertificateTypeMoLSA",
       "title" : "MoLSA Certificate Types",
@@ -194,7 +194,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/practitioner-education-type-moh",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "PractitionerEducationTypeMoH",
       "title" : "Ministry of Health practitioner-education-type codes",
@@ -202,7 +202,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/practitioner-expertise-moh",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "PractitionerExpertiseMoH",
       "title" : "קוד מומחיות לעוסק בבריאות",
@@ -210,7 +210,7 @@
     },
     {
       "url" : "http://fhir.health.gov.il/cs/practitioner-profession-moh",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "PractitionerProfessionMoH",
       "title" : "קוד מקצוע לעוסק בבריאות",
@@ -218,7 +218,7 @@
     },
     {
       "url" : "http://israeldrugs.health.gov.il",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "MoHMedicationCode",
       "title" : "MoH Medication Codes",
@@ -226,7 +226,7 @@
     },
     {
       "url" : "http://yarpa.co.il/catalog",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "YarpaMedicationCode",
       "title" : "Yarpa Medication Codes",
@@ -234,7 +234,7 @@
     },
     {
       "url" : "urn:ietf:rfc:3986",
-      "version" : "0.14.0",
+      "version" : "0.15.0",
       "status" : "draft",
       "name" : "ILCoreURN",
       "title" : "CodeSyestem for URNs",

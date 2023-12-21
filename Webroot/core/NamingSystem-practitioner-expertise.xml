@@ -3,14 +3,14 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
   <id value="practitioner-expertise"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h3>Summary</h3><table class="grid"><tr><td>Defining URL</td><td>http://fhir.health.gov.il/NamingSystem/practitioner-expertise</td></tr><tr><td>Version</td><td>0.14.0</td></tr><tr><td>Name</td><td>Israeli Ministry of Health practitioner expertise</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Identifies practitioner expertise according to Israeli MoH</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h3>Summary</h3><table class="grid"><tr><td>Defining URL</td><td>http://fhir.health.gov.il/NamingSystem/practitioner-expertise</td></tr><tr><td>Version</td><td>0.15.0</td></tr><tr><td>Name</td><td>Israeli Ministry of Health practitioner expertise</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Identifies practitioner expertise according to Israeli MoH</p>
 </div></td></tr><tr><td>Publisher</td><td>Israel Core Team</td></tr></table><h3>Identifiers</h3><table class="grid"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://fhir.health.gov.il/identifier/practitioner-expertise</td><td>true</td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url">
     <valueUri value="http://fhir.health.gov.il/NamingSystem/practitioner-expertise"/>
   </extension>
   <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version">
-    <valueString value="0.14.0"/>
+    <valueString value="0.15.0"/>
   </extension>
   <name value="Israeli Ministry of Health practitioner expertise"/>
   <status value="active"/>

@@ -10,14 +10,14 @@
   fhir:id [ fhir:v "pna-national-id"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://fhir.health.gov.il/NamingSystem/pna-national-id</td></tr><tr><td>Version</td><td>0.14.0</td></tr><tr><td>Name</td><td>Palestinian National Identifier - Individual</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Palestinian Identifier number. A nine-digit number</p>\n</div></td></tr><tr><td>Publisher</td><td>Israel Core Team</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td><td><b>Period</b></td><td><b>Comment</b></td></tr><tr><td>URI</td><td>http://fhir.health.gov.il/identifier/pna-national-id</td><td>true</td><td></td><td/></tr><tr><td>URI</td><td>http://fhir.health.org.il/identifier/pna-national-id</td><td>false</td><td>(?) --&gt; 2021-07-11</td><td>This value was mistakenly set in the first drafts of ILCore</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://fhir.health.gov.il/NamingSystem/pna-national-id</td></tr><tr><td>Version</td><td>0.15.0</td></tr><tr><td>Name</td><td>Palestinian National Identifier - Individual</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Palestinian Identifier number. A nine-digit number</p>\n</div></td></tr><tr><td>Publisher</td><td>Israel Core Team</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td><td><b>Period</b></td><td><b>Comment</b></td></tr><tr><td>URI</td><td>http://fhir.health.gov.il/identifier/pna-national-id</td><td>true</td><td></td><td/></tr><tr><td>URI</td><td>http://fhir.health.org.il/identifier/pna-national-id</td><td>false</td><td>(?) --&gt; 2021-07-11</td><td>This value was mistakenly set in the first drafts of ILCore</td></tr></table></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "http://fhir.health.gov.il/NamingSystem/pna-national-id"^^xsd:anyURI ]
   ] [
      fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version"^^xsd:anyURI ] ;
-     fhir:value [ fhir:v "0.14.0" ]
+     fhir:value [ fhir:v "0.15.0" ]
   ] ) ; # 
   fhir:name [ fhir:v "Palestinian National Identifier - Individual"] ; # 
   fhir:status [ fhir:v "active"] ; # 

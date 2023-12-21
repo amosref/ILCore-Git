@@ -10,12 +10,12 @@
     "valueDate" : "2023-01"
   }],
   "url" : "http://fhir.health.gov.il/cs/icd9il",
-  "version" : "0.14.0",
+  "version" : "0.15.0",
   "name" : "ICD9IL",
   "title" : "ICD9IL: Adendum to ICD9 according to codes by Israeli MoH",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-12-05T11:14:13+01:00",
+  "date" : "2023-12-21T10:19:00+01:00",
   "publisher" : "Israel Core Team",
   "contact" : [{
     "name" : "Israel Core Team",

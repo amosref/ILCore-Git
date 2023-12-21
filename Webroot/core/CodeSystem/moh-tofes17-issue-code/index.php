@@ -7,19 +7,19 @@ function Redirect($url)
 
 $accept = $_SERVER['HTTP_ACCEPT'];
 if (strpos($accept, 'application/json+fhir') !== false)
-  Redirect('http://fhir.health.gov.il/0.14.0/CodeSystem-moh-tofes17-issue-code.json2');
+  Redirect('http://fhir.health.gov.il/0.15.0/CodeSystem-moh-tofes17-issue-code.json2');
 elseif (strpos($accept, 'application/fhir+json') !== false)
-  Redirect('http://fhir.health.gov.il/0.14.0/CodeSystem-moh-tofes17-issue-code.json1');
+  Redirect('http://fhir.health.gov.il/0.15.0/CodeSystem-moh-tofes17-issue-code.json1');
 elseif (strpos($accept, 'json') !== false)
-  Redirect('http://fhir.health.gov.il/0.14.0/CodeSystem-moh-tofes17-issue-code.json');
+  Redirect('http://fhir.health.gov.il/0.15.0/CodeSystem-moh-tofes17-issue-code.json');
 elseif (strpos($accept, 'application/xml+fhir') !== false)
-  Redirect('http://fhir.health.gov.il/0.14.0/CodeSystem-moh-tofes17-issue-code.xml2');
+  Redirect('http://fhir.health.gov.il/0.15.0/CodeSystem-moh-tofes17-issue-code.xml2');
 elseif (strpos($accept, 'application/fhir+xml') !== false)
-  Redirect('http://fhir.health.gov.il/0.14.0/CodeSystem-moh-tofes17-issue-code.xml1');
+  Redirect('http://fhir.health.gov.il/0.15.0/CodeSystem-moh-tofes17-issue-code.xml1');
 elseif (strpos($accept, 'html') !== false)
-  Redirect('http://fhir.health.gov.il/0.14.0/CodeSystem-moh-tofes17-issue-code.html');
+  Redirect('http://fhir.health.gov.il/0.15.0/CodeSystem-moh-tofes17-issue-code.html');
 else 
-  Redirect('http://fhir.health.gov.il/0.14.0/CodeSystem-moh-tofes17-issue-code.xml');
+  Redirect('http://fhir.health.gov.il/0.15.0/CodeSystem-moh-tofes17-issue-code.xml');
 ?>
     
 You should not be seeing this page. If you do, PHP has failed badly.

@@ -13,12 +13,12 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  descends from  87628006 (Bacterial infectious disease)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  descends from  34014006 (Viral disease)</li></ul></div>"
   ] ; # 
   fhir:url [ fhir:v "http://fhir.health.gov.il/ValueSet/target-disease"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.14.0"] ; # 
+  fhir:version [ fhir:v "0.15.0"] ; # 
   fhir:name [ fhir:v "TargetDisease"] ; # 
   fhir:title [ fhir:v "Target Disease Codes"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-12-05T11:14:13+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-12-21T10:19:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Israel Core Team"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Israel Core Team" ] ;
