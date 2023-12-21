@@ -1,25 +1,6 @@
 {
   "packages" : [
     {
-      "path" : "/package-list.json",
-      "package-id" : "health.gov.il.fhir.core",
-      "title" : "IL-Core IG",
-      "canonical" : "http://fhir.health.gov.il",
-      "category" : "National Base",
-      "ci-build" : "https://build.fhir.org/ig/il/core",
-      "version-count" : 1,
-      "latest" : {
-        "version" : "0.13.1",
-        "date" : "2023-12-04",
-        "path" : "http://fhir.health.gov.il/0.12.0"
-      },
-      "milestone" : {
-        "version" : "0.13.1",
-        "date" : "2023-12-04",
-        "path" : "http://fhir.health.gov.il/0.12.0"
-      }
-    },
-    {
       "path" : "core/package-list.json",
       "package-id" : "health.gov.il.fhir.core",
       "title" : "IL-Core IG",
@@ -28,14 +9,14 @@
       "ci-build" : "https://build.fhir.org/ig/il/core",
       "version-count" : 2,
       "latest" : {
-        "version" : "0.14.0",
-        "date" : "2023-12-05",
-        "path" : "http://fhir.health.gov.il/0.14.0"
+        "version" : "0.15.0",
+        "date" : "2023-12-21",
+        "path" : "http://fhir.health.gov.il/0.15.0"
       },
       "milestone" : {
-        "version" : "0.14.0",
-        "date" : "2023-12-05",
-        "path" : "http://fhir.health.gov.il/0.14.0"
+        "version" : "0.15.0",
+        "date" : "2023-12-21",
+        "path" : "http://fhir.health.gov.il/0.15.0"
       }
     }
   ]

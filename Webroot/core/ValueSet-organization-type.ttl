@@ -13,12 +13,12 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  285201006 (Hospital environment)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  43741000 (Site of care)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  440654001 (Inpatient environment (environment))</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  440655000 (Outpatient environment (environment))</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  285141008 (Work environment)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  264368004 (Military establishment)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  419955002 (Residential institution (environment))</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  257698009 (School)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  257727001 (Warehouse)</li></ul></div>"
   ] ; # 
   fhir:url [ fhir:v "http://fhir.health.gov.il/ValueSet/organization-type"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.14.0"] ; # 
+  fhir:version [ fhir:v "0.15.0"] ; # 
   fhir:name [ fhir:v "OrganizationType"] ; # 
   fhir:title [ fhir:v "Organization Type"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-12-05T11:14:13+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-12-21T10:19:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Israel Core Team"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Israel Core Team" ] ;

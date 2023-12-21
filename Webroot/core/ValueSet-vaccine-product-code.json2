@@ -6,12 +6,12 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-CVX.html\"><code>http://hl7.org/fhir/sid/cvx</code></a></li><li>Include codes from <a href=\"http://www.whocc.no/atc\"><code>http://www.whocc.no/atc</code></a> where concept  is-a  J07 (VACCINES)</li></ul></div>"
   },
   "url" : "http://fhir.health.gov.il/ValueSet/vaccine-product-code",
-  "version" : "0.14.0",
+  "version" : "0.15.0",
   "name" : "VaccineProductCode",
   "title" : "Vaccine Product Codes",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-12-05T11:14:13+01:00",
+  "date" : "2023-12-21T10:19:00+01:00",
   "publisher" : "Israel Core Team",
   "contact" : [{
     "name" : "Israel Core Team",

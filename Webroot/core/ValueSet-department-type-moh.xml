@@ -6,12 +6,12 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-department-type-moh.html"><code>http://fhir.health.gov.il/cs/department-type-moh</code></a></li></ul></div>
   </text>
   <url value="http://fhir.health.gov.il/ValueSet/department-type-moh"/>
-  <version value="0.14.0"/>
+  <version value="0.15.0"/>
   <name value="DepartmentTypeMoH"/>
   <title value="Department Type MoH"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-12-05T11:14:13+01:00"/>
+  <date value="2023-12-21T10:19:00+01:00"/>
   <publisher value="Israel Core Team"/>
   <contact>
     <name value="Israel Core Team"/>

@@ -12,11 +12,6 @@
       "npm": "health.gov.il.fhir.core",
       "canonical": "http://fhir.health.gov.il",
       "destination": "/core"
-    },
-    {
-      "npm": "health.gov.il.fhir.*",
-      "canonical": "http://fhir.health.gov.il/{5}",
-      "destination": "/{5}"
     }
   ]
 }

@@ -6,12 +6,12 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a  787859002 (Vaccine product)</li></ul></div>
   </text>
   <url value="http://fhir.health.gov.il/ValueSet/vaccine-code"/>
-  <version value="0.14.0"/>
+  <version value="0.15.0"/>
   <name value="VaccineCode"/>
   <title value="Vaccine Codes"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-12-05T11:14:13+01:00"/>
+  <date value="2023-12-21T10:19:00+01:00"/>
   <publisher value="Israel Core Team"/>
   <contact>
     <name value="Israel Core Team"/>

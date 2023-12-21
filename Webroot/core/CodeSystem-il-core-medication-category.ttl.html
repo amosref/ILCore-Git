@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>Codes for MedicationRequest categories - TTL Representation - IL Core Implementation Guide v0.14.0</title>
+    <title>Codes for MedicationRequest categories - TTL Representation - IL Core Implementation Guide v0.15.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
   	<link rel="stylesheet" href="assets/css/prism.css"/>
       <!-- Placeholder for child template CSS declarations -->
+<link rel="stylesheet" href="assets/css/rtl-fixes.css"/>
+
 
     <script src="fhir-table-scripts.js" type="text/javascript"> </script>
 
@@ -49,7 +51,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">IL Core Implementation Guide</span>
             <br/>
-            <span style="display:inline-block;">0.14.0 - ci-build
+            <span style="display:inline-block;">0.15.0 - ci-build
 
 
             </span>
@@ -123,7 +125,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 9" class="col-12">
-  <!-- ReleaseHeader --><p id="publish-box">This page is part of the IL-Core IG (v0.14.0: draft-1 Draft) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="http://fhir.health.gov.il/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <!-- ReleaseHeader --><p id="publish-box">This page is part of the IL-Core IG (v0.15.0: draft-1 Draft) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="http://fhir.health.gov.il/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
 
 
 
@@ -178,7 +180,7 @@
         
           Draft
           
-            as of 2023-12-05
+            as of 2023-12-21
           
         
       </td>
@@ -210,12 +212,12 @@
 fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;This case-insensitive code system &lt;code&gt;http://fhir.health.gov.il/cs/il-core-medicationrequest-category&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\"codes\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;inpatient&lt;a name=\"il-core-medication-category-inpatient\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Inpatient&lt;/td&gt;&lt;td&gt;Includes medications to be administered or consumed in an inpatient or acute care setting.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;outpatient&lt;a name=\"il-core-medication-category-outpatient\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Outpatient&lt;/td&gt;&lt;td&gt;Includes medications to be administered or consumed  in an outpatient setting or ambulatory setting ( for example Hospital outpatient clinics setting, Urgent care settings (e.g. health organization urgent care center, Outpatient Surgery center&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;community-hmo&lt;a name=\"il-core-medication-category-community-hmo\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Community Care/HMO&lt;/td&gt;&lt;td&gt;Includes medications to be administered or consumed  in HMOs (this would include HMO clinics, doctor offices, ect.)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;community-other&lt;a name=\"il-core-medication-category-community-other\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Community Care/Long Term Care/Home&lt;/td&gt;&lt;td&gt;Includes medications to be administered or consumed  in community care settings  (this would include long term care or nursing homes, hospices,  patient’s home etc.).&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;discharge&lt;a name=\"il-core-medication-category-discharge\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Discharge&lt;/td&gt;&lt;td&gt;Includes  medications when the patient is being released from a facility.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;patientspecified&lt;a name=\"il-core-medication-category-patientspecified\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Patient Specified&lt;/td&gt;&lt;td&gt;Includes statements about medication use, including over the counter medication, provided by the patient, agent or another provider&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;leave&lt;a name=\"il-core-medication-category-leave\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Leave&lt;/td&gt;&lt;td&gt;Includes medications that the patient will take during any short break from inpatient care (this would include administrations dispensed by the hospital pharmacy to be self-administered at home with or without the assistance of community-based nursing staff).&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
   ] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://fhir.health.gov.il/cs/il-core-medicationrequest-category"^^xsd:anyURI] ; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "0.14.0"] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "0.15.0"] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "ILCoreMedicationCategory"] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Codes for MedicationRequest categories"] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "draft"] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.experimental">fhir:experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> "false"^^xsd:boolean] ; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> "2023-12-05T11:14:13+01:00"^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> "2023-12-21T10:19:00+01:00"^^xsd:dateTime] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">fhir:publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Israel Core Team"] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">fhir:contact</a> ( [
 <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Israel Core Team" ] ;
@@ -292,8 +294,8 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;This case-i
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l601">​</a>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="ido.levin@moh.gov.il">Israel Core Team</a>.  Package health.gov.il.fhir.core#0.14.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 5, 2023 11:14+0100">2023-12-05</span>
+        <p><a name="l603">​</a>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="ido.levin@moh.gov.il">Israel Core Team</a>.  Package health.gov.il.fhir.core#0.15.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Dec 21, 2023 10:19+0100">2023-12-21</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

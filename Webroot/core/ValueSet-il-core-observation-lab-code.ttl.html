@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>IL Core Observation Lab Code - TTL Representation - IL Core Implementation Guide v0.14.0</title>
+    <title>IL Core Observation Lab Code - TTL Representation - IL Core Implementation Guide v0.15.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
   	<link rel="stylesheet" href="assets/css/prism.css"/>
       <!-- Placeholder for child template CSS declarations -->
+<link rel="stylesheet" href="assets/css/rtl-fixes.css"/>
+
 
     <script src="fhir-table-scripts.js" type="text/javascript"> </script>
 
@@ -49,7 +51,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">IL Core Implementation Guide</span>
             <br/>
-            <span style="display:inline-block;">0.14.0 - ci-build
+            <span style="display:inline-block;">0.15.0 - ci-build
 
 
             </span>
@@ -123,7 +125,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 9" class="col-12">
-  <!-- ReleaseHeader --><p id="publish-box">This page is part of the IL-Core IG (v0.14.0: draft-1 Draft) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="http://fhir.health.gov.il/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <!-- ReleaseHeader --><p id="publish-box">This page is part of the IL-Core IG (v0.15.0: draft-1 Draft) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="http://fhir.health.gov.il/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
 
 
 
@@ -178,7 +180,7 @@
         
           Draft
           
-            as of 2023-12-05
+            as of 2023-12-21
           
         
       </td>
@@ -210,12 +212,12 @@
 fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;This value set includes codes based on the following rules:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Include codes from &lt;a href=\"http://loinc.org\"&gt;&lt;code&gt;http://loinc.org&lt;/code&gt;&lt;/a&gt; where CLASSTYPE  =  1&lt;/li&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\"http://loinc.org\"&gt;&lt;code&gt;http://loinc.org&lt;/code&gt;&lt;/a&gt;&lt;table class=\"none\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/11778-8/\"&gt;11778-8&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Delivery date Estimated&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/15325-4/\"&gt;15325-4&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Prostate specific Ag/Prostate volume calculated&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/19991-9/\"&gt;19991-9&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Alveolar-arterial oxygen Partial pressure difference&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/20564-1/\"&gt;20564-1&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Oxygen saturation in Blood&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/2709-4/\"&gt;2709-4&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Oxygen saturation in Capillary blood&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/2711-0/\"&gt;2711-0&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Oxygen saturation in Venous blood&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/29463-7/\"&gt;29463-7&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Body weight&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/3137-7/\"&gt;3137-7&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Body height Measured&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/33069-6/\"&gt;33069-6&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fetal nuchal translucency measured by US&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/33434-2/\"&gt;33434-2&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Volume expired (vol/time)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/38018-8/\"&gt;38018-8&lt;/a&gt;&lt;/td&gt;&lt;td&gt;US Guidance for fine needle aspiration of Unspecified body region&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/39231-6/\"&gt;39231-6&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Syphilis screen test status CPHS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/43150-2/\"&gt;43150-2&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hemoglobin A1c measurement device panel&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/45251-6/\"&gt;45251-6&lt;/a&gt;&lt;/td&gt;&lt;td&gt;HIV confirmation facility&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/45687-1/\"&gt;45687-1&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sexually transmitted diseases [Minimum Data Set]&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/46633-4/\"&gt;46633-4&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Remarks [RFC]&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/48585-4/\"&gt;48585-4&lt;/a&gt;&lt;/td&gt;&lt;td&gt;NM Exhaled gas Gastric emptying time post 100 mg sodium acetate PO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/48770-2/\"&gt;48770-2&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fetal Biophysical profile panel US&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/48807-2/\"&gt;48807-2&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bone marrow aspiration report&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/55399-0/\"&gt;55399-0&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Diabetes tracking panel&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/60834-9/\"&gt;60834-9&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Blood temperature&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/62855-2/\"&gt;62855-2&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Deprecated PhenX measure - oral glucose tolerance test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/62856-0/\"&gt;62856-0&lt;/a&gt;&lt;/td&gt;&lt;td&gt;PhenX - oral glucose tolerance test protocol 141001&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/64604-2/\"&gt;64604-2&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Technician [Identifier]&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/64711-5/\"&gt;64711-5&lt;/a&gt;&lt;/td&gt;&lt;td&gt;How many weeks or months did that pregnancy last [#] [PhenX]&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/68608-9/\"&gt;68608-9&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Summary note&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/71853-6/\"&gt;71853-6&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Oxygen saturation [Pure mass fraction] in Blood&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/73806-2/\"&gt;73806-2&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Newborn age in hours&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/76282-3/\"&gt;76282-3&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Heart rate.beat-to-beat by EKG&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/78354-8/\"&gt;78354-8&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Arterial-alveolar oxygen Partial pressure ratio&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/78940-4/\"&gt;78940-4&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Coronary artery disease risk factor panel&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/80333-8/\"&gt;80333-8&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Other elements in Urine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/81035-8/\"&gt;81035-8&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Trans fat intake 24 hour Measured&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/8277-6/\"&gt;8277-6&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Body surface area&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/8310-5/\"&gt;8310-5&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Body temperature&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/8609-0/\"&gt;8609-0&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hypertrophy [Interpretation] by EKG&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/87179-8/\"&gt;87179-8&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Guidance for fine needle aspiration&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/9187-6/\"&gt;9187-6&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Urine output&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/92573-5/\"&gt;92573-5&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Resident of region that is endemic for the disease of interest&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"https://loinc.org/99742-9/\"&gt;99742-9&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Peritoneal dialysis panel&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"
   ] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://fhir.health.gov.il/ValueSet/il-core-observation-lab-code"^^xsd:anyURI] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "0.14.0"] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "0.15.0"] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "ILCoreObservationLabCode"] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "IL Core Observation Lab Code"] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "draft"] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.experimental">fhir:experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> "false"^^xsd:boolean] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> "2023-12-05T11:14:13+01:00"^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> "2023-12-21T10:19:00+01:00"^^xsd:dateTime] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">fhir:publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Israel Core Team"] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">fhir:contact</a> ( [
 <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Israel Core Team" ] ;
@@ -350,8 +352,8 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;This value 
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l976">​</a>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="ido.levin@moh.gov.il">Israel Core Team</a>.  Package health.gov.il.fhir.core#0.14.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 5, 2023 11:14+0100">2023-12-05</span>
+        <p><a name="l978">​</a>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="ido.levin@moh.gov.il">Israel Core Team</a>.  Package health.gov.il.fhir.core#0.15.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Dec 21, 2023 10:19+0100">2023-12-21</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

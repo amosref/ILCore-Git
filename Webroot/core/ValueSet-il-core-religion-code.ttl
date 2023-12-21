@@ -13,12 +13,12 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-il-core-religion-code.html\"><code>http://fhir.health.gov.il/cs/il-core-religion-code</code></a></li><li>Include all codes defined in <a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-ReligiousAffiliation.html\"><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></a></li></ul></div>"
   ] ; # 
   fhir:url [ fhir:v "http://fhir.health.gov.il/ValueSet/il-religion-code"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.14.0"] ; # 
+  fhir:version [ fhir:v "0.15.0"] ; # 
   fhir:name [ fhir:v "ILCoreReligionCode"] ; # 
   fhir:title [ fhir:v "IL Core Religion Code"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-12-05T11:14:13+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-12-21T10:19:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Israel Core Team"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Israel Core Team" ] ;

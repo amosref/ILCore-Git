@@ -6,12 +6,12 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href="ValueSet-icd9-cm-procedures.html">Icd9 Cm Procedures</a></li><li>Import all the codes that are contained in <a href="ValueSet-icd9il-procedures.html">ICD9 IL Procedures</a></li><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a  71388002 (Procedure)</li><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a  129125009 (Context-dependent procedure)</li><li>Include all codes defined in <a href="CodeSystem-medical-service-moh.html"><code>http://fhir.health.gov.il/cs/medical-service-moh</code></a></li><li>Include all codes defined in <a href="http://loinc.org"><code>http://loinc.org</code></a></li></ul></div>
   </text>
   <url value="http://fhir.health.gov.il/ValueSet/il-core-procedure-code"/>
-  <version value="0.14.0"/>
+  <version value="0.15.0"/>
   <name value="ILCoreProcedureCode"/>
   <title value="IL Core procedure Codes"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-12-05T11:14:13+01:00"/>
+  <date value="2023-12-21T10:19:00+01:00"/>
   <publisher value="Israel Core Team"/>
   <contact>
     <name value="Israel Core Team"/>

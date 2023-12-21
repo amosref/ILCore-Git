@@ -13,11 +13,11 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ILCoreImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>http://fhir.health.gov.il/ImplementationGuide/health.gov.il.fhir.core</pre><div><p>Implementation guide for Israel Core FHIR</p>\n</div></div>"
   ] ; # 
   fhir:url [ fhir:v "http://fhir.health.gov.il/ImplementationGuide/health.gov.il.fhir.core"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.14.0"] ; # 
+  fhir:version [ fhir:v "0.15.0"] ; # 
   fhir:name [ fhir:v "ILCoreImplementationGuide"] ; # 
   fhir:title [ fhir:v "IL Core Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-12-05T11:14:13+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-12-21T10:19:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Israel Core Team"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Israel Core Team" ] ;
